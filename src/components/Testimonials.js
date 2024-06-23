@@ -6,7 +6,7 @@ const Testimonials = () => {
     <section id="testimonials" className="testimonials">
       <h2>What Our Students Say</h2>
       <blockquote>
-        <p>Izzy's Music Studio has transformed my child's musical abilities!</p>
+        <p>Lavinia Lee Music Studio has transformed my child's musical abilities!</p>
         <footer>- Happy Parent</footer>
       </blockquote>
     </section>
