@@ -1,18 +1,19 @@
 // src/components/Nav.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
   return (
     <nav>
       <div className="logo">
-        <h1>Lavinia Lee Music Studio</h1>
+        <h1><Link to="/">Izzy's Music Studio</Link></h1>
       </div>
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/services">Services</Link></li>
+        <li><Link to="/testimonials">Testimonials</Link></li>
+        <li><Link to="/gallery">Gallery</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
       </ul>
     </nav>
   );

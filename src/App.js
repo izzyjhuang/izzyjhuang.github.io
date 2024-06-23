@@ -1,5 +1,6 @@
 // src/App.js
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Nav from './components/Nav';
 import Header from './components/Header';
@@ -11,15 +12,19 @@ import Contact from './components/Contact';
 
 const App = () => {
   return (
-    <div className="App">
-      <Nav />
-      <Header />
-      <About />
-      <Services />
-      <Testimonials />
-      <Gallery />
-      <Contact />
-    </div>
+    <Router>
+      <div className="App">
+        <Nav />
+        <Switch>
+          <Route exact path="/" component={Header} />
+          <Route path="/about" component={About} />
+          <Route path="/services" component={Services} />
+          <Route path="/testimonials" component={Testimonials} />
+          <Route path="/gallery" component={Gallery} />
+          <Route path="/contact" component={Contact} />
+        </Switch>
+      </div>
+    </Router>
   );
 };
 
