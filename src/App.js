@@ -1,6 +1,6 @@
 // src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Nav from './components/Nav';
 import Header from './components/Header';
@@ -15,14 +15,14 @@ const App = () => {
     <Router>
       <div className="App">
         <Nav />
-        <Switch>
-          <Route exact path="/" component={Header} />
-          <Route path="/about" component={About} />
-          <Route path="/services" component={Services} />
-          <Route path="/testimonials" component={Testimonials} />
-          <Route path="/gallery" component={Gallery} />
-          <Route path="/contact" component={Contact} />
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Header />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/testimonials" element={<Testimonials />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       </div>
     </Router>
   );
