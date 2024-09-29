@@ -1,31 +1,38 @@
-// src/App.js
+// App.js
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './App.css';
-import Nav from './components/Nav';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Banner from './components/Banner';
 import Header from './components/Header';
-import About from './components/About';
-import Services from './components/Services';
-import Testimonials from './components/Testimonials';
-import Gallery from './components/Gallery';
-import Contact from './components/Contact';
+import Projects from './components/Projects';
+import Adventures from './components/Adventures';
+import AdventurePost from './components/AdventurePost';
+import Footer from './components/Footer';
+import './App.css';
 
-const App = () => {
+function App() {
   return (
     <Router>
       <div className="App">
-        <Nav />
+        <Header />
         <Routes>
-          <Route path="/" element={<Header />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/testimonials" element={<Testimonials />} />
-          <Route path="/gallery" element={<Gallery />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/adventures" element={<Adventures />} />
+          <Route path="/adventures/:slug" element={<AdventurePost />} />
+          {/* Add other routes as needed */}
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
-};
+}
+
+const Home = () => (
+  <div>
+    <Banner />
+    <div>
+    </div>
+  </div>
+);
 
 export default App;
