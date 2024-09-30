@@ -65,7 +65,7 @@
 
 .header-text {
   width: 10vw;
-  font-size: 2vw;
+  font-size: 2.5vw;
   font-weight: bold;
   color: #333;
   /* max-width: 40%; */
@@ -96,7 +96,7 @@
   
   .nav-link {
     text-decoration: none;
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-weight: bold;
     color: #333;
     transition: color 0.3s;
@@ -110,7 +110,7 @@
   .language-selector {
     display: flex;
     align-items: center;
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-weight: bold;
     color: #333;
     cursor: pointer;
