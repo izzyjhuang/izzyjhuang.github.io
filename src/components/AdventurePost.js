@@ -11,7 +11,7 @@ const AdventurePost = () => {
     const adventure = entries.itemlist.find(entry => entry.slug === slug)
 
     if (!adventure) {
-        return <div>Post not found</div>
+        return <div>Adventure not found</div>
     }
 
     return (
