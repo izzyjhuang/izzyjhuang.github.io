@@ -119,25 +119,7 @@
             "location"  :   "London, the UK",
             "date"      :   "Aug 2024",
             "slug"      :   "the-uk-0824",
-            "blogPost"  : [
-                {
-                    "type": "paragraph",
-                    "text": "Celebrating my 21st birthday at Skógafoss was a dream come true. The stunning waterfall and surrounding landscape were breathtaking."
-                },
-                {
-                    "type": "paragraph",
-                    "text": "We hiked to the top of the waterfall, and the view was beyond anything I could have imagined. It was an unforgettable experience!"
-                },
-                {
-                    "type": "image",
-                    "src": "skogafoss-top.png",
-                    "alt": "View from the top of Skógafoss"
-                },
-                {
-                    "type": "paragraph",
-                    "text": "The day ended with a cozy campfire and sharing stories with friends, making it the perfect birthday celebration."
-                }
-            ]
+            "blogPost"  : []
         },
         
         {
@@ -146,25 +128,7 @@
             "location"  :   "Durrës, Albania",
             "date"      :   "Dec 2023",
             "slug"      :   "albania-1223",
-            "blogPost"  : [
-                {
-                    "type": "paragraph",
-                    "text": "Celebrating my 21st birthday at Skógafoss was a dream come true. The stunning waterfall and surrounding landscape were breathtaking."
-                },
-                {
-                    "type": "paragraph",
-                    "text": "We hiked to the top of the waterfall, and the view was beyond anything I could have imagined. It was an unforgettable experience!"
-                },
-                {
-                    "type": "image",
-                    "src": "skogafoss-top.png",
-                    "alt": "View from the top of Skógafoss"
-                },
-                {
-                    "type": "paragraph",
-                    "text": "The day ended with a cozy campfire and sharing stories with friends, making it the perfect birthday celebration."
-                }
-            ]
+            "blogPost"  : []
         },
 
         {
@@ -173,25 +137,7 @@
             "location"  :   "Budapest, Hungary",
             "date"      :   "Mar 2023",
             "slug"      :   "hungary-0323",
-            "blogPost"  : [
-                {
-                    "type": "paragraph",
-                    "text": "Celebrating my 21st birthday at Skógafoss was a dream come true. The stunning waterfall and surrounding landscape were breathtaking."
-                },
-                {
-                    "type": "paragraph",
-                    "text": "We hiked to the top of the waterfall, and the view was beyond anything I could have imagined. It was an unforgettable experience!"
-                },
-                {
-                    "type": "image",
-                    "src": "skogafoss-top.png",
-                    "alt": "View from the top of Skógafoss"
-                },
-                {
-                    "type": "paragraph",
-                    "text": "The day ended with a cozy campfire and sharing stories with friends, making it the perfect birthday celebration."
-                }
-            ]
+            "blogPost"  : []
         },
 
         {
@@ -200,25 +146,7 @@
             "location"  :   "Bratislava, Slovakia",
             "date"      :   "Mar 2023",
             "slug"      :   "slovakia-0323",
-            "blogPost"  : [
-                {
-                    "type": "paragraph",
-                    "text": "Celebrating my 21st birthday at Skógafoss was a dream come true. The stunning waterfall and surrounding landscape were breathtaking."
-                },
-                {
-                    "type": "paragraph",
-                    "text": "We hiked to the top of the waterfall, and the view was beyond anything I could have imagined. It was an unforgettable experience!"
-                },
-                {
-                    "type": "image",
-                    "src": "skogafoss-top.png",
-                    "alt": "View from the top of Skógafoss"
-                },
-                {
-                    "type": "paragraph",
-                    "text": "The day ended with a cozy campfire and sharing stories with friends, making it the perfect birthday celebration."
-                }
-            ]
+            "blogPost"  : []
         },
 
         {
@@ -227,25 +155,7 @@
             "location"  :   "Vienna, Austria",
             "date"      :   "Mar 2023",
             "slug"      :   "austria-0323",
-            "blogPost"  : [
-                {
-                    "type": "paragraph",
-                    "text": "Celebrating my 21st birthday at Skógafoss was a dream come true. The stunning waterfall and surrounding landscape were breathtaking."
-                },
-                {
-                    "type": "paragraph",
-                    "text": "We hiked to the top of the waterfall, and the view was beyond anything I could have imagined. It was an unforgettable experience!"
-                },
-                {
-                    "type": "image",
-                    "src": "skogafoss-top.png",
-                    "alt": "View from the top of Skógafoss"
-                },
-                {
-                    "type": "paragraph",
-                    "text": "The day ended with a cozy campfire and sharing stories with friends, making it the perfect birthday celebration."
-                }
-            ]
+            "blogPost"  : []
         },
 
         {
@@ -254,25 +164,7 @@
             "location"  :   "Prague, Czech Republic",
             "date"      :   "Mar 2023",
             "slug"      :   "czechia-0323",
-            "blogPost"  : [
-                {
-                    "type": "paragraph",
-                    "text": "Celebrating my 21st birthday at Skógafoss was a dream come true. The stunning waterfall and surrounding landscape were breathtaking."
-                },
-                {
-                    "type": "paragraph",
-                    "text": "We hiked to the top of the waterfall, and the view was beyond anything I could have imagined. It was an unforgettable experience!"
-                },
-                {
-                    "type": "image",
-                    "src": "skogafoss-top.png",
-                    "alt": "View from the top of Skógafoss"
-                },
-                {
-                    "type": "paragraph",
-                    "text": "The day ended with a cozy campfire and sharing stories with friends, making it the perfect birthday celebration."
-                }
-            ]
+            "blogPost"  : []
         }
     ]
 }
