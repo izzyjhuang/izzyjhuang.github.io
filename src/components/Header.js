@@ -11,8 +11,8 @@ const Header = () => {
         <div className="image-overlay">
             <img className="logo" src="../images/izzy-pirate.png" alt="Izzy Logo"/>
             <img className="overlay-logo" src="../images/izzy-pirate-overlay.png" alt="Overlay Logo"/>
-            <h1 className="header-text">Izzy The Explorer</h1>
           </div>
+          <h1 className="header-text">Izzy The Explorer</h1>
           </Link>
       </div>
       <nav className="nav-links">

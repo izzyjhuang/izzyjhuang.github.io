@@ -1,4 +1,4 @@
-/* Basic reset */
+/* header.css */
 * {
     margin: 0;
     padding: 0;
@@ -16,16 +16,21 @@
     align-items: center;
     padding: 4vw 8vw;
     background-color: #fdf9f6;
+    
   }
   
-  .logo-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
+.logo-container {
+  display: flex;
+  align-items: center; /* Ensures vertical alignment */
+  justify-content: flex-start; /* Aligns them to the left */
+}
+
 
   .logo-container a {
     text-decoration: none; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
   
   .image-overlay {
@@ -59,11 +64,13 @@
   }
 
 .header-text {
+  width: 10vw;
   font-size: 2vw;
   font-weight: bold;
   color: #333;
-  margin-left: 20px;
+  /* max-width: 40%; */
   text-align: left;
+  margin-left: 1vw;
 }
 
   .image-overlay:hover .logo {
@@ -82,7 +89,7 @@
   
   .nav-links {
     display: flex;
-    gap: 30px;
+    gap: 2vw;
     margin-left: 20px;
     margin-right: 20px;
   }
