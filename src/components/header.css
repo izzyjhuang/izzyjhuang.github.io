@@ -70,15 +70,15 @@
   color: #333;
   /* max-width: 40%; */
   text-align: left;
-  margin-left: 1vw;
+  margin-left: 1.5vw;
 }
 
   .image-overlay:hover .logo {
-    transform: scale(1.5) rotate(360deg); /* Rotate clockwise */
+    transform: scale(1.25) rotate(360deg); /* Rotate clockwise */
 }
 
 .image-overlay:hover .overlay-logo {
-    transform: scale(1.5) /*rotate(-360deg)*/; /* Combine transforms */
+    transform: scale(1.25) /*rotate(-360deg)*/; /* Combine transforms */
 }
 .image-overlay:hover .header-text {
   transform: scale(1.1);
