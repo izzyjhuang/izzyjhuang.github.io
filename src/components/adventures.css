@@ -64,7 +64,7 @@
     position: absolute;
     bottom: 6%;
     /* left: 5%; */
-    font-family: fantasy;
+    font-family: cursive;
     font-size: 150%;
     font-weight: 900; 
     text-shadow: 1.5px 1.5px 3px #6d6c6c; 
@@ -79,8 +79,8 @@
   .adventure-caption {
     position: relative;
     top: 3%;
-    font-family: fantasy;
-    font-size: 180%;
+    font-family: cursive;
+    font-size: 200%;
     font-weight: 900; 
     text-shadow: 1.5px 1.5px 3px #333; 
     color: #333;
@@ -94,7 +94,7 @@
     position: absolute;
     bottom: 0.5%;
     right: 5%;
-    font-family: fantasy;
+    font-family: cursive;
     font-size: 135%;
     font-weight: 900; 
     text-shadow: 1px 1px 2px #043fac; 
@@ -185,7 +185,7 @@
   font-weight: bold;
   color: #333;
   margin-bottom: 1.5%;
-  font-family: fantasy;
+  font-family: cursive;
   font-weight: 900;
 }
 
