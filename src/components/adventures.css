@@ -79,10 +79,10 @@
   .adventure-caption {
     position: relative;
     top: 3%;
-    font-family: cursive;
-    font-size: 200%;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 180%;
     font-weight: 900; 
-    text-shadow: 1.5px 1.5px 3px #333; 
+    text-shadow: 1px 1px 2px #333; 
     color: #333;
     z-index: 2;
     width: 85%; 
@@ -92,9 +92,9 @@
   
   .adventure-location {
     position: absolute;
-    bottom: 0.5%;
+    bottom: 1%;
     right: 5%;
-    font-family: cursive;
+    font-family: Ubuntu;
     font-size: 135%;
     font-weight: 900; 
     text-shadow: 1px 1px 2px #043fac; 
@@ -205,7 +205,7 @@
 .paragraph h4 {
   font-size: 200%;
   text-align: left;
-  font-family: 'Nunito', cursive;
+  font-family: 'Nunito', sans-serif;
   margin-bottom: 1%;
   font-weight: 900;
 }

@@ -34,10 +34,10 @@
 .project-caption {
     position: relative;
     top: 3%;
-    font-family: cursive;
+    font-family: 'Libre Baskerville', serif;
     font-size: 175%;
     font-weight: 600; /* Increase font-weight to the maximum value */
-    text-shadow: 1.5px 1.5px 2px #333; /* Add a more pronounced text shadow */
+    text-shadow: 1px 1px 2px #333; /* Add a more pronounced text shadow */
     color: #333;
     z-index: 4;
     width: 90%; 
