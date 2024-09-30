@@ -73,14 +73,14 @@
   margin-left: 1.5vw;
 }
 
-  .image-overlay:hover .logo {
+  .logo-container:hover .logo {
     transform: scale(1.25) rotate(360deg); /* Rotate clockwise */
 }
 
-.image-overlay:hover .overlay-logo {
+.logo-container:hover .overlay-logo {
     transform: scale(1.25) /*rotate(-360deg)*/; /* Combine transforms */
 }
-.image-overlay:hover .header-text {
+.logo-container:hover .header-text {
   transform: scale(1.1);
   text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), /* Horizontal and vertical shadow */
               0 6px 20px rgba(0, 0, 0, 0.19); /* Larger shadow */
