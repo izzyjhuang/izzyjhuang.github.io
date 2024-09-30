@@ -40,8 +40,8 @@ const Banner = () => {
         <div>
         <div className="banner-container">
         <div className="banner-image-overlay">
-            <img className="banner-logo-0" src="../images/izzy-pirate.png" alt="Izzy Logo"/>
-            <img className="banner-overlay-logo-0" src="../images/izzy-pirate-overlay.png" alt="Overlay Logo"/>
+            <img className="banner-logo-0" src="../images/izzy-pirate.png" alt="Izzy Logo" loading="lazy"/>
+            <img className="banner-overlay-logo-0" src="../images/izzy-pirate-overlay.png" alt="Overlay Logo" loading="lazy"/>
           </div>
         <div className="banner-header-text">
             <h1>Hi, my name is Izzy. I love exploring the world around me. Welcome to my website!</h1>
@@ -52,14 +52,14 @@ const Banner = () => {
             <h1>I'm an engineer. Truth, improvement, and altruism are the most important to me.</h1>
         </div>
         <div className="banner-image-overlay">
-            <img className="banner-logo-1" src="../images/izzy-professional.png" alt="Izzy Logo"/>
-            <img className="banner-overlay-logo-1" src="../images/izzy-professional-overlay.png" alt="Overlay Logo"/>
+            <img className="banner-logo-1" src="../images/izzy-professional.png" alt="Izzy Logo" loading="lazy"/>
+            <img className="banner-overlay-logo-1" src="../images/izzy-professional-overlay.png" alt="Overlay Logo" loading="lazy"/>
           </div>
         </div>
         <div className="banner-container">
         <div className="banner-image-overlay">
-            <img className="banner-logo-2" src="../images/izzy-photographer.png" alt="Izzy Logo"/>
-            <img className="banner-overlay-logo-2" src="../images/izzy-photographer-overlay.png" alt="Overlay Logo"/>
+            <img className="banner-logo-2" src="../images/izzy-photographer.png" alt="Izzy Logo" loading="lazy"/>
+            <img className="banner-overlay-logo-2" src="../images/izzy-photographer-overlay.png" alt="Overlay Logo" loading="lazy"/>
           </div>
         <div className="banner-header-text">
             <h1>In my free time, I love playing music and exploring natural wonders with my camera!</h1>

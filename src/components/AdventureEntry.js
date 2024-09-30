@@ -12,7 +12,7 @@ class AdventureEntry extends React.Component {
             <div className="adventure-entry-block" >
                 <Link to={`/adventures/${this.props.slug}`}>
                     {/* <img className="adventure-frame" src="../images/adventures/frame.png" alt="../images/adventures/frame.png"/> */}
-                    <img className="adventure-img" src={image_path} alt={image_path}/>
+                    <img className="adventure-img" src={image_path} alt={image_path} loading="lazy"/>
                     <div className="adventure-caption">{this.props.caption}</div>
                     <div className="adventure-date">{this.props.date}</div>
                     <div className="adventure-location">{this.props.location}</div>

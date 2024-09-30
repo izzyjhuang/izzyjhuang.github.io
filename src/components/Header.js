@@ -9,8 +9,8 @@ const Header = () => {
       <div className="logo-container">
       <Link to="/">
         <div className="image-overlay">
-            <img className="logo" src="../images/izzy-pirate.png" alt="Izzy Logo"/>
-            <img className="overlay-logo" src="../images/izzy-pirate-overlay.png" alt="Overlay Logo"/>
+            <img className="logo" src="../images/izzy-pirate.png" loading="lazy" alt="Izzy Logo"/>
+            <img className="overlay-logo" src="../images/izzy-pirate-overlay.png" loading="lazy" alt="Overlay Logo"/>
           </div>
           <h1 className="header-text">Izzy The Explorer</h1>
           </Link>
