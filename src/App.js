@@ -1,6 +1,6 @@
 // App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'; // Changed to HashRouter
 import Banner from './components/Banner';
 import Header from './components/Header';
 import Projects from './components/Projects';
@@ -30,8 +30,7 @@ function App() {
 const Home = () => (
   <div>
     <Banner />
-    <div>
-    </div>
+    <div></div>
   </div>
 );
 
