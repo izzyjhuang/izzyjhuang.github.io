@@ -1,0 +1,94 @@
+.banner-container {
+    display: flex;
+    /* height: 100px; */
+    align-items: center;
+    background-color: #fdf9f6;
+    padding: 4vw 8vw;
+}
+
+.banner-image-overlay {
+    display: flex;
+    align-items: top;
+    position: relative; /* Container for overlaying images */
+  }
+
+  .banner-logo-0 {
+    max-width: 40vw;
+    background-color: #fdf9f6; /* Light green circle */
+    border-radius: 50%;
+    position: relative;
+    transition: transform 0.5s; /* Add this line for animation */
+    z-index: 1;
+    top: 1vw;
+    left: 0.3vw;
+}
+
+  .banner-overlay-logo-0 {
+    max-width: 21vw;
+    /* border-radius: 50%; */
+    position: absolute;
+    top: 10.5vw;
+    left: 9.7vw;
+    transition: transform 0.5s; /* Add this line for animation */
+    z-index: 2; /* Overlay image */
+    opacity: 1;
+  }
+
+  .banner-logo-1 {
+    max-width: 40vw;
+    background-color: #fdf9f6; /* Light green circle */
+    border-radius: 50%;
+    position: relative;
+    transition: transform 0.5s; /* Add this line for animation */
+    z-index: 1;
+    top: 1vw;
+    left: 0.3vw;
+}
+
+  .banner-overlay-logo-1 {
+    max-width: 29.5vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 6.5vw;
+    left: 5.4vw;
+    transition: transform 0.5s; /* Add this line for animation */
+    z-index: 2; /* Overlay image */
+    opacity: 1;
+  }
+
+  .banner-logo-2 {
+    max-width: 40vw;
+    background-color: #fdf9f6; /* Light green circle */
+    border-radius: 50%;
+    position: relative;
+    transition: transform 0.5s; /* Add this line for animation */
+    z-index: 1;
+    top: 1vw;
+    left: 0.3vw;
+}
+
+  .banner-overlay-logo-2 {
+    max-width: 25vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 8.5vw;
+    left: 7.5vw;
+    transition: transform 0.5s; /* Add this line for animation */
+    z-index: 2; /* Overlay image */
+    opacity: 1;
+  }
+
+.banner-image-overlay:hover .banner-logo {
+    transform: scale(1.2) rotate(360deg); /* Combine transforms */
+}
+.banner-image-overlay:hover .banner-overlay-logo {
+    transform: scale(1.2) rotate(-360deg); /* Combine transforms */
+}
+
+.banner-header-text {
+    margin-left: 4vw;
+    font-size: 2vw;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+}

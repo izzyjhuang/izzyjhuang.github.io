@@ -1,0 +1,264 @@
+/* adventures.css */
+
+.page-warmer {
+    display: flex;
+      align-items: center;
+      justify-content: flex-start;
+  }
+  .page-photo {
+      display: flex;
+      justify-content: center;
+      margin: 1rem;
+      max-width: 50vw;
+      transition: transform 0.5s;
+  }
+  .page-text {
+    font-size: 2vw;
+    font-weight: bold;
+    color: #333;
+    margin-left: 5vw;
+    margin-right: 20vw;
+    text-align: left;
+  }
+  
+  .adventure-entry-block {
+      margin: 2rem;
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      border-radius: 5%;
+      display: flex;
+      align-items: top;
+      justify-content: center;
+      position: relative; 
+      padding-bottom: 10%;
+  }
+  .adventure-entry-block a {
+    text-decoration: none;
+}
+
+.adventure-entry-block:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .adventure-img {
+    width: 90%; 
+    position: relative;
+    transition: transform 0.5s; 
+    z-index: 0;
+    margin-top: 5%;
+    border-radius: 5%;
+    /* left: 8%; */
+  }
+  
+  /* .adventure-frame {
+    width: 100%;
+    margin-right: 10%;
+    position: absolute;
+    transition: transform 0.5s; 
+    z-index: 1; 
+  }
+   */
+  .adventure-date {
+    position: absolute;
+    bottom: 6%;
+    /* left: 5%; */
+    font-family: fantasy;
+    font-size: 150%;
+    font-weight: 900; 
+    text-shadow: 1.5px 1.5px 3px #6d6c6c; 
+    color: #6d6c6c;
+    z-index: 2;
+    width: 95%;
+    text-align: right;
+    /* margin-right: 2%; */
+    /* rotate: 6deg; */
+  }
+  
+  .adventure-caption {
+    position: relative;
+    top: 3%;
+    font-family: fantasy;
+    font-size: 180%;
+    font-weight: 900; 
+    text-shadow: 1.5px 1.5px 3px #333; 
+    color: #333;
+    z-index: 2;
+    width: 85%; 
+    text-align: left;
+    margin-left: 7.5%;
+  }
+  
+  .adventure-location {
+    position: absolute;
+    bottom: 0.5%;
+    right: 5%;
+    font-family: fantasy;
+    font-size: 135%;
+    font-weight: 900; 
+    text-shadow: 1px 1px 2px #043fac; 
+    color: #043fac;
+    z-index: 2;
+    text-align: right;
+    max-width: 100%; 
+  }
+
+.adventure-container {
+    max-width: 30%;
+    flex: 1 1 calc(33.333%);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    margin-bottom: 4%;
+}
+
+/* Layout for medium screens (e.g., tablets, between 768px to 1024px) */
+@media (max-width: 1024px) {
+    .adventure-container {
+        max-width: 45%;
+        flex: 1 1 calc(50%);
+    }
+}
+
+/* Layout for smaller screens (e.g., small tablets or larger phones, between 480px and 767px) */
+@media (max-width: 767px) {
+    .adventure-container {
+        max-width: 100%;
+        flex: 1 1 calc(100%);
+    }
+}
+
+/* Layout for extra small screens (e.g., phones, below 480px) */
+@media (max-width: 480px) {
+    .adventure-container {
+        max-width: 100%;
+        flex: 1 1 calc(100%);
+    }
+}
+
+.adventure-post {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center child elements horizontally */
+  font-family: Arial, sans-serif;
+}
+
+.adventure-banner {
+  width: 85%;
+  justify-content: center;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 0;
+}
+
+.adventure-poster {
+  z-index: 1;
+  background-color: #fdf9f6;
+  position: relative;
+  width: 75%;
+  margin-top: -5%;
+  justify-content: center;
+  height: auto;
+
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.adventure-genre {
+  margin-top: 2%;
+  font-size: 180%;
+  font-weight: bold;
+  color: #043fac;
+  margin-bottom: 2%;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900;
+}
+
+.adventure-title {
+  font-size: 350%;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1.5%;
+  font-family: fantasy;
+  font-weight: 900;
+}
+
+.adventure-dates {
+  font-size: 135%;
+  font-weight: bold;
+  color: gray;
+  margin-bottom: 5%;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.paragraph {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.paragraph h4 {
+  font-size: 200%;
+  text-align: left;
+  font-family: 'Nunito', cursive;
+  margin-bottom: 1%;
+  font-weight: 900;
+}
+
+.adventure-blog-content p {
+  text-align: left;
+  font-size: 160%;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+.images-3 {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.images-3 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-box {
+  width: 100%;
+  display: flex;
+  margin: 0.5%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.images-3 h5 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 2%;
+  font-size: 100%;
+  font-style: italic;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+
+.adventure-sub-img {
+  width: 30%;
+  height: auto;
+  margin: 0.5%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
