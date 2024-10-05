@@ -1,40 +1,66 @@
 // Adventures.js
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import AdventureAlbum from './AdventureAlbum';
 import "./master.css";
 import "./adventures.css"
 
 const Adventures = () => {
+    const [displayedText, setDisplayedText] = useState(''); // State to store the text being typed
+    const fullText = "  My favorite adventure was going Skydiving in Utah! I'm visiting Hobbiton in New Zealand next!";
+
+    // Typewriter effect
+    useEffect(() => {
+        let index = 0;
+        const typingSpeed = 20; // Adjust the typing speed (in ms)
+
+        const typeWriter = () => {
+            if (index < fullText.length) {
+                setDisplayedText((prev) => prev + fullText.charAt(index));
+                index++;
+            } else {
+                clearInterval(intervalId); // Stop the interval once the full text is typed
+            }
+        };
+
+        // Set an interval to run typeWriter at the specified typing speed
+        const intervalId = setInterval(typeWriter, typingSpeed);
+
+        // Cleanup function to clear the interval if the component unmounts
+        return () => {
+            clearInterval(intervalId);
+        };
+    }, [fullText]);
+
+    // Scroll event handling for image scaling and rotation
     useEffect(() => {
         const handleScroll = () => {
-          const pagePhoto = document.querySelector('.page-photo');
-          const scrollPosition = window.scrollY;
-    
-          // Calculate the degree of transformation based on scroll position
-          const scaleValue = 0.95+Math.sin((scrollPosition+180)/60)/10; // Adjust the divisor to control the scaling speed
-          const rotateValue = Math.sin(scrollPosition/60)*30; // Rotate based on scroll position
-    
-          // Apply transformations
-          pagePhoto.style.transform = `scale(${scaleValue}) rotate(${rotateValue}deg)`;
+            const pagePhoto = document.querySelector('.page-photo');
+            const scrollPosition = window.scrollY;
 
+            const scaleValue = 0.95 + Math.sin((scrollPosition + 180) / 60) / 10; // Control scaling
+            const rotateValue = Math.sin(scrollPosition / 60) * 30; // Rotate based on scroll
+
+            pagePhoto.style.transform = `scale(${scaleValue}) rotate(${rotateValue}deg)`;
         };
-    
+
         window.addEventListener('scroll', handleScroll);
-    
+
+        // Cleanup function to remove scroll listener when component unmounts
         return () => {
-          window.removeEventListener('scroll', handleScroll);
+            window.removeEventListener('scroll', handleScroll);
         };
-      }, []);
-    
-  return (
-    <div>
-        <div className="page-warmer">
-            <img className="page-photo" src="../images/adventures/skydive-moab.png" alt="../images/skydive-moab.png" loading="lazy"/>
-            <h1 className="page-text">I recently checked off skydiving from my bucket list, I'll be visiting the Hobbiton in New Zealand soon!</h1>
-          </div>
-      <AdventureAlbum/>
-    </div>
-  );
+    }, []); // Empty dependency array to run only on mount/unmount
+
+
+    return (
+        <div>
+            <div className="page-warmer">
+                <img className="page-photo" src="../images/adventures/skydive-moab.png" alt="skydive-moab" loading="lazy" />
+                <h1 className="page-text">{displayedText}</h1> {/* Display the typing text */}
+            </div>
+            <AdventureAlbum />
+        </div>
+    );
 }
 
 export default Adventures;

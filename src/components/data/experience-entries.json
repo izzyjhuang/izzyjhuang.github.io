@@ -1,0 +1,58 @@
+{
+    "itemlist" :
+    [
+        {
+            "src"       :   "london-the-uk.jpeg",
+            "caption"   :   "\"Hey, Big Ben!\"",
+            "location"  :   "London, the UK",
+            "date"      :   "Aug 2024",
+            "slug"      :   "the-uk-0824",
+            "blogPost"  : []
+        },
+        
+        {
+            "src"       :   "durrës-albania.jpeg",
+            "caption"   :   "My First Global Mission Trip",
+            "location"  :   "Durrës, Albania",
+            "date"      :   "Dec 2023",
+            "slug"      :   "albania-1223",
+            "blogPost"  : []
+        },
+
+        {
+            "src"       :   "budapest-hungary.jpeg",
+            "caption"   :   "The continental Europe Pioneer",
+            "location"  :   "Budapest, Hungary",
+            "date"      :   "Mar 2023",
+            "slug"      :   "hungary-0323",
+            "blogPost"  : []
+        },
+
+        {
+            "src"       :   "bratislava-slovakia.jpeg",
+            "caption"   :   "Eubrontes the Tyrant",
+            "location"  :   "Bratislava, Slovakia",
+            "date"      :   "Mar 2023",
+            "slug"      :   "slovakia-0323",
+            "blogPost"  : []
+        },
+
+        {
+            "src"       :   "vienna-austria.jpeg",
+            "caption"   :   "The paradise of the Danube",
+            "location"  :   "Vienna, Austria",
+            "date"      :   "Mar 2023",
+            "slug"      :   "austria-0323",
+            "blogPost"  : []
+        },
+
+        {
+            "src"       :   "prague-czech-republic.jpeg",
+            "caption"   :   "The John Lennon Inspiration",
+            "location"  :   "Prague, Czech Republic",
+            "date"      :   "Mar 2023",
+            "slug"      :   "czechia-0323",
+            "blogPost"  : []
+        }
+    ]
+}
