@@ -25,33 +25,40 @@ const AdventurePost = () => {
                 {/* Loop through the blog content and render paragraphs and images */}
                 {adventure.blogPost.map((content, index) => {
                     if (content.type === 'paragraph') {
-                        return <div className="paragraph">
-                            <h4 key={index}>{content.header}</h4>
-                            <p key={index}>{content.text}</p>
-                        </div>
-                        
+                        return (
+                            <div className="paragraph" key={`${slug}-paragraph-${index}`}>
+                                <h4>{content.header}</h4>
+                                <p>{content.text}</p>
+                            </div>
+                        )
                     } else if (content.type === 'images-3') {
-                        return <div className="images-3">
-                            <div className="image-box">
-                            <img src={`../images/adventures/${content.src1}`} alt={content.alt1} loading="lazy"/>
-                            <h5>{content.alt1}</h5>
+                        return (
+                            <div className="images-3" key={`${slug}-images3-${index}`}>
+                                <div className="image-box">
+                                    <img src={`../images/adventures/${content.src1}`} alt={content.alt1} loading="lazy"/>
+                                    <h5>{content.alt1}</h5>
+                                </div>
+                                <div className="image-box">
+                                    <img src={`../images/adventures/${content.src2}`} alt={content.alt2} loading="lazy"/>
+                                    <h5>{content.alt2}</h5>
+                                </div>
+                                <div className="image-box">
+                                    <img src={`../images/adventures/${content.src3}`} alt={content.alt3} loading="lazy"/>
+                                    <h5>{content.alt3}</h5>
+                                </div>
                             </div>
-                            <div className="image-box">
-                            <img src={`../images/adventures/${content.src2}`} alt={content.alt1} loading="lazy"/>
-                            <h5>{content.alt2}</h5>
-                            </div>
-                            <div className="image-box">
-                            <img src={`../images/adventures/${content.src3}`} alt={content.alt1} loading="lazy"/>
-                            <h5>{content.alt3}</h5>
-                            </div>
-                        </div>
+                        )
                     } else if (content.type === 'images-2') {
-                        return <div className="images-2">
-                            <img src={`../images/adventures/${content.src1}`} alt={content.alt1} loading="lazy"/>
-                            <img src={`../images/adventures/${content.src2}`} alt={content.alt2} loading="lazy"/>
+                        return (
+                            <div className="images-2" key={`${slug}-images2-${index}`}>
+                                <img src={`../images/adventures/${content.src1}`} alt={content.alt1} loading="lazy"/>
+                                <img src={`../images/adventures/${content.src2}`} alt={content.alt2} loading="lazy"/>
                             </div>
+                        )
                     } else if (content.type === 'image') {
-                        return <img key={index} src={`../images/adventures/${content.src}`} alt={content.alt} className="adventure-sub-img" loading="lazy"/>
+                        return (
+                            <img key={`${slug}-image-${index}`} src={`../images/adventures/${content.src}`} alt={content.alt} className="adventure-sub-img" loading="lazy"/>
+                        )
                     } else {
                         return null
                     }

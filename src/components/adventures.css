@@ -131,11 +131,103 @@
 }
 
 /* Layout for extra small screens (e.g., phones, below 480px) */
-@media (max-width: 480px) {
+@media (max-width: 512px) {
     .adventure-container {
         max-width: 100%;
         flex: 1 1 calc(100%);
     }
+}
+
+/* For Large screens (max-width: 2048px) */ 
+@media (max-width: 8192px) {
+  .adventure-title {
+    font-size: 225%; /* Smaller than desktop */
+  }
+  
+  .adventure-genre {
+    font-size: 360%;
+  }
+
+  .adventure-dates {
+    font-size: 162%;
+  }
+
+  .paragraph h4 {
+    font-size: 240%;
+  }
+
+  .adventure-blog-content p {
+    font-size: 192%;
+  }
+}
+
+/* For tablets and medium screens (max-width: 1024px) */
+@media (max-width: 2048px) {
+  .adventure-title {
+    font-size: 180%; /* Smaller than desktop */
+  }
+  
+  .adventure-genre {
+    font-size: 300%;
+  }
+
+  .adventure-dates {
+    font-size: 135%;
+  }
+
+  .paragraph h4 {
+    font-size: 200%;
+  }
+
+  .adventure-blog-content p {
+    font-size: 160%;
+  }
+}
+
+/* For small tablets and large phones (max-width: 767px) */
+@media (max-width: 767px) {
+  .adventure-title {
+    font-size: 135%; /* Smaller for small tablets */
+  }
+  
+  .adventure-genre {
+    font-size: 225%;
+  }
+
+  .adventure-dates {
+    font-size: 101.25%;
+  }
+
+  .paragraph h4 {
+    font-size: 150%;
+  }
+
+  .adventure-blog-content p {
+    font-size: 120%;
+  }
+}
+
+/* For mobile screens (max-width: 480px) */
+@media (max-width: 512px) {
+  .adventure-title {
+    font-size: 90%; /* Even smaller for mobile */
+  }
+  
+  .adventure-genre {
+    font-size: 150%;
+  }
+
+  .adventure-dates {
+    font-size: 67.5%;
+  }
+
+  .paragraph h4 {
+    font-size: 100%;
+  }
+
+  .adventure-blog-content p {
+    font-size: 80%; /* Smaller font for mobile */
+  }
 }
 
 .adventure-post {
@@ -172,7 +264,7 @@
 
 .adventure-genre {
   margin-top: 2%;
-  font-size: 180%;
+  /* font-size: 180%; */
   font-weight: bold;
   color: #043fac;
   margin-bottom: 2%;
@@ -181,7 +273,7 @@
 }
 
 .adventure-title {
-  font-size: 300%;
+  /* font-size: 300%; */
   font-weight: bold;
   color: #333;
   margin-bottom: 1.5%;
@@ -191,7 +283,7 @@
 }
 
 .adventure-dates {
-  font-size: 135%;
+  /* font-size: 135%; */
   font-weight: bold;
   color: gray;
   margin-bottom: 5%;
@@ -204,7 +296,7 @@
   text-align: center;
 }
 .paragraph h4 {
-  font-size: 200%;
+  /* font-size: 200%; */
   text-align: left;
   font-family: 'Nunito', sans-serif;
   margin-bottom: 1%;
@@ -213,7 +305,7 @@
 
 .adventure-blog-content p {
   text-align: left;
-  font-size: 160%;
+  /* font-size: 160%; */
   line-height: 1.6;
   margin-bottom: 20px;
   font-family: 'Nunito', sans-serif;
