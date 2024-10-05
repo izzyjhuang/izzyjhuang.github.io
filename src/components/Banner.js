@@ -7,16 +7,16 @@ import useTypewriter from './UseTypeWriter';
 const Banner = ({ selectedLanguage }) => {
   const textTranslations = {
     intro: {
-      English: "  Hi, my name is Izzy. I love exploring the world around me. Welcome to my website!",
-      中文: "  嗨，我是 Izzy。我喜歡探索我周圍的世界。歡迎來到我的網站！"
+      English: "  Hi, my name is Izzy. I love exploring the intricaties of God’s creation in the world around me. Welcome to my website!",
+      中文: "  嗨，我是 Izzy。我喜歡探索我周圍美麗的世界。歡迎來到我的網站！"
     },
     passion: {
-      English: " Truth, improvement, and altruism fuel my passion as a multidisciplinary engineer.",
+      English: " Truth, improvement, and altruism fuel my passion as a multidiscipled engineer.",
       中文: " 追求真理、終身學習和利他主義激發了我作為多學科工程師的熱情。"
     },
     hobby: {
-      English: " In my free time, I love playing music and exploring natural wonders with my camera!",
-      中文: " 在空閒時間，我喜歡演奏音樂，並用相機探索大自然的奇觀！"
+      English: " In my free time, I enjoy playing music and capturing the wonders of nature through my camera lens!",
+      中文: " 在空閒時間，我喜歡演奏音樂，並用相機捕捉大自然的奇觀！"
     }
   };
 
