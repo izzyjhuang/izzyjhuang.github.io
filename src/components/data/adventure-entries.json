@@ -2,7 +2,7 @@
     "itemlist" :
     [
         {
-            "src"       :   "rangárþing-eystra-iceland.png",
+            "src"       :   "rangárþing-eystra-iceland.jpeg",
             "caption"   :   "My 21st Birthday @ Skógafoss",
             "location"  :   "Rangárþing Eystra, Iceland",
             "date"      :   "Aug 2024",
@@ -10,7 +10,7 @@
             "genre"     :   "ICELAND | FAMILY TRAVEL | NATURE",
             "title"     :   "Celebrating 21 on the Land of Fire and Ice",
             "dates"     :   "08.23.24 ~ 08.28.24",
-            "banner"    :   "iceland-0824-banner.png",
+            "banner"    :   "iceland-0824-banner.jpeg",
             "blogPost"  : [
                 {
                     "type"  : "paragraph",
@@ -19,11 +19,11 @@
                 },
                 {
                     "type"  : "images-3",
-                    "src1"  : "iceland-0824-11.png",
+                    "src1"  : "iceland-0824-11.jpeg",
                     "alt1"  : "Volcano erruption of Grindavík",
-                    "src2"  : "iceland-0824-12.png",
+                    "src2"  : "iceland-0824-12.jpeg",
                     "alt2"  : "Hot spring of Hvammsvík",
-                    "src3"  : "iceland-0824-13.png",
+                    "src3"  : "iceland-0824-13.jpeg",
                     "alt3"  : "Our Happer Camper van"
                 },
                 {
@@ -33,11 +33,11 @@
                 },
                 {
                     "type"  : "images-3",
-                    "src1"  : "iceland-0824-21.png",
+                    "src1"  : "iceland-0824-21.jpeg",
                     "alt1"  : "The Arctic fox",
-                    "src2"  : "iceland-0824-22.png",
+                    "src2"  : "iceland-0824-22.jpeg",
                     "alt2"  : "The Bárður Snæfellsás Statue",
-                    "src3"  : "iceland-0824-23.png",
+                    "src3"  : "iceland-0824-23.jpeg",
                     "alt3"  : "Ströndin við Stapa og Hellna"
                 },
                 {
@@ -47,11 +47,11 @@
                 },
                 {
                     "type"  : "images-3",
-                    "src1"  : "iceland-0824-31.png",
+                    "src1"  : "iceland-0824-31.jpeg",
                     "alt1"  : "Þingvellir teconic plates",
-                    "src2"  : "iceland-0824-32.png",
+                    "src2"  : "iceland-0824-32.jpeg",
                     "alt2"  : "Birthday lunch at Friðheimar",
-                    "src3"  : "iceland-0824-33.png",
+                    "src3"  : "iceland-0824-33.jpeg",
                     "alt3"  : "Rainball waterfall at Rangárþing Eystra"
                 },
                 {
@@ -61,11 +61,11 @@
                 },
                 {
                     "type"  : "images-3",
-                    "src1"  : "iceland-0824-41.png",
+                    "src1"  : "iceland-0824-41.jpeg",
                     "alt1"  : "The village of Vík",
-                    "src2"  : "iceland-0824-42.png",
+                    "src2"  : "iceland-0824-42.jpeg",
                     "alt2"  : "Jökulsárlón glacial lagoon",
-                    "src3"  : "iceland-0824-43.png",
+                    "src3"  : "iceland-0824-43.jpeg",
                     "alt3"  : "Puffins of Reynisfjara beach"
                 },
                 {
@@ -75,11 +75,11 @@
                 },
                 {
                     "type"  : "images-3",
-                    "src1"  : "iceland-0824-51.png",
+                    "src1"  : "iceland-0824-51.jpeg",
                     "alt1"  : "An elderly Icelandic sheep",
-                    "src2"  : "iceland-0824-52.png",
+                    "src2"  : "iceland-0824-52.jpeg",
                     "alt2"  : "Skaftafellsjökull glacier hike",
-                    "src3"  : "iceland-0824-53.png",
+                    "src3"  : "iceland-0824-53.jpeg",
                     "alt3"  : "Sipping the glacier stream"
                 },
                 {
@@ -89,11 +89,11 @@
                 },
                 {
                     "type"  : "images-3",
-                    "src1"  : "iceland-0824-61.png",
+                    "src1"  : "iceland-0824-61.jpeg",
                     "alt1"  : "Bæjarins Beztu Pylsur hot dog stand",
-                    "src2"  : "iceland-0824-62.png",
+                    "src2"  : "iceland-0824-62.jpeg",
                     "alt2"  : "Leif Erikson statue",
-                    "src3"  : "iceland-0824-63.png",
+                    "src3"  : "iceland-0824-63.jpeg",
                     "alt3"  : "The Saga Museum"
                 },
                 {
@@ -103,18 +103,18 @@
                 },
                 {
                     "type"  : "images-3",
-                    "src1"  : "iceland-0824-71.png",
+                    "src1"  : "iceland-0824-71.jpeg",
                     "alt1"  : "My magma souvenir",
-                    "src2"  : "iceland-0824-72.png",
+                    "src2"  : "iceland-0824-72.jpeg",
                     "alt2"  : "The timeless fairytale of Iceland",
-                    "src3"  : "iceland-0824-73.png",
+                    "src3"  : "iceland-0824-73.jpeg",
                     "alt3"  : "Until next time, Iceland!"
                 }
             ]
         },
         
         {
-            "src"       :   "london-the-uk.png",
+            "src"       :   "london-the-uk.jpeg",
             "caption"   :   "\"Hey, Big Ben!\"",
             "location"  :   "London, the UK",
             "date"      :   "Aug 2024",
@@ -123,7 +123,7 @@
         },
         
         {
-            "src"       :   "durrës-albania.png",
+            "src"       :   "durrës-albania.jpeg",
             "caption"   :   "My First Global Mission Trip",
             "location"  :   "Durrës, Albania",
             "date"      :   "Dec 2023",
@@ -132,7 +132,7 @@
         },
 
         {
-            "src"       :   "budapest-hungary.png",
+            "src"       :   "budapest-hungary.jpeg",
             "caption"   :   "The continental Europe Pioneer",
             "location"  :   "Budapest, Hungary",
             "date"      :   "Mar 2023",
@@ -141,7 +141,7 @@
         },
 
         {
-            "src"       :   "bratislava-slovakia.png",
+            "src"       :   "bratislava-slovakia.jpeg",
             "caption"   :   "Eubrontes the Tyrant",
             "location"  :   "Bratislava, Slovakia",
             "date"      :   "Mar 2023",
@@ -150,7 +150,7 @@
         },
 
         {
-            "src"       :   "vienna-austria.png",
+            "src"       :   "vienna-austria.jpeg",
             "caption"   :   "The paradise of the Danube",
             "location"  :   "Vienna, Austria",
             "date"      :   "Mar 2023",
@@ -159,7 +159,7 @@
         },
 
         {
-            "src"       :   "prague-czech-republic.png",
+            "src"       :   "prague-czech-republic.jpeg",
             "caption"   :   "The John Lennon Inspiration",
             "location"  :   "Prague, Czech Republic",
             "date"      :   "Mar 2023",
