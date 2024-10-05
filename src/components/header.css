@@ -71,7 +71,7 @@
   color: #333;
   /* max-width: 40%; */
   text-align: left;
-  margin-left: 4vw;
+  /* margin-left: 4vw; */
 }
 
 .logo-container:hover .logo {
@@ -126,4 +126,40 @@
   
   .language-selector:hover .arrow-down {
     transform: rotate(180deg); /* Rotate arrow on hover */
+  }
+
+  @media (max-width: 4096px) {
+    .header-text {
+      margin-left: 3vw;
+    }
+  }
+
+  @media (max-width: 2048px) {
+    .header-text {
+      margin-left: 2.5vw;
+    }
+  }
+
+  @media (max-width: 1536px) {
+    .header-text {
+      margin-left: 1.875vw;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .header-text {
+      margin-left: 0.75vw;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .header-text {
+      margin-left: -0.5vw;
+    }
+  }
+
+  @media (max-width: 512px) {
+    .header-text {
+      margin-left: -2vw;
+    }
   }
