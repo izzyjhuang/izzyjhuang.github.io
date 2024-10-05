@@ -6,7 +6,7 @@ import "./adventures.css"
 
 const Adventures = () => {
     const [displayedText, setDisplayedText] = useState(''); // State to store the text being typed
-    const fullText = "  My favorite adventure was going Skydiving in Utah! I'm visiting Hobbiton in New Zealand next!";
+    const fullText = "M y favorite adventure is going Skydiving in Utah! I'm visiting Hobbiton in New Zealand next!";
 
     // Typewriter effect
     useEffect(() => {

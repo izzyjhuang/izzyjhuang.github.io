@@ -1,27 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import './banner.css'; 
+import useTypewriter from './UseTypeWriter';
 
-const useTypewriter = (fullText, typingSpeed = 20, selectedLanguage) => {
-  const [displayedText, setDisplayedText] = useState('');
 
-  useEffect(() => {
-    setDisplayedText(''); // Clear the text when the language changes
-
-    let index = 0;
-    const intervalId = setInterval(() => {
-      if (index < fullText.length) {
-        setDisplayedText((prev) => prev + fullText.charAt(index));
-        index++;
-      } else {
-        clearInterval(intervalId);
-      }
-    }, typingSpeed);
-
-    return () => clearInterval(intervalId);
-  }, [fullText, typingSpeed, selectedLanguage]);
-
-  return displayedText;
-};
 
 const Banner = ({ selectedLanguage }) => {
   const textTranslations = {
