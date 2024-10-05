@@ -27,7 +27,7 @@ const Banner = ({ selectedLanguage }) => {
   const textTranslations = {
     intro: {
       English: "  Hi, my name is Izzy. I love exploring the world around me. Welcome to my website!",
-      中文: "  嗨，我是奇奇。我喜歡探索我周圍的世界。歡迎來到我的網站！"
+      中文: "  嗨，我是 Izzy。我喜歡探索我周圍的世界。歡迎來到我的網站！"
     },
     passion: {
       English: " Truth, improvement, and altruism fuel my passion as a multidisciplinary engineer.",
@@ -43,6 +43,40 @@ const Banner = ({ selectedLanguage }) => {
   const text1 = useTypewriter(textTranslations.passion[selectedLanguage], 20, selectedLanguage);
   const text2 = useTypewriter(textTranslations.hobby[selectedLanguage], 20, selectedLanguage);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const bannerLogo0 = document.querySelector('.banner-logo-0');
+      const bannerOverlayLogo0 = document.querySelector('.banner-overlay-logo-0');
+
+      const bannerLogo1 = document.querySelector('.banner-logo-1');
+      const bannerOverlayLogo1 = document.querySelector('.banner-overlay-logo-1');
+
+      const bannerLogo2 = document.querySelector('.banner-logo-2');
+      const bannerOverlayLogo2 = document.querySelector('.banner-overlay-logo-2');
+      const scrollPosition = window.scrollY;
+
+      // Calculate the degree of transformation based on scroll position
+      const scaleValue = Math.min(1, 1 + scrollPosition / 1000); // Adjust the divisor to control the scaling speed
+      const rotateValue = Math.min(scrollPosition % 720, 720 - scrollPosition % 720); // Rotate based on scroll position
+
+      // Apply transformations
+      bannerLogo0.style.transform = `scale(${scaleValue}) rotate(${rotateValue}deg)`;
+      bannerOverlayLogo0.style.transform = `scale(${scaleValue})`;
+
+      bannerLogo1.style.transform = `scale(${scaleValue}) rotate(${-rotateValue}deg)`;
+      bannerOverlayLogo1.style.transform = `scale(${scaleValue})`;
+
+      bannerLogo2.style.transform = `scale(${scaleValue}) rotate(${rotateValue}deg)`;
+      bannerOverlayLogo2.style.transform = `scale(${scaleValue})`;
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+  
   return (
     <div>
       <div className="banner-container">
