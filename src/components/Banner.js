@@ -1,3 +1,4 @@
+// Banner.js
 import React, { useEffect } from 'react';
 import './banner.css'; 
 import useTypewriter from './UseTypeWriter';

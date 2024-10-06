@@ -1,35 +1,22 @@
 // Adventures.js
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import AdventureAlbum from './AdventureAlbum';
+import useTypewriter from './UseTypeWriter'; // Import the custom hook
 import "./master.css";
-import "./adventures.css"
+import "./adventures.css";
 
-const Adventures = () => {
-    const [displayedText, setDisplayedText] = useState(''); // State to store the text being typed
-    const fullText = "M y favorite adventure is going Skydiving in Utah! I'm visiting Hobbiton in New Zealand next!";
+const Adventures = ({ selectedLanguage }) => {
+    // Define translations for the full text
+    const textTranslations = {
+        English: "  My favorite adventure is going Skydiving in Utah! I'm visiting Hobbiton in New Zealand next!",
+        中文: " 我最喜歡的冒險是去猶他州跳傘！我接下來要去紐西蘭看拍攝哈比人的哈比屯！"
+    };
 
-    // Typewriter effect
-    useEffect(() => {
-        let index = 0;
-        const typingSpeed = 20; // Adjust the typing speed (in ms)
+    // Get the full text based on the selected language
+    const fullText = textTranslations[selectedLanguage] || textTranslations['English'];
 
-        const typeWriter = () => {
-            if (index < fullText.length) {
-                setDisplayedText((prev) => prev + fullText.charAt(index));
-                index++;
-            } else {
-                clearInterval(intervalId); // Stop the interval once the full text is typed
-            }
-        };
-
-        // Set an interval to run typeWriter at the specified typing speed
-        const intervalId = setInterval(typeWriter, typingSpeed);
-
-        // Cleanup function to clear the interval if the component unmounts
-        return () => {
-            clearInterval(intervalId);
-        };
-    }, [fullText]);
+    // Use the custom useTypewriter hook
+    const displayedText = useTypewriter(fullText, 20, selectedLanguage);
 
     // Scroll event handling for image scaling and rotation
     useEffect(() => {
@@ -50,7 +37,6 @@ const Adventures = () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []); // Empty dependency array to run only on mount/unmount
-
 
     return (
         <div>

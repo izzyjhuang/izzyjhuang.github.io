@@ -21,7 +21,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home selectedLanguage={selectedLanguage} />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/adventures" element={<Adventures />} />
+          <Route path="/adventures" element={<Adventures selectedLanguage={selectedLanguage} />} />
           <Route path="/adventures/:slug" element={<AdventurePost />} />
           {/* Add other routes as needed */}
         </Routes>
