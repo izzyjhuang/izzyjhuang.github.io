@@ -15,6 +15,7 @@ class AdventureAlbum extends React.Component {
                     key={adventure.src} 
                     src={adventure.src} 
                     location={adventure.location} 
+                    locationColor={adventure.locationColor}
                     date={adventure.date} 
                     caption={adventure.caption} 
                     slug={adventure.slug}
