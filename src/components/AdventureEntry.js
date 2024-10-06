@@ -12,10 +12,24 @@ class AdventureEntry extends React.Component {
             color: this.props.locationColor || "#043fac" // Default to blue if color is not provided
         };
 
+        const NeedworkSlugs = [
+            'the-uk-0824',
+            'albania-1223',
+            'hungary-0323',
+            'slovakia-0323',
+            'austria-0323',
+            'czechia-0323'
+        ];
+
+        const linkPath = NeedworkSlugs.includes(this.props.slug) 
+            ? "/notes" // Redirect to the "Still Working" page
+            : `/adventures/${this.props.slug}`; // Redirect to the actual adventure post
+
+
         return (
             <div className="adventure-container">
                 <div className="adventure-entry-block">
-                    <Link to={`/adventures/${this.props.slug}`}>
+                    <Link to={linkPath}>
                         <img className="adventure-img" src={image_path} alt={image_path} loading="lazy"/>
                         <div className="adventure-caption">{this.props.caption}</div>
                         <div className="adventure-date">{this.props.date}</div>

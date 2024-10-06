@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Projects from './components/Projects';
 import Adventures from './components/Adventures';
 import AdventurePost from './components/AdventurePost';
+import Notes from './components/Notes';
 import Footer from './components/Footer';
 import './App.css';
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/adventures" element={<Adventures selectedLanguage={selectedLanguage} />} />
           <Route path="/adventures/:slug" element={<AdventurePost />} />
+          <Route path="/notes" element={<Notes selectedLanguage={selectedLanguage} />} />
           {/* Add other routes as needed */}
         </Routes>
 

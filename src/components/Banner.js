@@ -8,11 +8,11 @@ import useTypewriter from './UseTypeWriter';
 const Banner = ({ selectedLanguage }) => {
   const textTranslations = {
     intro: {
-      English: "  Hi, my name is Izzy. I love exploring the intricaties of God’s creation in the world around me. Welcome to my website!",
+      English: "  Hi, my name is Izzy. I love exploring the world around me. Welcome to my website!",
       中文: "  嗨，我是 Izzy。我喜歡探索我周圍美麗的世界。歡迎來到我的網站！"
     },
     passion: {
-      English: " Truth, improvement, and altruism fuel my passion as a multidiscipled engineer.",
+      English: " Truth, improvement, and altruism fuel my passion as a multidisciplinary engineer.",
       中文: " 追求真理、終身學習和利他主義激發了我作為多學科工程師的熱情。"
     },
     hobby: {

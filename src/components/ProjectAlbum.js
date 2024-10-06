@@ -13,7 +13,7 @@ class ProjectAlbum extends React.Component {
             <div className= "flex-container">
             {
                 entries.itemlist.map((project) => {
-                    return <ProjectEntry key={project.src} src={project.src} caption={project.caption} date={project.date} genre={project.genre} summary={project.summary}/>
+                    return <ProjectEntry key={project.src} src={project.src} slug={project.slug} caption={project.caption} date={project.date} genre={project.genre} summary={project.summary}/>
                 })
             }
             </div>
