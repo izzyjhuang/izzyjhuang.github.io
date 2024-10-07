@@ -15,22 +15,27 @@ class ProjectEntry extends React.Component {
       'the-clampanion'
   ];
 
-  const linkPath = NeedworkSlugs.includes(this.props.slug) 
-  ? "izzyjhuang.com/#/notes" // Redirect to the "Still Working" page
-  : `/adventures/${this.props.slug}`; // Redirect to the actual adventure post
+  const isExternal = this.props.slug.startsWith('http');
 
-    return <div className="project-container">
-    <div className="project-entry-block">
-        <a href = {linkPath}>
-        <img className="project-img" src={image_path} alt={image_path} loading="lazy"/>
-        {/* <img className="photo-frame" src="../images/adventures/frame.png" alt="../images/adventures/frame.png"/> */}
-        <div className="project-caption">{this.props.caption}</div>
-        <div className="project-genre">{this.props.genre}</div>
-        {/* <div className="photo-location">{this.props.location}</div> */}
+    // Determine the correct linkPath
+    const linkPath = isExternal
+      ? this.props.slug // Use the slug directly for external links
+      : NeedworkSlugs.includes(this.props.slug)
+        ? "https://izzyjhuang.com/#/notes" // Redirect to the "Still Working" page
+        : `/adventures/${this.props.slug}`; // Redirect to the internal adventure post
 
-        </a>
+    return (
+      <div className="project-container">
+        <div className="project-entry-block">
+          {/* Use <a> tag for both external and internal links */}
+          <a href={linkPath} target={isExternal ? "_blank" : "_self"} rel="noopener noreferrer">
+            <img className="project-img" src={image_path} alt={image_path} loading="lazy" />
+            <div className="project-caption">{this.props.caption}</div>
+            <div className="project-genre">{this.props.genre}</div>
+          </a>
+        </div>
       </div>
-      </div>
+    );
   }
 }
 
