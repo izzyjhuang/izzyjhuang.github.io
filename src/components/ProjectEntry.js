@@ -11,7 +11,7 @@ class ProjectEntry extends React.Component {
 
     const NeedworkSlugs = [
       'the-duality-of-mouse',
-      'izzyhuang.com',
+      'izzyweb',
       'neuronet',
       'the-clampanion'
   ];
