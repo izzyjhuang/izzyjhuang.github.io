@@ -4,7 +4,8 @@
     align-items: center;
     justify-content: center;
     background-color: #fdf9f6;
-    padding: 1vw 8vw;
+    padding: 1vw 4vw;
+    margin-right: 2vw;
 }
 
 .banner-image-overlay {
@@ -96,7 +97,7 @@
 }
 
 .banner-header-text {
-    /* margin-left: 4vw; */
+    margin-left: 12vw;
     font-size: 1.7vw;
     font-weight: bold;
     color: #333;

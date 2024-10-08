@@ -91,12 +91,12 @@
 
 .experience-when {
   position: absolute;
-  top: 1.8%;
+  top: 3.5%;
   border-radius: 12%;
   width: 45%;
-  right: 2.5%;
+  right: 5%;
   /* bottom: -5%; */
-  font-family: cursive;
+  font-family: Ubuntu;
   font-weight: 900;
   text-shadow: 1px 1px 2px #ffffff;
   color: #ffffff;
