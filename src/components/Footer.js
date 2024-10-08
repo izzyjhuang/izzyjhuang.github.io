@@ -27,7 +27,7 @@ const Footer = () => {
       </div>
 
         <div className="footer-links">
-            <h5>This website was built from 
+            <h5>This website was built with 
                 <a href="https://react.dev/" target="_blank" rel="noopener noreferrer"> ReactJS</a>
             </h5>
             <h5>© Copyright 2024 Izzy Huang</h5>
