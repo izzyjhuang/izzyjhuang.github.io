@@ -9,20 +9,20 @@ const Adventures = ({ selectedLanguage }) => {
     // Define translations for the full text
     const textTranslations = {
         countries: {
-            English: " 13 countries",
-            中文: " 13 個國家"
+            English: "  13 countries",
+            中文: "  13 個國家"
         },
         nationalParks: {
-            English: " 6 National Parks",
-            中文: " 6 個國家公園"
+            English: "  6 National Parks",
+            中文: "  6 個國家公園"
         },
         states: {
-            English: " 17 States",
-            中文: " 17 個州"
+            English: "  17 States",
+            中文: "  17 個州"
         },
         stadiums: {
-            English: " 5 Stadiums",
-            中文: " 5 座棒球場"
+            English: "  5 Stadiums",
+            中文: "  5 座棒球場"
         },
         bannerText: {
             English: "  My favorite adventure was going Skydiving in Utah! I'm visiting Hobbiton in New Zealand next!",
