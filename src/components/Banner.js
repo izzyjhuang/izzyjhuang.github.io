@@ -22,18 +22,6 @@ const Banner = ({ selectedLanguage }) => {
     piano: {
       English: " I also love attending classical concerts and playing the piano. Beethoven is my favorite composer!",
       中文: " 我也喜歡參加古典音樂會和彈鋼琴。貝多芬是我最喜歡的作曲家！"
-    },
-    countries: {
-      English: " 13 countries",
-      中文: " 13 個國家"
-    },
-    nationalParks: {
-      English: " 6 National Parks",
-      中文: " 6 個國家公園"
-    },
-    states: {
-      English: " 17 States",
-      中文: " 17 個州"
     }
   };
 
@@ -41,9 +29,7 @@ const Banner = ({ selectedLanguage }) => {
   const text1 = useTypewriter(textTranslations.passion[selectedLanguage], 20, selectedLanguage);
   const text2 = useTypewriter(textTranslations.photography[selectedLanguage], 20, selectedLanguage);
   const text3 = useTypewriter(textTranslations.piano[selectedLanguage], 20, selectedLanguage);
-  const text4 = useTypewriter(textTranslations.countries[selectedLanguage], 20, selectedLanguage);
-  const text5 = useTypewriter(textTranslations.nationalParks[selectedLanguage], 20, selectedLanguage);
-  const text6 = useTypewriter(textTranslations.states[selectedLanguage], 20, selectedLanguage);
+  
   useEffect(() => {
     const handleScroll = () => {
       const bannerLogo0 = document.querySelector('.banner-logo-0');
@@ -73,7 +59,7 @@ const Banner = ({ selectedLanguage }) => {
       bannerLogo2.style.transform = `scale(${scaleValue}) rotate(${rotateValue}deg)`;
       bannerOverlayLogo2.style.transform = `scale(${scaleValue})`;
 
-      bannerLogo3.style.transform = `scale(${scaleValue}) rotate(${rotateValue}deg)`;
+      bannerLogo3.style.transform = `scale(${scaleValue}) rotate(${-rotateValue}deg)`;
       bannerOverlayLogo3.style.transform = `scale(${scaleValue})`;
     };
 
@@ -115,29 +101,14 @@ const Banner = ({ selectedLanguage }) => {
           <h1>{text2}</h1>
         </div>
       </div>
-
       <div className="banner-container">
         <div className="banner-header-text">
-          <h1>{text3}</h1>
-        </div>
-        <div className="banner-image-overlay">
-          <img className="banner-logo-3" src="../images/home/izzy-piano.png" alt="Izzy Logo" loading="lazy"/>
-          <img className="banner-overlay-logo-3" src="../images/home/izzy-piano-overlay.png" alt="Overlay Logo" loading="lazy"/>
-        </div>
-      </div>
-      <div className="stat-container">
-        <div className="stat-box">
-          <img src="../images/home/countries-count.png" alt="Countries Logo"></img>
-          <p>{text4}</p>
-        </div>
-        <div className="stat-box">
-          <img src="../images/home/national-parks-count.png" alt="Countries Logo"></img>
-          <p>{text5}</p>
-        </div>
-        <div className="stat-box">
-          <img src="../images/home/states-count.png" alt="Countries Logo"></img>
-          <p>{text6}</p>
-        </div>
+            <h1>{text3}</h1>
+          </div>
+          <div className="banner-image-overlay">
+            <img className="banner-logo-3" src="../images/home/izzy-piano.png" alt="Izzy Logo" loading="lazy"/>
+            <img className="banner-overlay-logo-3" src="../images/home/izzy-piano-overlay.png" alt="Overlay Logo" loading="lazy"/>
+          </div>
       </div>
     </div>
   );

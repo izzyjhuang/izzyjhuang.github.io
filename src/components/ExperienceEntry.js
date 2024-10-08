@@ -9,7 +9,8 @@ class ExperienceEntry extends React.Component {
 
         // Dynamic inline style for location color
         const locationStyle = {
-            color: this.props.locationColor || "#043fac" // Default to blue if color is not provided
+            color: this.props.locationColor || "#043fac", // Default to blue if color is not provided
+            textShadow: `1px 1px 2px ${this.props.locationColor || "#043fac"}`
         };
 
         const whenStyle = {

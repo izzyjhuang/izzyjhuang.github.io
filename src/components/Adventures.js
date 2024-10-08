@@ -8,16 +8,34 @@ import "./adventures.css";
 const Adventures = ({ selectedLanguage }) => {
     // Define translations for the full text
     const textTranslations = {
-        English: "  My favorite adventure was going Skydiving in Utah! I'm visiting Hobbiton in New Zealand next!",
-        中文: "  我最喜歡的冒險是去猶他州跳傘！我接下來要去紐西蘭看拍攝哈比人的哈比屯！"
+        intro: {
+            English: "  My favorite adventure was going Skydiving in Utah! I'm visiting Hobbiton in New Zealand next!",
+            中文: "  我最喜歡的冒險是去猶他州跳傘！我接下來要去紐西蘭看拍攝哈比人的哈比屯！"
+        },
+        countries: {
+            English: " 13 countries",
+            中文: " 13 個國家"
+          },
+          nationalParks: {
+            English: " 6 National Parks",
+            中文: " 6 個國家公園"
+          },
+          states: {
+            English: " 17 States",
+            中文: " 17 個州"
+          }
+
     };
 
     // Get the full text based on the selected language
-    const fullText = textTranslations[selectedLanguage] || textTranslations['English'];
+    // const fullText = textTranslations[selectedLanguage] || textTranslations['English'];
 
     // Use the custom useTypewriter hook
-    const displayedText = useTypewriter(fullText, 20, selectedLanguage);
+    const displayedText = useTypewriter(textTranslations.intro[selectedLanguage], 20, selectedLanguage);
 
+    const text4 = useTypewriter(textTranslations.countries[selectedLanguage], 20, selectedLanguage);
+    const text5 = useTypewriter(textTranslations.nationalParks[selectedLanguage], 20, selectedLanguage);
+    const text6 = useTypewriter(textTranslations.states[selectedLanguage], 20, selectedLanguage);
     // Scroll event handling for image scaling and rotation
     useEffect(() => {
         const handleScroll = () => {
@@ -44,6 +62,21 @@ const Adventures = ({ selectedLanguage }) => {
                 <img className="page-photo" src="../images/adventures/skydive-moab.png" alt="skydive-moab" loading="lazy" />
                 <h1 className="page-text">{displayedText}</h1> {/* Display the typing text */}
             </div>
+            
+      <div className="stat-container">
+        <div className="stat-box">
+          <img src="../images/home/countries-count.png" alt="Countries Logo"></img>
+          <p>{text4}</p>
+        </div>
+        <div className="stat-box">
+          <img src="../images/home/national-parks-count.png" alt="Countries Logo"></img>
+          <p>{text5}</p>
+        </div>
+        <div className="stat-box">
+          <img src="../images/home/states-count.png" alt="Countries Logo"></img>
+          <p>{text6}</p>
+        </div>
+      </div>
             <AdventureAlbum />
         </div>
     );
