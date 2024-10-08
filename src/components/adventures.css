@@ -34,7 +34,7 @@
   justify-content: center;
   position: relative;
   transition: transform 0.5s;
-  /* padding-bottom: 10%; */
+  padding-bottom: 10%;
 }
 
 .adventure-entry-block a {
@@ -68,20 +68,23 @@
 }
 
 .adventure-date {
-  position: relative;
+  position: absolute;
+  top: 1.8%;
+  border-radius: 10%;
+  width: 33%;
+  right: 2.5%;
   /* bottom: -5%; */
   font-family: cursive;
   font-weight: 900;
-  text-shadow: 1.5px 1.5px 3px #6d6c6c;
-  color: #6d6c6c;
+  text-shadow: 1px 1px 2px #ffffff;
+  color: #ffffff;
   z-index: 2;
-  width: 95%;
-  text-align: right;
+  text-align: center;
 }
 
 .adventure-location {
-  position: relative;
-  bottom: 0.5%;
+  position: absolute;
+  bottom: 1%;
   font-family: Ubuntu;
   font-weight: 900;
   text-shadow: 1px 1px 2px #043fac;

@@ -1,7 +1,7 @@
 // ExperienceAlbum.js
 import React from 'react';
 import ExperienceEntry from './ExperienceEntry';
-import entries from './data/Experience-entries';
+import entries from './data/experience-entries';
 
 class ExperienceAlbum extends React.Component {
 
@@ -11,16 +11,14 @@ class ExperienceAlbum extends React.Component {
             <div className= "flex-container">
             {
                 entries.itemlist.map((experience) => {
-                    return <ExperienceEntry 
+                    return <experienceEntry 
                     key={experience.src} 
                     src={experience.src} 
-                    location={experience.location} 
-                    date={experience.date} 
-                    caption={experience.caption} 
+                    logo={experience.logo} 
+                    when={experience.when}
+                    whencolor={experience.whenColor} 
                     slug={experience.slug}
-                    genre={experience.genre}
-                    title={experience.title}
-                    dates={experience.dates}/>
+                    description={experience.description}/>
                 })
             }
             </div>

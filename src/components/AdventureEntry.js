@@ -11,6 +11,9 @@ class AdventureEntry extends React.Component {
         const locationStyle = {
             color: this.props.locationColor || "#043fac" // Default to blue if color is not provided
         };
+        const dateStyle = {
+            backgroundColor: this.props.locationColor || "#043fac" // Default to blue if color is not provided
+        };
 
         const NeedworkSlugs = [
             'the-uk-0824',
@@ -35,7 +38,7 @@ class AdventureEntry extends React.Component {
                         <div className="adventure-caption">{this.props.caption}</div>
                     {/* </div>
                     <div className="adventure-bottomblock"> */}
-                        <div className="adventure-date">{this.props.date}</div>
+                        <div className="adventure-date" style={dateStyle}>{this.props.date}</div>
                         <div className="adventure-location" style={locationStyle}>{this.props.location}</div>
                     {/* </div> */}
                     </Link>
