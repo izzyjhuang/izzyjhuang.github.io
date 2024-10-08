@@ -8,8 +8,8 @@ import "./experience.css";
 const Experience = ({ selectedLanguage }) => {
     // Define translations for the full text
     const textTranslations = {
-        English: "  \"Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.\" (Colossians 3:23)",
-        中文: "  無論做甚麼，都要全心全意地做，像是給主做的，不是給人做的。 (歌羅西書 3:23)"
+        English: "  \"Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.\"",
+        中文: "  「無論做甚麼，都要全心全意地做，像是給主做的，不是給人做的。」"
     };
 
     // Get the full text based on the selected language
