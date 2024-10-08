@@ -9,27 +9,26 @@ const Adventures = ({ selectedLanguage }) => {
     // Define translations for the full text
     const textTranslations = {
         intro: {
-            English: "  My favorite adventure was going Skydiving in Utah! I'm visiting Hobbiton in New Zealand next!",
+            English: "  My favorite adventure was going Skydiving in Utah! I'm visiting Hobbiton in New Zealand next!", // Fixed the typo in "favorite"
             中文: "  我最喜歡的冒險是去猶他州跳傘！我接下來要去紐西蘭看拍攝哈比人的哈比屯！"
         },
         countries: {
             English: " 13 countries",
             中文: " 13 個國家"
-          },
-          nationalParks: {
+        },
+        nationalParks: {
             English: " 6 National Parks",
             中文: " 6 個國家公園"
-          },
-          states: {
+        },
+        states: {
             English: " 17 States",
             中文: " 17 個州"
-          },
-          stadiums: {
+        },
+        stadiums: {
             English: " 5 Stadiums",
             中文: " 5 座棒球場"
-          },
-
-    };
+        }
+    };    
 
     // Get the full text based on the selected language
     // const fullText = textTranslations[selectedLanguage] || textTranslations['English'];
