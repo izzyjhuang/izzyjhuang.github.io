@@ -71,10 +71,11 @@
 .adventure-date {
   position: absolute;
   padding: 0.25vw;
-  top: 3.5%;
+  top: 3%;
   border-radius: 12%;
-  width: 25%;
+  width: 27%;
   right: 5%;
+  padding: 1.5%;
   /* bottom: -5%; */
   font-family: Ubuntu;
   font-weight: 900;
