@@ -36,8 +36,8 @@ class ExperienceEntry extends React.Component {
                     <Link to={linkPath}>
                         <img className="experience-img" src={image_path} alt={image_path} loading="lazy"/>
                         <div className="experience-caption">{this.props.caption}</div>
-                        <div className="experience-when" style={whenStyle}>{this.props.date}</div>
-                        <div className="experience-description" style={locationStyle}>{this.props.location}</div>
+                        <div className="experience-when" style={whenStyle}>{this.props.when}</div>
+                        <div className="experience-description" style={locationStyle}>{this.props.description}</div>
                     </Link>
                 </div>
             </div>

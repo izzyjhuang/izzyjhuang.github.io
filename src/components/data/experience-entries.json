@@ -2,31 +2,40 @@
     "itemlist" :
     [
         {
-            "src"       :   "google.jpeg",
-            "logo"      :   "google-logo.png",
+            "src"       :   "google-f24.jpg",
+            "logo"      :   "google-logo.jpg",
             "caption"   :   "Exploring Big Tech",
             "when"      :   "Current",
             "whenColor" :   "#043fac",
-            "slug"      :   "google-24",
-            "description"  :   "Software Engineering Intern @ Google"
+            "slug"      :   "google-f24",
+            "description":   "SWE Intern @ Google"
         },
         {
-            "src"       :   "google.jpeg",
-            "logo"      :   "google-logo.png",
-            "caption"   :   "Exploring Big Tech",
-            "when"      :   "Current",
+            "src"       :   "ctc-s24.jpg",
+            "logo"      :   "ctc-logo.jpg",
+            "caption"   :   "Trying out the dev side of Quant",
+            "when"      :   "Summer 2024",
             "whenColor" :   "#043fac",
-            "slug"      :   "google-24",
-            "description"  :   "Software Engineering Intern @ Google"
+            "slug"      :   "ctc-s24",
+            "description":   "Quant Dev Intern @ CTC"
         },
         {
-            "src"       :   "google.jpeg",
-            "logo"      :   "google-logo.png",
-            "caption"   :   "Exploring Big Tech",
-            "when"      :   "Current",
+            "src"       :   "ctc-s23.jpg",
+            "logo"      :   "ctc-logo.jpg",
+            "caption"   :   "Initial Taste of Quant as a Trading Intern",
+            "when"      :   "Summer 2023",
             "whenColor" :   "#043fac",
-            "slug"      :   "google-24",
-            "description"  :   "Software Engineering Intern @ Google"
+            "slug"      :   "ctc-s23",
+            "description":   "Quant Trading Analyst Intern @ CTC"
+        },
+        {
+            "src"       :   "fk-s22.jpg",
+            "logo"      :   "fresenius-kabi-logo.png",
+            "caption"   :   "Hi Engineering - my first taste of industry",
+            "when"      :   "Summer 2022",
+            "whenColor" :   "#043fac",
+            "slug"      :   "fk-s22",
+            "description":   "Systems Engineering Intern @ Fresneius Kabi"
         }
     ]
 }

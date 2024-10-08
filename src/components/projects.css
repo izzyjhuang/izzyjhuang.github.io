@@ -1,5 +1,48 @@
 /* projects.css */
 
+.page-warmer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .banner-image-overlay {
+    margin-left: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Container for overlaying images */
+  }
+  
+  .banner-logo-p {
+    width: 40vw;
+    background-color: #fdf9f6; /* Light green circle */
+    border-radius: 50%;
+    position: relative;
+    transition: transform 0.5s; /* Add this line for animation */
+    z-index: 1;
+}
+
+  .banner-overlay-logo-p {
+    width: 25.5vw;
+    border-radius: 50%;
+    position: absolute;
+    transition: transform 0.5s; /* Add this line for animation */
+    z-index: 2; /* Overlay image */
+    opacity: 1;
+  }
+  
+  .page-text {
+    font-size: 3vw;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 1px 1px 2px #6d6c6c;
+    margin-left: 5vw;
+    margin-right: 10vw;
+    text-align: left;
+    font-family: 'Libre Baskerville', cursive;
+  }
+
 .project-entry-block {
     margin: 2rem;
     width: 100%;

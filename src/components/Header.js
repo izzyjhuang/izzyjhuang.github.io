@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './header.css';
+import Experience from './Experience';
 
 const Header = ({ selectedLanguage, setSelectedLanguage }) => {
   const [isDropdownVisible, setDropdownVisible] = useState(false);
@@ -31,7 +32,11 @@ const Header = ({ selectedLanguage, setSelectedLanguage }) => {
       Notes: {
         English: 'Notes',
         中文: '筆記',
-      }
+      },
+      Experience: {
+        English: 'Experience',
+        中文: '經驗',
+      },
     };
     return translations[textKey][selectedLanguage];
   };
@@ -48,6 +53,7 @@ const Header = ({ selectedLanguage, setSelectedLanguage }) => {
         </Link>
       </div>
       <nav className="nav-links">
+        <Link to="/experience" className="nav-link">{getText('Experience')}</Link>
         <Link to="/projects" className="nav-link">{getText('Projects')}</Link>
         <Link to="/adventures" className="nav-link">{getText('Adventures')}</Link>
         <Link to="/notes" className="nav-link">{getText('Notes')}</Link>

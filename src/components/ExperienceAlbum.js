@@ -11,10 +11,11 @@ class ExperienceAlbum extends React.Component {
             <div className= "flex-container">
             {
                 entries.itemlist.map((experience) => {
-                    return <experienceEntry 
+                    return <ExperienceEntry 
                     key={experience.src} 
                     src={experience.src} 
                     logo={experience.logo} 
+                    caption={experience.caption}
                     when={experience.when}
                     whencolor={experience.whenColor} 
                     slug={experience.slug}

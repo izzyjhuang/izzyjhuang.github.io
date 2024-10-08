@@ -3,13 +3,13 @@ import React, { useEffect } from 'react';
 import ExperienceAlbum from './ExperienceAlbum';
 import useTypewriter from './UseTypeWriter'; // Import the custom hook
 import "./master.css";
-import "./Experience.css";
+import "./experience.css";
 
 const Experience = ({ selectedLanguage }) => {
     // Define translations for the full text
     const textTranslations = {
-        English: "  My favorite adventure is going Skydiving in Utah! I'm visiting Hobbiton in New Zealand next!",
-        中文: " 我最喜歡的冒險是去猶他州跳傘！我接下來要去紐西蘭看拍攝哈比人的哈比屯！"
+        English: "  \"Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.\" (Colossians 3:23)",
+        中文: "  無論做甚麼，都要全心全意地做，像是給主做的，不是給人做的。 (歌羅西書 3:23)"
     };
 
     // Get the full text based on the selected language
@@ -21,7 +21,7 @@ const Experience = ({ selectedLanguage }) => {
     // Scroll event handling for image scaling and rotation
     useEffect(() => {
         const handleScroll = () => {
-            const pagePhoto = document.querySelector('.page-photo');
+            const pagePhoto = document.querySelector('.banner-logo-e');
             const scrollPosition = window.scrollY;
 
             const scaleValue = 0.95 + Math.sin((scrollPosition + 180) / 60) / 10; // Control scaling
@@ -38,12 +38,37 @@ const Experience = ({ selectedLanguage }) => {
         };
     }, []); // Empty dependency array to run only on mount/unmount
 
+    useEffect(() => {
+      const handleScroll = () => {
+        const bannerLogo = document.querySelector('.banner-logo-e');
+        const bannerOverlayLogo = document.querySelector('.banner-overlay-logo-e');
+        const scrollPosition = window.scrollY;
+  
+        // Calculate the degree of transformation based on scroll position
+        const scaleValue = Math.min(1, 1 + scrollPosition / 1000); // Adjust the divisor to control the scaling speed
+        const rotateValue = Math.min(scrollPosition % 720, 720 - scrollPosition % 720); // Rotate based on scroll position
+  
+        // Apply transformations
+        bannerLogo.style.transform = `scale(${scaleValue}) rotate(${rotateValue}deg)`;
+        bannerOverlayLogo.style.transform = `scale(${scaleValue})`;
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+  
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, []);
+
     return (
         <div>
-            {/* <div className="page-warmer">
-                <img className="page-photo" src="../images/Experience/skydive-moab.png" alt="skydive-moab" loading="lazy" />
-                <h1 className="page-text">{displayedText}</h1> 
-            </div> */}
+            <div className="page-warmer">
+            <div className="banner-image-overlay">
+              <img className="banner-logo-e" src="../images/izzy-professional.png" alt="Izzy Logo" loading="lazy"/>
+              <img className="banner-overlay-logo-e" src="../images/izzy-professional-overlay.png" alt="Overlay Logo" loading="lazy"/>
+            </div>                
+            <h1 className="page-text">{displayedText}</h1> 
+            </div>
             <ExperienceAlbum />
         </div>
     );
