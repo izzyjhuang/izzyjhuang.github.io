@@ -16,7 +16,7 @@ const Banner = ({ selectedLanguage }) => {
       中文: " 追求真理、終身學習和利他主義激發了我作為多學科工程師的熱情。"
     },
     photography: {
-      English: " In my free time, I enjoy backpacking and capturing the wonders of nature through my camera lens!",
+      English: " In my free time, I enjoy backpacking and capturing the wonders of nature with my camera!",
       中文: " 在空閒時間，我喜歡背包旅行，並用相機捕捉大自然的奇觀！"
     },
     piano: {

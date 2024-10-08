@@ -30,10 +30,14 @@ class AdventureEntry extends React.Component {
             <div className="adventure-container">
                 <div className="adventure-entry-block">
                     <Link to={linkPath}>
+                    {/* <div className="adventure-topblock"> */}
                         <img className="adventure-img" src={image_path} alt={image_path} loading="lazy"/>
                         <div className="adventure-caption">{this.props.caption}</div>
+                    {/* </div>
+                    <div className="adventure-bottomblock"> */}
                         <div className="adventure-date">{this.props.date}</div>
                         <div className="adventure-location" style={locationStyle}>{this.props.location}</div>
+                    {/* </div> */}
                     </Link>
                 </div>
             </div>
