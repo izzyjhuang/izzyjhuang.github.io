@@ -44,9 +44,9 @@
   }
 
 .project-entry-block {
-    margin: 2rem;
+    margin: 1.5vw;
     width: 100%;
-    height: 90%; 
+    height: 100%; 
     background: #fff;
     border-radius: 5%;
     display: flex;
