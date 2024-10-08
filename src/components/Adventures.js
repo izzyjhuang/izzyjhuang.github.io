@@ -23,7 +23,11 @@ const Adventures = ({ selectedLanguage }) => {
           states: {
             English: " 17 States",
             中文: " 17 個州"
-          }
+          },
+          stadiums: {
+            English: " 5 Stadiums",
+            中文: " 5 座棒球場"
+          },
 
     };
 
@@ -36,6 +40,7 @@ const Adventures = ({ selectedLanguage }) => {
     const text4 = useTypewriter(textTranslations.countries[selectedLanguage], 20, selectedLanguage);
     const text5 = useTypewriter(textTranslations.nationalParks[selectedLanguage], 20, selectedLanguage);
     const text6 = useTypewriter(textTranslations.states[selectedLanguage], 20, selectedLanguage);
+    const text7 = useTypewriter(textTranslations.stadiums[selectedLanguage], 20, selectedLanguage);
     // Scroll event handling for image scaling and rotation
     useEffect(() => {
         const handleScroll = () => {
@@ -65,16 +70,20 @@ const Adventures = ({ selectedLanguage }) => {
             
       <div className="stat-container">
         <div className="stat-box">
-          <img src="../images/home/countries-count.png" alt="Countries Logo"></img>
+          <img src="../images/adventures/countries-count.png" alt="Countries Logo"></img>
           <p>{text4}</p>
         </div>
         <div className="stat-box">
-          <img src="../images/home/national-parks-count.png" alt="Countries Logo"></img>
+          <img src="../images/adventures/national-parks-count.png" alt="Countries Logo"></img>
           <p>{text5}</p>
         </div>
         <div className="stat-box">
-          <img src="../images/home/states-count.png" alt="Countries Logo"></img>
+          <img src="../images/adventures/states-count.png" alt="Countries Logo"></img>
           <p>{text6}</p>
+        </div>
+        <div className="stat-box">
+          <img src="../images/adventures/stadiums-count.png" alt="Countries Logo"></img>
+          <p>{text7}</p>
         </div>
       </div>
             <AdventureAlbum />

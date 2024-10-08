@@ -1,7 +1,7 @@
 // UseTypeWriter.js
 import { useEffect, useState } from 'react';
 
-const useTypewriter = (fullText, typingSpeed = 20, selectedLanguage) => {
+const useTypewriter = (fullText, typingSpeed = 40, selectedLanguage) => {
     const [displayedText, setDisplayedText] = useState('');
   
     useEffect(() => {
