@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './header.css';
-import Experience from './Experience';
 
 const Header = ({ selectedLanguage, setSelectedLanguage }) => {
   const [isDropdownVisible, setDropdownVisible] = useState(false);
