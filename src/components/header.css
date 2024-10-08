@@ -132,11 +132,25 @@
     .header-text {
       margin-left: 3vw;
     }
+    .language-dropdown li {
+      font-size: 1vw;
+    }
   }
 
   @media (max-width: 2048px) {
     .header-text {
       margin-left: 2.5vw;
+    }
+    .language-selector {
+      font-size: 3.6vw;
+    }
+  
+    .language-dropdown li {
+      font-size: 4.8vw;
+    }
+  
+    .language-selector .arrow-down {
+      font-size: 3.6vw;
     }
   }
 
@@ -144,11 +158,33 @@
     .header-text {
       margin-left: 1.875vw;
     }
+    .language-selector {
+      font-size: 2.4vw;
+    }
+  
+    .language-dropdown li {
+      font-size: 3.2vw;
+    }
+  
+    .language-selector .arrow-down {
+      font-size: 2.4vw;
+    }
   }
 
   @media (max-width: 1024px) {
     .header-text {
       margin-left: 0.75vw;
+    }
+    .language-selector {
+      font-size: 2.4vw;
+    }
+  
+    .language-dropdown li {
+      font-size: 3.2vw;
+    }
+  
+    .language-selector .arrow-down {
+      font-size: 2.4vw;
     }
   }
 
@@ -156,11 +192,33 @@
     .header-text {
       margin-left: -0.5vw;
     }
+    .language-selector {
+      font-size: 1.5vw;
+    }
+  
+    .language-dropdown li {
+      font-size: 2vw;
+    }
+  
+    .language-selector .arrow-down {
+      font-size: 1.5vw;
+    }
   }
 
   @media (max-width: 512px) {
     .header-text {
       margin-left: -2vw;
+    }
+    .language-selector {
+      font-size: 1.2vw;
+    }
+  
+    .language-dropdown li {
+      font-size: 1.6vw;
+    }
+  
+    .language-selector .arrow-down {
+      font-size: 1.2vw;
     }
   }
 
@@ -177,7 +235,7 @@
 }
 
 .language-selector .arrow-down {
-  margin-left: 5px;
+  margin-left: 0.5vw;
   font-size: 2vw;
   transition: transform 0.3s;
 }
@@ -195,15 +253,14 @@
   border-radius: 1vw;
   padding: 0;
   list-style: none;
-  margin-top: 10px;
-  width: 10vw; /* Adjust the width if necessary */
+  margin-top: 0.5vw;
+  width: 12vw; /* Adjust the width if necessary */
   z-index: 999;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .language-dropdown li {
-  padding: 10px;
-  font-size: 2vw;
+  padding: 1vw;
   text-align: left;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -217,17 +274,3 @@
   border-bottom: 1px solid #ccc;
 }
 
-/* Responsive adjustments */
-@media (max-width: 767px) {
-  .language-selector {
-    font-size: 3.5vw;
-  }
-
-  .language-dropdown li {
-    font-size: 3.5vw;
-  }
-
-  .language-selector .arrow-down {
-    font-size: 3vw;
-  }
-}
