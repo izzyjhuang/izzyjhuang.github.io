@@ -74,8 +74,8 @@ const Banner = ({ selectedLanguage }) => {
     <div>
       <div className="banner-container">
         <div className="banner-image-overlay">
-          <img className="banner-logo-0" src="../images/izzy-pirate.png" alt="Izzy Logo" loading="lazy"/>
-          <img className="banner-overlay-logo-0" src="../images/izzy-pirate-overlay.png" alt="Overlay Logo" loading="lazy"/>
+          <img className="banner-logo-0" src="../images/home/izzy-pirate.png" alt="Izzy Logo" loading="lazy"/>
+          <img className="banner-overlay-logo-0" src="../images/home/izzy-pirate-overlay.png" alt="Overlay Logo" loading="lazy"/>
         </div>
         <div className="banner-header-text">
           <h1>{text0}</h1>
@@ -87,15 +87,15 @@ const Banner = ({ selectedLanguage }) => {
           <h1>{text1}</h1>
         </div>
         <div className="banner-image-overlay">
-          <img className="banner-logo-1" src="../images/izzy-professional.png" alt="Izzy Logo" loading="lazy"/>
-          <img className="banner-overlay-logo-1" src="../images/izzy-professional-overlay.png" alt="Overlay Logo" loading="lazy"/>
+          <img className="banner-logo-1" src="../images/home/izzy-professional.png" alt="Izzy Logo" loading="lazy"/>
+          <img className="banner-overlay-logo-1" src="../images/home/izzy-professional-overlay.png" alt="Overlay Logo" loading="lazy"/>
         </div>
       </div>
 
       <div className="banner-container">
         <div className="banner-image-overlay">
-          <img className="banner-logo-2" src="../images/izzy-photographer.png" alt="Izzy Logo" loading="lazy"/>
-          <img className="banner-overlay-logo-2" src="../images/izzy-photographer-overlay.png" alt="Overlay Logo" loading="lazy"/>
+          <img className="banner-logo-2" src="../images/home/izzy-photographer.png" alt="Izzy Logo" loading="lazy"/>
+          <img className="banner-overlay-logo-2" src="../images/home/izzy-photographer-overlay.png" alt="Overlay Logo" loading="lazy"/>
         </div>
         <div className="banner-header-text">
           <h1>{text2}</h1>
@@ -107,13 +107,25 @@ const Banner = ({ selectedLanguage }) => {
           <h1>{text3}</h1>
         </div>
         <div className="banner-image-overlay">
-          <img className="banner-logo-3" src="../images/izzy-piano.png" alt="Izzy Logo" loading="lazy"/>
-          <img className="banner-overlay-logo-3" src="../images/izzy-piano-overlay.png" alt="Overlay Logo" loading="lazy"/>
+          <img className="banner-logo-3" src="../images/home/izzy-piano.png" alt="Izzy Logo" loading="lazy"/>
+          <img className="banner-overlay-logo-3" src="../images/home/izzy-piano-overlay.png" alt="Overlay Logo" loading="lazy"/>
+        </div>
+      </div>
+      <div className="stat-container">
+        <div className="stat-box">
+          <img src="../images/home/countries-count.png" alt="Countries Logo"></img>
+          <p>13 countries</p>
+        </div>
+        <div className="stat-box">
+          <img src="../images/home/national-parks-count.png" alt="Countries Logo"></img>
+          <p>6 National Parks</p>
+        </div>
+        <div className="stat-box">
+          <img src="../images/home/states-count.png" alt="Countries Logo"></img>
+          <p>17 States</p>
         </div>
       </div>
     </div>
-
-    
   );
 };
 

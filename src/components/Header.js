@@ -46,8 +46,8 @@ const Header = ({ selectedLanguage, setSelectedLanguage }) => {
       <div className="logo-container">
         <Link to="/">
           <div className="image-overlay">
-            <img className="logo" src="../images/izzy-pirate.png" loading="lazy" alt="Izzy Logo" />
-            <img className="overlay-logo" src="../images/izzy-pirate-overlay.png" loading="lazy" alt="Overlay Logo" />
+            <img className="logo" src="../images/home/izzy-pirate.png" loading="lazy" alt="Izzy Logo" />
+            <img className="overlay-logo" src="../images/home/izzy-pirate-overlay.png" loading="lazy" alt="Overlay Logo" />
           </div>
           <h1 className="header-text">{getText('Explorer')}</h1>
         </Link>

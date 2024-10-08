@@ -64,8 +64,8 @@ const Experience = ({ selectedLanguage }) => {
         <div>
             <div className="page-warmer">
             <div className="banner-image-overlay">
-              <img className="banner-logo-e" src="../images/izzy-professional.png" alt="Izzy Logo" loading="lazy"/>
-              <img className="banner-overlay-logo-e" src="../images/izzy-professional-overlay.png" alt="Overlay Logo" loading="lazy"/>
+              <img className="banner-logo-e" src="../images/home/izzy-professional.png" alt="Izzy Logo" loading="lazy"/>
+              <img className="banner-overlay-logo-e" src="../images/home/izzy-professional-overlay.png" alt="Overlay Logo" loading="lazy"/>
             </div>                
             <h1 className="page-text">{displayedText}</h1> 
             </div>

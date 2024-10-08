@@ -8,7 +8,7 @@ import "./adventures.css";
 const Adventures = ({ selectedLanguage }) => {
     // Define translations for the full text
     const textTranslations = {
-        English: "  My favorite adventure is going Skydiving in Utah! I'm visiting Hobbiton in New Zealand next!",
+        English: "  My favorite adventure was going Skydiving in Utah! I'm visiting Hobbiton in New Zealand next!",
         中文: "  我最喜歡的冒險是去猶他州跳傘！我接下來要去紐西蘭看拍攝哈比人的哈比屯！"
     };
 

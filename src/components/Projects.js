@@ -65,8 +65,8 @@ const Projects = ({ selectedLanguage }) => {
         <div>
           <div className="page-warmer">
             <div className="banner-image-overlay">
-              <img className="banner-logo-p" src="../images/izzy-photographer.png" alt="Izzy Logo" loading="lazy"/>
-              <img className="banner-overlay-logo-p" src="../images/izzy-photographer-overlay.png" alt="Overlay Logo" loading="lazy"/>
+              <img className="banner-logo-p" src="../images/home/izzy-photographer.png" alt="Izzy Logo" loading="lazy"/>
+              <img className="banner-overlay-logo-p" src="../images/home/izzy-photographer-overlay.png" alt="Overlay Logo" loading="lazy"/>
             </div>                
             <h1 className="page-text">{displayedText}</h1> 
             </div>
