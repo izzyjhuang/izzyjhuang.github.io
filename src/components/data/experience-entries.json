@@ -54,6 +54,24 @@
             "whenColor" :   "#043fac",
             "slug"      :   "research-s22",
             "description":   "Protein Engineering Researcher @ Leonard Lab"
+        },
+        {
+            "src"       :   "3d-model-designer-s19.jpg",
+            "logo"      :   "",
+            "caption"   :   "One Step Toward my LEGO Model Designer Aspiration",
+            "when"      :   "Summer 2019",
+            "whenColor" :   "#043fac",
+            "slug"      :   "3d-model-designer-s19",
+            "description":   "3D Model Design Intern @ American Energy Technology Company"
+        },
+        {
+            "src"       :   "translator-19-21.jpg",
+            "logo"      :   "",
+            "caption"   :   "First Role in the US - I Helped Immigrants Understand Church Services!",
+            "when"      :   "2019, 2020",
+            "whenColor" :   "#043fac",
+            "slug"      :   "translator-19-21",
+            "description":   "Simultaneous Interpretor @ Willow Creek Church"
         }
     ]
 }
