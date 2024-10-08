@@ -29,6 +29,15 @@
             "description":   "Quant Trading Analyst Intern @ CTC"
         },
         {
+            "src"       :   "sparksense-f22.jpg",
+            "logo"      :   "fresenius-kabi-logo.png",
+            "caption"   :   "My Short-Lived Consulting Career",
+            "when"      :   "Fall 2022",
+            "whenColor" :   "#043fac",
+            "slug"      :   "sparksense-f22",
+            "description":   "Business Development Intern @ SparkSense"
+        },
+        {
             "src"       :   "fk-s22.jpg",
             "logo"      :   "fresenius-kabi-logo.png",
             "caption"   :   "Hi Engineering - my first taste of industry",
@@ -36,6 +45,15 @@
             "whenColor" :   "#043fac",
             "slug"      :   "fk-s22",
             "description":   "Systems Engineering Intern @ Fresneius Kabi"
+        },
+        {
+            "src"       :   "research-s22.jpeg",
+            "logo"      :   "fresenius-kabi-logo.png",
+            "caption"   :   "Appreciating God's Intricate Design Through Biotech",
+            "when"      :   "Spring 2022",
+            "whenColor" :   "#043fac",
+            "slug"      :   "research-s22",
+            "description":   "Protein Engineering Researcher @ Leonard Lab"
         }
     ]
 }

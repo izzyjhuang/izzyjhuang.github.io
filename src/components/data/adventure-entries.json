@@ -2,12 +2,12 @@
     "itemlist" :
     [
         {
-            "src"       :   "rangárþing-eystra-iceland.jpeg",
+            "src"       :   "hvolsvöllur-0824.jpeg",
             "caption"   :   "21st Birthday @ Skógafoss",
-            "location"  :   "Rangárþing Eystra, Iceland",
-            "locationColor": "#043fac",
-            "date"      :   "Aug 2024",
-            "slug"      :   "iceland-0824",
+            "location"  :   "Hvolsvöllur, Iceland",
+            "locationColor": "#800080",
+            "date"      :   "Aug'24",
+            "slug"      :   "hvolsvollur-0824",
             "genre"     :   "ICELAND | FAMILY TRAVEL | NATURE",
             "title"     :   "Celebrating 21 on the Land of Fire and Ice",
             "dates"     :   "08.23.24 ~ 08.28.24",
@@ -115,62 +115,172 @@
         },
         
         {
-            "src"       :   "london-the-uk.jpeg",
+            "src"       :   "london-0824.jpeg",
             "caption"   :   "\"Hey, Big Ben!\"",
             "location"  :   "London, the UK",
-            "locationColor": "#043fac",
-            "date"      :   "Aug 2024",
+            "locationColor": "#800080",
+            "date"      :   "Aug'24",
             "slug"      :   "the-uk-0824",
+            "blogPost"  : []
+        },
+
+        {
+            "src"       :   "baseball-0724.jpg",
+            "caption"   :   "Middle School Reunion at my First Royals Game!",
+            "location"  :   "Guarenteed Rate Field",
+            "locationColor": "#EE0943",
+            "date"      :   "Jul'24",
+            "slug"      :   "baseball-0724",
+            "blogPost"  : []
+        },
+
+        {
+            "src"       :   "broadway-0724.jpg",
+            "caption"   :   "Genie-us! It's a Whole New World!",
+            "location"  :   "Broadway, New York",
+            "locationColor": "#EE0943",
+            "date"      :   "Jul'24",
+            "slug"      :   "broadway-0724",
+            "blogPost"  : []
+        },
+
+        {
+            "src"       :   "skydive-0324.jpg",
+            "caption"   :   "Blue Skys Above, Red Rocks Below. Who needs scenic viewpoints when you’ve got chutes to shoot?",
+            "location"  :   "Moab, Utah",
+            "locationColor": "#008000",
+            "date"      :   "May'24",
+            "slug"      :   "skydive-0324",
+            "blogPost"  : []
+        },
+
+        {
+            "src"       :   "canyonland-0324.jpg",
+            "caption"   :   "Just meandering through the thick of the canyons and the thin of the arches!",
+            "location"  :   "Arches & Canyonland National Park",
+            "locationColor": "#008000",
+            "date"      :   "May'24",
+            "slug"      :   "canyonland-0324",
             "blogPost"  : []
         },
         
         {
-            "src"       :   "durrës-albania.jpeg",
+            "src"       :   "durrës-1223.jpeg",
             "caption"   :   "My First Global Mission Trip",
             "location"  :   "Durrës, Albania",
-            "locationColor": "#043fac",
-            "date"      :   "Dec 2023",
+            "locationColor": "#800080",
+            "date"      :   "Dec'23",
             "slug"      :   "albania-1223",
             "blogPost"  : []
         },
 
         {
-            "src"       :   "budapest-hungary.jpeg",
+            "src"       :   "taichung-0823.jpg",
+            "caption"   :   "Food, Fun, and the Fam!",
+            "location"  :   "Taichung, Taiwan",
+            "locationColor": "#800080",
+            "date"      :   "Aug'23",
+            "slug"      :   "taichung-0823",
+            "blogPost"  : []
+        },
+
+        {
+            "src"       :   "ohtani-0523.jpg",
+            "caption"   :   "Seeing My Two-Way Inspiration in Person!",
+            "location"  :   "Guarenteed Rate Field",
+            "locationColor": "#EE0943",
+            "date"      :   "May'23",
+            "slug"      :   "devils-lake-0523",
+            "blogPost"  : []
+        },
+
+        {
+            "src"       :   "devils-lake-0523.jpg",
+            "caption"   :   "Came for the Views, but the Devil’s in the Details!",
+            "location"  :   "Devil's Lake State Park, Wisconsin",
+            "locationColor": "#008000",
+            "date"      :   "May'23",
+            "slug"      :   "devils-lake-0523",
+            "blogPost"  : []
+        },
+        
+        {
+            "src"       :   "budapest-0323.jpeg",
             "caption"   :   "The continental Europe Pioneer",
             "location"  :   "Budapest, Hungary",
-            "locationColor": "#043fac",
-            "date"      :   "Mar 2023",
+            "locationColor": "#800080",
+            "date"      :   "Mar'23",
             "slug"      :   "hungary-0323",
             "blogPost"  : []
         },
 
         {
-            "src"       :   "bratislava-slovakia.jpeg",
+            "src"       :   "bratislava-0323.jpeg",
             "caption"   :   "Eubrontes the Skovak Tyrant",
             "location"  :   "Bratislava, Slovakia",
-            "locationColor": "#043fac",
-            "date"      :   "Mar 2023",
+            "locationColor": "#800080",
+            "date"      :   "Mar'23",
             "slug"      :   "slovakia-0323",
             "blogPost"  : []
         },
 
         {
-            "src"       :   "vienna-austria.jpeg",
+            "src"       :   "vienna-0323.jpeg",
             "caption"   :   "The paradise of the Danube",
             "location"  :   "Vienna, Austria",
-            "locationColor": "#043fac",
-            "date"      :   "Mar 2023",
+            "locationColor": "#800080",
+            "date"      :   "Mar'23",
             "slug"      :   "austria-0323",
             "blogPost"  : []
         },
 
         {
-            "src"       :   "prague-czech-republic.jpeg",
+            "src"       :   "prague-0323.jpeg",
             "caption"   :   "The John Lennon Inspiration",
             "location"  :   "Prague, Czech Republic",
-            "locationColor": "#043fac",
-            "date"      :   "Mar 2023",
-            "slug"      :   "czechia-0323",
+            "locationColor": "#800080",
+            "date"      :   "Mar'23",
+            "slug"      :   "prague-0323",
+            "blogPost"  : []
+        },
+
+        {
+            "src"       :   "guadalajara-0822.jpg",
+            "caption"   :   "Mural of the Story: Always Have Tequila",
+            "location"  :   "Guadalajara, Mexico",
+            "locationColor": "#800080",
+            "date"      :   "Aug'22",
+            "slug"      :   "guadalajara-0822",
+            "blogPost"  : []
+        },
+
+        {
+            "src"       :   "yellowstone-0821.jpg",
+            "caption"   :   "It’s Un-bull-ievable, I got Buffa-blown Away",
+            "location"  :   "YellowStone & Grand Teton National Park",
+            "locationColor": "#008000",
+            "date"      :   "Mar'21",
+            "slug"      :   "yellowstone-0821",
+            "blogPost"  : []
+        },
+
+        {
+            "src"       :   "zion-0321.jpg",
+            "caption"   :   "In Zion National Park, Every View Is Heaven-Sent!",
+            "location"  :   "Zion & Grand Canyon National Park",
+            "locationColor": "#008000",
+            "date"      :   "Mar'21",
+            "slug"      :   "zion-0321",
+            "blogPost"  : []
+        },
+
+        {
+            "src"       :   "busan-1114.jpg",
+            "caption"   :   "Thankfully, No Zombies On This Train To Busan!",
+            "location"  :   "Busan, South Korea",
+            "locationColor": "#800080",
+            "date"      :   "Nov'14",
+            "slug"      :   "busan-1114",
             "blogPost"  : []
         }
     ]

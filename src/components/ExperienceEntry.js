@@ -16,18 +16,11 @@ class ExperienceEntry extends React.Component {
             backgroundColor: this.props.locationColor || "#043fac" // Default to blue if color is not provided
         };
 
-        const NeedworkSlugs = [
-            'the-uk-0824',
-            'albania-1223',
-            'hungary-0323',
-            'slovakia-0323',
-            'austria-0323',
-            'czechia-0323'
-        ];
+        const CompletedSlugs = [];
 
-        const linkPath = NeedworkSlugs.includes(this.props.slug) 
-            ? "/notes" // Redirect to the "Still Working" page
-            : `/experience/${this.props.slug}`; // Redirect to the actual experience post
+        const linkPath = CompletedSlugs.includes(this.props.slug) 
+            ? `/experience/${this.props.slug}` 
+            : "/notes"; 
 
 
         return (

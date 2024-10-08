@@ -15,8 +15,8 @@ class AdventureEntry extends React.Component {
             backgroundColor: this.props.locationColor || "#043fac" // Default to blue if color is not provided
         };
 
-        const NeedworkSlugs = [
-            'the-uk-0824',
+        const CompletedSlugs = [
+            'hvolsvollur-0824',
             'albania-1223',
             'hungary-0323',
             'slovakia-0323',
@@ -24,9 +24,9 @@ class AdventureEntry extends React.Component {
             'czechia-0323'
         ];
 
-        const linkPath = NeedworkSlugs.includes(this.props.slug) 
-            ? "/notes" // Redirect to the "Still Working" page
-            : `/adventures/${this.props.slug}`; // Redirect to the actual adventure post
+        const linkPath = CompletedSlugs.includes(this.props.slug) 
+            ? `/adventures/${this.props.slug}` 
+            : "/notes"; 
 
 
         return (
