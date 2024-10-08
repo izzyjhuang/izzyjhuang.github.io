@@ -4,7 +4,7 @@
         {
             "src"       :   "google-f24.jpg",
             "logo"      :   "google-logo.jpg",
-            "caption"   :   "Exploring Big Tech",
+            "caption"   :   "Exploring Big Tech - A Dream Come True",
             "when"      :   "Current",
             "whenColor" :   "#043fac",
             "slug"      :   "google-f24",
@@ -13,7 +13,7 @@
         {
             "src"       :   "ctc-s24.jpg",
             "logo"      :   "ctc-logo.jpg",
-            "caption"   :   "Trying out the dev side of Quant",
+            "caption"   :   "Trying Out the Dev Side of Quant with Familiar Faces",
             "when"      :   "Summer 2024",
             "whenColor" :   "#043fac",
             "slug"      :   "ctc-s24",
@@ -40,7 +40,7 @@
         {
             "src"       :   "fk-s22.jpg",
             "logo"      :   "fresenius-kabi-logo.png",
-            "caption"   :   "Hi Engineering - my first taste of industry",
+            "caption"   :   "Hi Engineering - my First Taste of Industry",
             "when"      :   "Summer 2022",
             "whenColor" :   "#043fac",
             "slug"      :   "fk-s22",
