@@ -15,15 +15,20 @@ const Banner = ({ selectedLanguage }) => {
       English: " Truth, improvement, and altruism fuel my passion as a multidisciplinary engineer.",
       中文: " 追求真理、終身學習和利他主義激發了我作為多學科工程師的熱情。"
     },
-    hobby: {
-      English: " In my free time, I enjoy playing music and capturing the wonders of nature through my camera lens!",
-      中文: " 在空閒時間，我喜歡演奏音樂，並用相機捕捉大自然的奇觀！"
+    photography: {
+      English: " In my free time, I enjoy backpacking and capturing the wonders of nature through my camera lens!",
+      中文: " 在空閒時間，我喜歡背包旅行，並用相機捕捉大自然的奇觀！"
+    },
+    piano: {
+      English: " I also love attending classical concerts and playing the piano. Beethoven is my favorite composer!",
+      中文: " 我也喜歡參加古典音樂會和彈鋼琴。貝多芬是我最喜歡的作曲家！"
     }
   };
 
   const text0 = useTypewriter(textTranslations.intro[selectedLanguage], 20, selectedLanguage);
   const text1 = useTypewriter(textTranslations.passion[selectedLanguage], 20, selectedLanguage);
-  const text2 = useTypewriter(textTranslations.hobby[selectedLanguage], 20, selectedLanguage);
+  const text2 = useTypewriter(textTranslations.photography[selectedLanguage], 20, selectedLanguage);
+  const text3 = useTypewriter(textTranslations.piano[selectedLanguage], 20, selectedLanguage);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -35,6 +40,9 @@ const Banner = ({ selectedLanguage }) => {
 
       const bannerLogo2 = document.querySelector('.banner-logo-2');
       const bannerOverlayLogo2 = document.querySelector('.banner-overlay-logo-2');
+      
+      const bannerLogo3 = document.querySelector('.banner-logo-3');
+      const bannerOverlayLogo3 = document.querySelector('.banner-overlay-logo-3');
       const scrollPosition = window.scrollY;
 
       // Calculate the degree of transformation based on scroll position
@@ -50,6 +58,9 @@ const Banner = ({ selectedLanguage }) => {
 
       bannerLogo2.style.transform = `scale(${scaleValue}) rotate(${rotateValue}deg)`;
       bannerOverlayLogo2.style.transform = `scale(${scaleValue})`;
+
+      bannerLogo3.style.transform = `scale(${scaleValue}) rotate(${rotateValue}deg)`;
+      bannerOverlayLogo3.style.transform = `scale(${scaleValue})`;
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -90,7 +101,19 @@ const Banner = ({ selectedLanguage }) => {
           <h1>{text2}</h1>
         </div>
       </div>
+
+      <div className="banner-container">
+        <div className="banner-header-text">
+          <h1>{text3}</h1>
+        </div>
+        <div className="banner-image-overlay">
+          <img className="banner-logo-3" src="../images/izzy-piano.png" alt="Izzy Logo" loading="lazy"/>
+          <img className="banner-overlay-logo-3" src="../images/izzy-piano-overlay.png" alt="Overlay Logo" loading="lazy"/>
+        </div>
+      </div>
     </div>
+
+    
   );
 };
 

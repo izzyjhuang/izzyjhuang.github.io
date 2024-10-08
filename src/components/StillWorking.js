@@ -7,8 +7,8 @@ import useTypewriter from './UseTypeWriter';
 
 const StillWorking = ({ selectedLanguage }) => {
   const textTranslations = {
-      English: "  I'm still working on the page, please check back later!",
-      中文: "  這篇我還正在做，過一陣子再回來吧！"
+      English: "  I'm still working on this one, stay tuned!",
+      中文: "  這篇我快做出來了，敬請期待！"
   };
 
   // const fallbackLanguage = 'English';
