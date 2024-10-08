@@ -8,8 +8,12 @@ import "./adventures.css";
 const Adventures = ({ selectedLanguage }) => {
     // Define translations for the full text
     const textTranslations = {
+        bannerText: {
+            English: "  My favorite adventure was going Skydiving in Utah! I'm visiting Hobbiton in New Zealand next!",
+            中文: "  我最喜歡的冒險是去猶他州跳傘！我接下來要去紐西蘭看拍攝哈比人的哈比屯！"
+        },
         intro: {
-            English: "  My favorite adventure was going Skydiving in Utah! I'm visiting Hobbiton in New Zealand next!", // Fixed the typo in "favorite"
+            English: "   My favorite adventure was going Skydiving in Utah! I'm visiting Hobbiton in New Zealand next!",
             中文: "  我最喜歡的冒險是去猶他州跳傘！我接下來要去紐西蘭看拍攝哈比人的哈比屯！"
         },
         countries: {
@@ -35,7 +39,7 @@ const Adventures = ({ selectedLanguage }) => {
 
     // Use the custom useTypewriter hook
     const displayedText = useTypewriter(textTranslations.intro[selectedLanguage], 20, selectedLanguage);
-
+    const text0 = useTypewriter(textTranslations.bannerText[selectedLanguage], 20, selectedLanguage);
     const text4 = useTypewriter(textTranslations.countries[selectedLanguage], 20, selectedLanguage);
     const text5 = useTypewriter(textTranslations.nationalParks[selectedLanguage], 20, selectedLanguage);
     const text6 = useTypewriter(textTranslations.states[selectedLanguage], 20, selectedLanguage);

@@ -8,8 +8,8 @@ import './master.css';
 const Projects = ({ selectedLanguage }) => {
      // Define translations for the full text
      const textTranslations = {
-      English: "  You can't use up creativity. The more you use, the more you have.",
-      中文: "  創造力是無窮無盡的，你用越多，你擁有的就越多。"
+      English: "  You can't use up creativity. The more you use, the more you have!",
+      中文: "  創造力是無窮無盡的，你用越多，你擁有的就越多！"
   };
 
   // Get the full text based on the selected language
