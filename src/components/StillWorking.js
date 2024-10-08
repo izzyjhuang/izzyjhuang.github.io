@@ -19,7 +19,7 @@ const StillWorking = ({ selectedLanguage }) => {
   return (
     <div>
       <div className="still-working-container">
-          <img className="still-working-img" src="images/still-working.jpg" alt="Izzy Logo" loading="lazy"/>
+          <img className="still-working-img" src="images/home/still-working.jpg" alt="Izzy Logo" loading="lazy"/>
         <div className="still-working-header-text">
           <h1>{displayedText}</h1>
         </div>
