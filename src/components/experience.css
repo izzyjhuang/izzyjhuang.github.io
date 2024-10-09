@@ -126,34 +126,57 @@
   margin-bottom: 2%;
 }
 
-@media (max-width: 1024px) {
-  .experience-container {
-      max-width: 45%;
-      flex: 1 1 calc(50%);
+@media (max-width: 4096px) {
+  .experience-caption, .experience-when, .experience-description {
+      font-size: 300%;
+  }
+  .experience-title {
+      font-size: 405%;
+  }
+  .experience-genre {
+      font-size: 675%;
+  }
+  .experience-whens {
+      font-size: 300%;
+  }
+  .paragraph h4 {
+      font-size: 450%;
+  }
+  .experience-blog-content p {
+      font-size: 360%;
+  }
+  .images-3 h5 {
+      font-size: 337.5%;
+  }
+  .experience-banner {
+      width: 85%;
+  }
+  .experience-poster {
+      width: 75%;
   }
 }
 
-@media (max-width: 4096px) {
+@media (max-width: 3072px) {
   .experience-caption, .experience-when, .experience-description {
-      font-size: 162%;
+      font-size: 250%;
   }
   .experience-title {
-      font-size: 225%;
+      font-size: 337.5%;
   }
   .experience-genre {
-      font-size: 360%;
+      font-size: 562.5%;
   }
   .experience-whens {
-      font-size: 162%;
+      font-size: 250%;
   }
   .paragraph h4 {
-      font-size: 240%;
+      font-size: 375%;
   }
   .experience-blog-content p {
-      font-size: 192%;
+      font-size: 300%;
   }
   .images-3 h5 {
-      font-size: 180%;
+      font-size: 289.5%;
   }
   .experience-banner {
       width: 85%;
@@ -164,6 +187,71 @@
 }
 
 @media (max-width: 2048px) {
+  .experience-caption, .experience-when, .experience-description {
+      font-size: 200%;
+  }
+  .experience-title {
+      font-size: 270%;
+  }
+  .experience-genre {
+      font-size: 450%;
+  }
+  .experience-whens {
+      font-size: 200%;
+  }
+  .paragraph h4 {
+      font-size: 300%;
+  }
+  .experience-blog-content p {
+      font-size: 240%;
+  }
+  .images-3 h5 {
+      font-size: 225%;
+  }
+  .experience-banner {
+      width: 85%;
+  }
+  .experience-poster {
+      width: 75%;
+  }
+}
+
+@media (max-width: 1536px) {
+  .experience-caption, .experience-when, .experience-description {
+      font-size: 167%;
+  }
+  .experience-title {
+      font-size: 225%;
+  }
+  .experience-genre {
+      font-size: 250%;
+  }
+  .experience-whens {
+      font-size: 167%;
+  }
+  .paragraph h4 {
+      font-size: 250%;
+  }
+  .experience-blog-content p {
+      font-size: 200%;
+  }
+  .images-3 h5 {
+      font-size: 187%;
+  }
+  .experience-banner {
+      width: 88%;
+  }
+  .experience-poster {
+      width: 80%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .experience-container {
+      max-width: 45%;
+      flex: 1 1 calc(50%);
+  }
+
   .experience-caption, .experience-when, .experience-description {
       font-size: 135%;
   }
