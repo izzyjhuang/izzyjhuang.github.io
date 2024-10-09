@@ -63,7 +63,7 @@ const Experience = ({ selectedLanguage }) => {
     return (
         <div>
             <div className="page-warmer">
-            <div className="banner-image-overlay">
+            <div className="banner-image-overlay-e">
               <img className="banner-logo-e" src="../images/home/izzy-professional.png" alt="Izzy Logo" loading="lazy"/>
               <img className="banner-overlay-logo-e" src="../images/home/izzy-professional-overlay.png" alt="Overlay Logo" loading="lazy"/>
             </div>                

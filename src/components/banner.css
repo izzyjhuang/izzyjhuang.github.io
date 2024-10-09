@@ -1,6 +1,6 @@
 .banner-container {
     display: flex;
-    margin-left: 7.5vw;
+    margin-left: 15vw;
     width: 70vw;
     align-items: center;
     justify-content: space-between;
@@ -101,7 +101,7 @@
 
 .banner-header-text {
     width: 54%;
-    padding-left: 12%;
+    /* padding-left: 12%; */
     /* padding-right: 10%; */
     font-size: 1.7vw;
     font-weight: bold;

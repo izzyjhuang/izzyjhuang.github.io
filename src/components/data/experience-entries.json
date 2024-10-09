@@ -31,7 +31,7 @@
         {
             "src"       :   "sparksense-f22.jpg",
             "logo"      :   "fresenius-kabi-logo.png",
-            "caption"   :   "My Short-Lived Consulting Career",
+            "caption"   :   "My Short-Lived Consulting Tenure",
             "when"      :   "Fall 2022",
             "whenColor" :   "#043fac",
             "slug"      :   "sparksense-f22",
@@ -40,7 +40,7 @@
         {
             "src"       :   "fk-s22.jpg",
             "logo"      :   "fresenius-kabi-logo.png",
-            "caption"   :   "Hi Engineering - my First Taste of Industry",
+            "caption"   :   "Hi Engineering~ my First Taste of Industry",
             "when"      :   "Summer 2022",
             "whenColor" :   "#043fac",
             "slug"      :   "fk-s22",
@@ -49,7 +49,7 @@
         {
             "src"       :   "research-s22.jpeg",
             "logo"      :   "fresenius-kabi-logo.png",
-            "caption"   :   "Appreciating God's Intricate Design Through Biotech",
+            "caption"   :   "Appreciating the Intricate Protein Surface Interaction Through Biotech Research",
             "when"      :   "Spring 2022",
             "whenColor" :   "#043fac",
             "slug"      :   "research-s22",

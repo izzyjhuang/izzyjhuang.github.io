@@ -2,10 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  width: 90%;
+  
 }
 
-.banner-image-overlay {
-  margin-left: 10vw;
+.banner-image-overlay-e {
+  margin-left: 10%;
   display: flex;
   align-items: center;
   justify-content: center;
