@@ -47,7 +47,7 @@ const Adventures = ({ selectedLanguage }) => {
             const pagePhoto = document.querySelector('.page-photo');
             const scrollPosition = window.scrollY;
 
-            const scaleValue = 0.95 + Math.sin((scrollPosition + 180) / 60) / 10; // Control scaling
+            const scaleValue = 0.95 + Math.sin((scrollPosition + 180) / 20) / 10; // Control scaling
             const rotateValue = Math.sin(scrollPosition / 60) * 30; // Rotate based on scroll
 
             pagePhoto.style.transform = `scale(${scaleValue}) rotate(${rotateValue}deg)`;
