@@ -65,7 +65,7 @@ const Adventures = ({ selectedLanguage }) => {
         <div>
             <div className="page-warmer">
                 <img className="page-photo" src="../images/adventures/skydive-moab.png" alt="skydive-moab" loading="lazy" />
-                <p className="page-text">{text8}</p> {/* Display the typing text */}
+                <p className="page-text-1">{text8}</p> {/* Display the typing text */}
             </div>
             
       <div className="stat-container">
