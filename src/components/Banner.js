@@ -8,7 +8,7 @@ import useTypewriter from './UseTypeWriter';
 const Banner = ({ selectedLanguage }) => {
   const textTranslations = {
     intro: {
-      English: "  Hi, my name is Izzy. I love exploring the world around me. Welcome to my website!",
+      English: "  Hi, my name is Izzy. I love exploring the world around me. Thanks for stopping by!",
       中文: "  嗨，我是 Izzy。我喜歡探索我周圍美麗的世界。歡迎來到我的網站！"
     },
     passion: {
