@@ -17,8 +17,8 @@ const Adventures = ({ selectedLanguage }) => {
             中文: "  6 個國家公園"
         },
         states: {
-            English: "  17 States",
-            中文: "  17 個州"
+            English: "  20 States",
+            中文: "  20 個州"
         },
         stadiums: {
             English: "  5 Stadiums",
@@ -28,6 +28,10 @@ const Adventures = ({ selectedLanguage }) => {
             English: "  My favorite adventure was going Skydiving in Utah! I'm visiting Hobbiton in New Zealand next!",
             中文: "  我最喜歡的冒險是去猶他州跳傘！我接下來要去紐西蘭看拍攝哈比人的哈比屯！"
         },
+        yearCount: {
+            English: "  this year",
+            中文: "  今年新造訪"
+        }
     };    
 
     // Get the full text based on the selected language
@@ -40,7 +44,7 @@ const Adventures = ({ selectedLanguage }) => {
     const text6 = useTypewriter(textTranslations.states[selectedLanguage], 20, selectedLanguage);
     const text7 = useTypewriter(textTranslations.stadiums[selectedLanguage], 20, selectedLanguage);
     const text8 = useTypewriter(textTranslations.bannerText[selectedLanguage], 20, selectedLanguage);
-
+    const text9 = useTypewriter(textTranslations.yearCount[selectedLanguage], 20, selectedLanguage);
     // Scroll event handling for image scaling and rotation
     useEffect(() => {
         const handleScroll = () => {
@@ -72,18 +76,22 @@ const Adventures = ({ selectedLanguage }) => {
         <div className="stat-box">
           <img src="../images/adventures/countries-count.png" alt="Countries Logo"></img>
           <p>{text4}</p>
+          <h6>+2{text9}</h6>
         </div>
         <div className="stat-box">
           <img src="../images/adventures/national-parks-count.png" alt="Countries Logo"></img>
           <p>{text5}</p>
+          <h6>+2{text9}</h6>
         </div>
         <div className="stat-box">
           <img src="../images/adventures/states-count.png" alt="Countries Logo"></img>
           <p>{text6}</p>
+          <h6>+3{text9}</h6>
         </div>
         <div className="stat-box">
           <img src="../images/adventures/stadiums-count.png" alt="Countries Logo"></img>
           <p>{text7}</p>
+          <h6>+2{text9}</h6>
         </div>
       </div>
             <AdventureAlbum />

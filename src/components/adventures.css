@@ -466,3 +466,13 @@ margin-top: 28vw;
   text-align: center;
   font-family: Ubuntu, cursive;
 }
+
+.stat-box h6 {
+  position: absolute;
+  margin-top: 34vw;
+    font-size: 1.8vw;
+    /* font-weight: bold; */
+    color: #043fac;
+    text-align: center;
+    font-family: Ubuntu, cursive;
+  }
