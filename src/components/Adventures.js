@@ -17,8 +17,8 @@ const Adventures = ({ selectedLanguage }) => {
             中文: "  6 個國家公園"
         },
         states: {
-            English: "  20 States",
-            中文: "  20 個州"
+            English: "  21 States",
+            中文: "  21 個州"
         },
         stadiums: {
             English: "  5 Stadiums",
