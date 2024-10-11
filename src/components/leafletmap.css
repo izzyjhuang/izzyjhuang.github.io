@@ -9,6 +9,33 @@
     position: relative; /* For positioning the smaller maps */
 }
 
+.kmf-map-container {
+    width: 90vw; /* Adjust the width as needed */
+    height: 45vw; /* Adjust the height as needed */
+    margin: 0 auto; /* Center the map horizontally */
+    border: 2px solid #ccc; /* Optional: Add a border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+    border-radius: 10px; /* Optional: Rounded corners */
+    overflow: hidden; /* Ensure the map doesn't overflow */
+    position: relative; /* For positioning the smaller maps */
+}
+
+.leaflet-popup-content-wrapper {
+    width: 250px; /* Adjust this width to make the popup wider */
+    height: auto; /* Adjust height if needed */
+  }
+  
+  /* Customize the popup text style */
+  .leaflet-popup-content {
+    font-size: 16px; /* Adjust font size for the popup content */
+    line-height: 1.5; /* Adjust line height for readability */
+  }
+  
+  /* Optional: Customize popup header */
+  .leaflet-popup-content b {
+    font-size: 18px; /* Adjust the font size for bold text */
+  }
+
 .side-maps {
     position: absolute;
     top: 5vw;

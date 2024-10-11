@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Izzy Huang",
+    "year": "KMF 2025",
+    "university": "Northwestern",
+    "role": "Quant Trading",
+    "company": "Chicago Trading Company",
+    "coordinates": [42.0565, -87.6753],
+    "image": "images/ninja-red.png"
+  },
+  {
+    "name": "Danielle Egharevba",
+    "year": "KMF 2024",
+    "university": "UPenn",
+    "role": "Consulting",
+    "company": "Bain & Company",
+    "coordinates": [39.9526, -75.1652],
+    "image": "images/ninja-gold.png"
+  },
+  {
+    "name": "Isaac Azure",
+    "year": "KMF 2024",
+    "university": "Campbellsville University",
+    "role": "Software Engineering",
+    "company": "Meta",
+    "coordinates": [37.8715, -122.2730],
+    "image": "images/ninja-gold.png"
+  },
+  {
+    "name": "Sophia Williams",
+    "year": "KMF 2025",
+    "university": "Harvard University",
+    "role": "Data Scientist",
+    "company": "Google",
+    "coordinates": [42.3770, -71.1167],
+    "image": "images/ninja-gold.png"
+  },
+  {
+    "name": "Ethan Brown",
+    "year": "KMF 2023",
+    "university": "MIT",
+    "role": "Quant Researcher",
+    "company": "Jane Street",
+    "coordinates": [42.3601, -71.0942],
+    "image": "images/ninja-gold.png"
+  },
+  {
+    "name": "Olivia Green",
+    "year": "KMF 2025",
+    "university": "Stanford University",
+    "role": "Product Manager",
+    "company": "Apple",
+    "coordinates": [37.4275, -122.1697],
+    "image": "images/ninja-green.png"
+  },
+  {
+    "name": "Mason Johnson",
+    "year": "KMF 2024",
+    "university": "University of Chicago",
+    "role": "Investment Banking",
+    "company": "Goldman Sachs",
+    "coordinates": [41.7886, -87.5987],
+    "image": "images/ninja-green.png"
+  },
+  {
+    "name": "Ava Martinez",
+    "year": "KMF 2025",
+    "university": "Yale University",
+    "role": "Private Equity Analyst",
+    "company": "Blackstone",
+    "coordinates": [41.3163, -72.9223],
+    "image": "images/ninja-gold.png"
+  },
+  {
+    "name": "Liam Davis",
+    "year": "KMF 2023",
+    "university": "Princeton University",
+    "role": "Software Engineering",
+    "company": "Microsoft",
+    "coordinates": [40.3430, -74.6514],
+    "image": "images/ninja-green.png"
+  },
+  {
+    "name": "Emily Garcia",
+    "year": "KMF 2024",
+    "university": "Columbia University",
+    "role": "Risk Management",
+    "company": "Citi",
+    "coordinates": [40.8075, -73.9626],
+    "image": "images/ninja-green.png"
+  },
+  {
+    "name": "Benjamin Lee",
+    "year": "KMF 2025",
+    "university": "University of Colorodo",
+    "role": "Financial Analyst",
+    "company": "J.P. Morgan",
+    "coordinates": [40.0076, -105.2659],
+    "image": "images/ninja-green.png"
+  },
+  {
+    "name": "Charlotte Young",
+    "year": "KMF 2023",
+    "university": "Duke University",
+    "role": "Marketing Manager",
+    "company": "Procter & Gamble",
+    "coordinates": [36.0014, -78.9382],
+    "image": "images/ninja-blue.png"
+  },
+  {
+    "name": "Michael Anderson",
+    "year": "KMF 2024",
+    "university": "University of Michigan",
+    "role": "Strategy Consultant",
+    "company": "McKinsey & Company",
+    "coordinates": [42.2780, -83.7382],
+    "image": "images/ninja-blue.png"
+  },
+  {
+    "name": "Emma Hernandez",
+    "year": "KMF 2025",
+    "university": "University of California, Berkeley",
+    "role": "UI/UX Designer",
+    "company": "Airbnb",
+    "coordinates": [34.0222, -118.2851],
+    "image": "images/ninja-blue.png"
+  },
+  {
+    "name": "Alexander Wilson",
+    "year": "KMF 2023",
+    "university": "University of Southern California",
+    "role": "Operations Manager",
+    "company": "Tesla",
+    "coordinates": [34.0222, -118.2851],
+    "image": "images/ninja-red.png"
+  },
+  {
+    "name": "Grace Thompson",
+    "year": "KMF 2025",
+    "university": "Cornell University",
+    "role": "Research Scientist",
+    "company": "Pfizer",
+    "coordinates": [42.4534, -76.4735],
+    "image": "images/ninja-blue.png"
+  },
+  {
+    "name": "James White",
+    "year": "KMF 2024",
+    "university": "Georgetown University",
+    "role": "Policy Analyst",
+    "company": "World Bank",
+    "coordinates": [38.9076, -77.0723],
+    "image": "images/ninja-blue.png"
+  },
+  {
+    "name": "Abigail Martinez",
+    "year": "KMF 2025",
+    "university": "University of Texas at Austin",
+    "role": "Sales Manager",
+    "company": "Dell",
+    "coordinates": [30.2849, -97.7341],
+    "image": "images/ninja-blue.png"
+  },
+  {
+    "name": "William Brown",
+    "year": "KMF 2023",
+    "university": "Brown University",
+    "role": "Business Development",
+    "company": "Amazon",
+    "coordinates": [41.8268, -71.4025],
+    "image": "images/ninja-blue.png"
+  },
+  {
+    "name": "Isabella Rodriguez",
+    "year": "KMF 2024",
+    "university": "University of California, Los Angeles",
+    "role": "Brand Manager",
+    "company": "Nike",
+    "coordinates": [34.0689, -118.4452],
+    "image": "images/ninja-blue.png"
+  }
+]
