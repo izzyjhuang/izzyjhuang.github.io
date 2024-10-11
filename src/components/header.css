@@ -44,7 +44,6 @@
 
   .logo {
     width: 6vw;
-    /* height: 60px; */
     background-color: #fdfaf2; /* Light green circle */
     border-radius: 50%;
     position: relative;
@@ -54,11 +53,7 @@
 
   .overlay-logo {
     width: 3.15vw;
-    /* height: 30px; */
-    /* border-radius: 50%; */
     position: absolute;
-    /* top: 15px;
-    left: 14.5px; */
     transition: transform 0.5s; /* Add this line for animation */
     z-index: 2; /* Overlay image */
     opacity: 1;
@@ -91,8 +86,8 @@
   .nav-links {
     display: flex;
     gap: 2vw;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 1vw;
+    margin-right: 1vw;
   }
   
   .nav-link {
@@ -115,7 +110,6 @@
     font-weight: bold;
     color: #333;
     cursor: pointer;
-    margin-left: 0px;
   }
   
   .language-selector .arrow-down {

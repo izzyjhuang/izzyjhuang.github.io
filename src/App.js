@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom'; // Changed to HashRouter
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Banner from './components/Banner';
 import Header from './components/Header';
 import Projects from './components/Projects';
@@ -8,16 +8,15 @@ import AdventurePost from './components/AdventurePost';
 import Experience from './components/Experience';
 import Notes from './components/Notes';
 import Footer from './components/Footer';
+import LeafletMap from './components/LeafletMap'; // Import the new LeafletMap component
 import './App.css';
 
 function App() {
-  // State for managing the selected language
   const [selectedLanguage, setSelectedLanguage] = useState('English');
 
   return (
     <Router>
       <div className="App">
-        {/* Pass selectedLanguage and setSelectedLanguage to the Header component */}
         <Header selectedLanguage={selectedLanguage} setSelectedLanguage={setSelectedLanguage} />
         
         <Routes>
@@ -27,6 +26,7 @@ function App() {
           <Route path="/adventures/:slug" element={<AdventurePost />} />
           <Route path="/notes" element={<Notes selectedLanguage={selectedLanguage} />} />
           <Route path="/experience" element={<Experience selectedLanguage={selectedLanguage} />}/>
+          <Route path="/map" element={<LeafletMap />} /> {/* New route for the Leaflet map */}
         </Routes>
 
         <Footer />
@@ -35,11 +35,9 @@ function App() {
   );
 }
 
-// Pass selectedLanguage to the Banner component in the Home route
 const Home = ({ selectedLanguage }) => (
   <div>
     <Banner selectedLanguage={selectedLanguage} />
-    <div></div>
   </div>
 );
 

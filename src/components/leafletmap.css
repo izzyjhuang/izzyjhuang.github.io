@@ -1,0 +1,44 @@
+.map-container {
+    width: 60vw; /* Adjust the width as needed */
+    height: 30vw; /* Adjust the height as needed */
+    margin: 0 auto; /* Center the map horizontally */
+    border: 2px solid #ccc; /* Optional: Add a border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+    border-radius: 10px; /* Optional: Rounded corners */
+    overflow: hidden; /* Ensure the map doesn't overflow */
+    position: relative; /* For positioning the smaller maps */
+}
+
+.side-maps {
+    position: absolute;
+    top: 5vw;
+    left: 0vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.small-map {
+    width: 9vw;
+    height: 9vw;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .map-container {
+      width: 90%; /* Full width on smaller screens */
+      height: 300px; /* Adjust height on smaller screens */
+    }
+}
+
+.state-label {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    background: transparent;
+    border: none;
+    text-align: center;
+    text-shadow: 1px 1px 2px white;
+}

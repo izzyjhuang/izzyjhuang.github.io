@@ -36,6 +36,10 @@ const Header = ({ selectedLanguage, setSelectedLanguage }) => {
         English: 'Experience',
         中文: '經驗',
       },
+      Map: {
+        English: 'Map',
+        中文: '地圖',
+      }
     };
     return translations[textKey][selectedLanguage];
   };
@@ -56,6 +60,7 @@ const Header = ({ selectedLanguage, setSelectedLanguage }) => {
         <Link to="/projects" className="nav-link">{getText('Projects')}</Link>
         <Link to="/adventures" className="nav-link">{getText('Adventures')}</Link>
         <Link to="/notes" className="nav-link">{getText('Notes')}</Link>
+        {/* <Link to="/map" className="nav-link">{getText('Map')}</Link> */}
       </nav>
       <div className="language-selector" onClick={toggleDropdown}>
         <span>{selectedLanguage}</span>
