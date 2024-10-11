@@ -12,11 +12,43 @@ const LeafletMap = () => {
   const hawaiiMapRef = useRef(null); // To store the Hawaii map instance
   const alaskaMapRef = useRef(null); // To store the Alaska map instance
 
+  // Function to dynamically set the view and zoom based on window size
+  const setUSDynamicView = (map, centerCoordinates) => {
+    const screenWidth = window.innerWidth;
+
+    // Set zoom level based on screen width
+    const zoomLevel = screenWidth >= 2048 ? 5 : screenWidth >= 1024 ? 4 : 3;
+
+    // Set map center and zoom dynamically
+    map.setView(centerCoordinates, zoomLevel);
+  };
+
+  const setAlaskaDynamicView = (map, centerCoordinates) => {
+    const screenWidth = window.innerWidth;
+
+    // Set zoom level based on screen width
+    const zoomLevel = screenWidth >= 2048 ? 3 : screenWidth >= 1024 ? 2 : 1;
+
+    // Set map center and zoom dynamically
+    map.setView(centerCoordinates, zoomLevel);
+  };
+
+  const setHawaiiDynamicView = (map, centerCoordinates) => {
+    const screenWidth = window.innerWidth;
+
+    // Set zoom level based on screen width
+    const zoomLevel = screenWidth >= 2048 ? 6 : screenWidth >= 1024 ? 5 : 4;
+
+    // Set map center and zoom dynamically
+    map.setView(centerCoordinates, zoomLevel);
+  };
+
   useEffect(() => {
     if (!mapRef.current) {
       // Initialize the main map focused on the continental US
-      const map = L.map('map').setView([37.8, -101], 5);
+      const map = L.map('map');
       mapRef.current = map;
+      setUSDynamicView(map, [37.8, -101]); // Dynamic view based on window size
 
       // Add tile layer for the main map
       L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
@@ -74,10 +106,10 @@ const LeafletMap = () => {
     }
 
     if (!alaskaMapRef.current) {
-        // Initialize the map for Alaska
-        const alaskaMap = L.map('alaska-map').setView([64.2, -155], 3); // Center on Alaska
+        const alaskaMap = L.map('alaska-map');
         alaskaMapRef.current = alaskaMap;
-  
+        setAlaskaDynamicView(alaskaMap, [64.2, -155]); // Dynamic view for Alaska
+
         L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
           attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a>',
           subdomains: 'abcd',
@@ -93,47 +125,15 @@ const LeafletMap = () => {
             fillOpacity: 0.9
           });
 
-          const geojsonLayer = L.geoJSON(usStates, {
-            style: stateStyle,
-            onEachFeature: (feature, layer) => {
-              const stateAbbreviation = feature.properties.STUSPS;
-              const stateName = feature.properties.NAME;
-    
-              // Initial tooltip with the state abbreviation
-              layer.bindTooltip(stateAbbreviation, {
-                permanent: true,
-                direction: 'center',
-                className: 'state-label'
-              }).openTooltip();
-    
-              // Add a click event to show the full state name
-              layer.on({
-                click: () => alert(`You clicked on ${stateName}`)
-              });
-            }
-          }).addTo(alaskaMap);
-    
-          // Listen to zoom changes to update tooltips
-          alaskaMap.on('zoomend', () => {
-            const zoomLevel = alaskaMap.getZoom();
-            geojsonLayer.eachLayer((layer) => {
-              const feature = layer.feature;
-              const stateAbbreviation = feature.properties.STUSPS;
-              const stateName = feature.properties.NAME;
-    
-              if (zoomLevel >= 7) {
-                layer.setTooltipContent(stateName);
-              } else {
-                layer.setTooltipContent(stateAbbreviation);
-              }
-            });
-          });
+        L.geoJSON(usStates, {
+          style: stateStyle,
+        }).addTo(alaskaMap);
       }
 
     if (!hawaiiMapRef.current) {
-      // Initialize the map for Hawaii
-      const hawaiiMap = L.map('hawaii-map').setView([21, -157], 6); // Center on Hawaii
+      const hawaiiMap = L.map('hawaii-map');
       hawaiiMapRef.current = hawaiiMap;
+      setHawaiiDynamicView(hawaiiMap, [21, -157]); // Dynamic view for Hawaii
 
       L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
         attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a>',
@@ -150,44 +150,30 @@ const LeafletMap = () => {
         fillOpacity: 0.9
       });
 
-      const geojsonLayer = L.geoJSON(usStates, {
+      L.geoJSON(usStates, {
         style: stateStyle,
-        onEachFeature: (feature, layer) => {
-          const stateAbbreviation = feature.properties.STUSPS;
-          const stateName = feature.properties.NAME;
-
-          // Initial tooltip with the state abbreviation
-          layer.bindTooltip(stateAbbreviation, {
-            permanent: true,
-            direction: 'center',
-            className: 'state-label'
-          }).openTooltip();
-
-          // Add a click event to show the full state name
-          layer.on({
-            click: () => alert(`You clicked on ${stateName}`)
-          });
-        }
       }).addTo(hawaiiMap);
-
-      // Listen to zoom changes to update tooltips
-      hawaiiMap.on('zoomend', () => {
-        const zoomLevel = hawaiiMap.getZoom();
-        geojsonLayer.eachLayer((layer) => {
-          const feature = layer.feature;
-          const stateAbbreviation = feature.properties.STUSPS;
-          const stateName = feature.properties.NAME;
-
-          if (zoomLevel >= 7) {
-            layer.setTooltipContent(stateName);
-          } else {
-            layer.setTooltipContent(stateAbbreviation);
-          }
-        });
-      });
     }
 
-    
+    // Add event listener to adjust map view dynamically when the window is resized
+    const handleResize = () => {
+      if (mapRef.current) {
+        setUSDynamicView(mapRef.current, [37.8, -101]); // Continental US
+      }
+      if (alaskaMapRef.current) {
+        setAlaskaDynamicView(alaskaMapRef.current, [64.2, -155]); // Alaska
+      }
+      if (hawaiiMapRef.current) {
+        setHawaiiDynamicView(hawaiiMapRef.current, [21, -157]); // Hawaii
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    // Cleanup event listener on unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
 
   return (
