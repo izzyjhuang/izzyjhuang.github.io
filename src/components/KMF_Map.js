@@ -8,10 +8,20 @@ const KmfMap = () => {
   const mapRef = useRef(null); // To store map instance
 
   useEffect(() => {
+    // Calculate screen width and set the appropriate zoom level
+    const setUSDynamicView = (map, centerCoordinates) => {
+      const screenWidth = window.innerWidth;
+      const zoomLevel = screenWidth >= 2048 ? 6 : screenWidth >= 1024 ? 5 : screenWidth >= 767 ? 4 : 3;
+          // Set map center and zoom dynamically
+        map.setView(centerCoordinates, zoomLevel);
+      };
+
     if (!mapRef.current) {
-      // Initialize the map focused on the US
-      const map = L.map('map').setView([37.8, -96], 5); // Center on US, zoom to show states
+      // Initialize the map with dynamic zoom level
+      const map = L.map('map'); // Center on US, zoom based on screen size
       mapRef.current = map; // Store the map instance in the ref
+      setUSDynamicView(map, [37.8, -96]); // Dynamic view based on window size
+
 
       // Add a tile layer (map style)
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -53,8 +63,23 @@ const KmfMap = () => {
         });
       });
     }
+
+    // Add event listener to adjust map view dynamically when the window is resized
+    const handleResize = () => {
+      if (mapRef.current) {
+        setUSDynamicView(mapRef.current, [37.8, -101]); // Continental US
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    // Cleanup event listener on unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
   }, []); // The empty array ensures this effect runs only once (on mount)
 
+  
   return (
     <div className="kmf-map-container">
       <div id="map" style={{ width: '100%', height: '100%' }}></div>

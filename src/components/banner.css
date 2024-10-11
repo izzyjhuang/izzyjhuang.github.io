@@ -29,6 +29,7 @@
 
   .banner-overlay-logo-0 {
     width: 21vw;
+    margin-bottom: 0.75vw;
     position: absolute;
     transition: transform 0.5s; 
     z-index: 2; 
