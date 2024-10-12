@@ -25,7 +25,7 @@ const Adventures = ({ selectedLanguage }) => {
             中文: "  5 座棒球場"
         },
         bannerText: {
-            English: "  My favorite adventure was going Skydiving in Utah! I'm visiting Hobbiton in New Zealand next!",
+            English: "  My favorite adventure was going Skydiving in Utah! I'll be visiting Hobbiton in New Zealand soon!",
             中文: "  我最喜歡的冒險是去猶他州跳傘！我接下來要去紐西蘭看拍攝哈比人的哈比屯！"
         },
         yearCount: {
