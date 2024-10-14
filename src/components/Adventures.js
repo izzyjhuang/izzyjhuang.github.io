@@ -76,7 +76,7 @@ const Adventures = ({ selectedLanguage }) => {
         <div className="stat-box">
           <img src="../images/adventures/countries-count.png" alt="Countries Logo"></img>
           <p>{text4}</p>
-          <h6>+2{text9}</h6>
+          <h6>+3{text9}</h6>
         </div>
         <div className="stat-box">
           <img src="../images/adventures/national-parks-count.png" alt="Countries Logo"></img>
