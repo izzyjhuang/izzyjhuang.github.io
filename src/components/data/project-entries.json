@@ -5,9 +5,34 @@
             "src"       :   "the-duality-of-mouse.jpg",
             "slug"      :   "the-duality-of-mouse",
             "caption"   :   "The Duality of Mouse: The gift of ambidexterity",
-            "date"      :   "Sep 2024 - Oct 2024",
+            "date"      :   "Oct 2024",
             "genre"     :   "COMPUTER SYSTEMS",
-            "summary"   :   ""
+            "summary"   :   "",
+            "banner"    :   "the-duality-of-mouse-banner.jpg",
+            "blogPost"  : [
+                {
+                    "type"  : "paragraph",
+                    "text"  : "It all began with a twist of fate one summer after first grade. A careless game of hide-and-seek left my dominant right fingers injured, and suddenly, I was thrust into a three-month “free trial” of living left-handed. Every day became an adventure in awkwardness—from brushing my teeth with fumbling fingers to scribbling words that barely resemble letters. What started as frustration, though, slowly bloomed into revelation. My left hand, once a stranger, began to find its rhythm, moving in quiet harmony with my right, complementing it in ways I never expected."
+                },
+                {
+                    "type"  : "paragraph",
+                    "text"  : "In middle school, I discovered my love for baseball, and with it, a deep fascination for the left-handed advantage. Left-handed athletes, I learned, possess tactical advantages—unfamiliar angles that throw opponents off balance, movements that seem to catch them just a fraction too late. Baseball is no exception, where left-handed batters are gifted with one step closer to first base, and lefty pitchers have a sharper edge on pick-offs. Growing up in Taiwan, where many left-handed kids were retrained to use their right, my entire team batted right-handed. But I saw an opportunity. I bet they’ve never faced a left-handed hitter, I thought, as I stepped into the batter’s box, feeling both out of place and electric with possibility. That small shift caught the pitchers by surprise, unraveling their rhythm. By the end of the season, this peculiar experiment culminated in the highest walk rate and on-base percentage—the “left-handed experiment” quietly triumphant. From there, I started embracing this newfound duality in sports—ping-pong, archery—and soon, my non-dominant hand became not just an option, but an ally in daily life."
+                },
+                {
+                    "type"  : "image-right",
+                    "text"  : "Years later, during a summer internship in college, I found myself surrounded by four giant monitors, with my mouse tirelessly taking laps from screen to screen. One day, a cry from my left hand broke the silence: Why not let me have some fun too?",
+                    "src"   : "the-duality-of-mouse-1.jpg",
+                    "alt"   : "The Southpaw Archer"
+                },
+                {
+                    "type"  : "paragraph",
+                    "text"  : "Armed with a foundation in C programming and an itch for experimentation, I began to turn that thought into reality. With the help of ChatGPT, I dove deep into MacOS, learning its intricate workings—from keychain access to the Carbon API. My goal was simple: to create a second mouse, one for each hand, so they could dance together across the screen. And thus, The Duality of Mouse was born. New cursors materialized, each imbued with the soul of its own mouse. As cherry on top, I incorporated copy-and-paste functionality for text selection and the middle key, transforming my computer screen from a one-man show into a stage where two mice tangoed across the screen in perfect synchronization."
+                },
+                {
+                    "type"  : "paragraph",
+                    "text"  : "What I’ve learned is that passion for discovery often fades beneath the weight of assignments and deadlines. But when inspiration strikes, when curiosity leads the way, learning becomes something entirely different. In those moments, the extra spark turns the ordinary into the joyful extraordinary."
+                }
+            ]
         },
         
         {
@@ -16,6 +41,7 @@
             "caption"   :   "Izzy the Explorer Website: My way of life",
             "date"      :   "Aug 2024 - Sep 2024",
             "genre"     :   "WEB DEV, PERSONAL BLOG",
+            "banner"    :   "",
             "summary"   :   ""
         },
         
@@ -25,7 +51,8 @@
             "caption"   :   "NeuroNet: A Deep Learning Model for Alzheimer's Diagnosis",
             "date"      :   "Oct 2022 - May 2023",
             "genre"     :   "DEEP LEARNING, BIOTECH",
-            "summary"   :   "As part of the IEEE technical program, my team and I built NeuroNet, a deep-learning model that uses convolutional neural network to analyze 3D MRI images to classify signs of early-stage Alzheimer's with an accuracy of 94%! NeuroNet was voted the \"Best Overall Project\" by a panel of judges from various tech companies such as Abbvie and Tesla."
+            "summary"   :   "As part of the IEEE technical program, my team and I built NeuroNet, a deep-learning model that uses convolutional neural network to analyze 3D MRI images to classify signs of early-stage Alzheimer's with an accuracy of 94%! NeuroNet was voted the \"Best Overall Project\" by a panel of judges from various tech companies such as Abbvie and Tesla.",
+            "banner"    :   ""
         },
         
         {
@@ -34,7 +61,8 @@
             "caption"   :   "The Establishment of a High Standard Skin Bank in Taiwan as a Burn Care Pioneer",
             "date"      :   "Mar 2019 - Dec 2022",
             "genre"     :   "MEDICINE, BIOTECH",
-            "summary"   :   "I worked with National Taiwan University Hospital and helped with the statistical analysis aspect of the publication."
+            "summary"   :   "I worked with National Taiwan University Hospital and helped with the statistical analysis aspect of the publication.",
+            "banner"    :   ""
         },
 
         {
@@ -43,7 +71,8 @@
             "caption"   :   "The Clampanion: The Ultimate Companion for Clients with Partial Paralysis",
             "date"      :   "Sep 2021 - Dec 2021",
             "genre"     :   "USER-CENTERED DESIGN",
-            "summary"   :   "Through working alongside our project partner, occupational therapists, and end-users, my team of four engineers designed a V-shaped twist clamp with a buckle mechanism to assist with stabilizing and opening containers which improved the lives of people with partial paralysis with limited motor function in one hand."
+            "summary"   :   "Through working alongside our project partner, occupational therapists, and end-users, my team of four engineers designed a V-shaped twist clamp with a buckle mechanism to assist with stabilizing and opening containers which improved the lives of people with partial paralysis with limited motor function in one hand.",
+            "banner"    :   ""
         },
 
         {
@@ -52,7 +81,8 @@
             "caption"   :   "Environmental Impact of Heavy Metals Composition and Iron Specialization in Soils",
             "date"      :   "Oct 2020 - Apr 2021",
             "genre"     :   "SUSTAINABILITY, MATERIAL SCIENCE",
-            "summary"   :   "A brief overview of your first adventure. Click to read more."
+            "summary"   :   "A brief overview of your first adventure. Click to read more.",
+            "banner"    :   ""
         },
 
         {
@@ -61,7 +91,8 @@
             "caption"   :   "Local Structural Analysis of Niobium-Based Battery Cathodes",
             "date"      :   "Oct 2019 - Jun 2020",
             "genre"     :   "BATTERY, MATERIAL SCIENCE",
-            "summary"   :   "A brief overview of your first adventure. Click to read more."
+            "summary"   :   "A brief overview of your first adventure. Click to read more.",
+            "banner"    :   ""
         }
 
     ]
