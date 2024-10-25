@@ -13,7 +13,7 @@ import LeafletMap from './components/LeafletMap'; // Import the new LeafletMap c
 import KmfMap from './components/KMF_Map'; // Import the new LeafletMap component
 import './App.css';
 
-function App() {
+function App() { 
   const [selectedLanguage, setSelectedLanguage] = useState('English');
 
   return (
