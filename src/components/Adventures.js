@@ -13,19 +13,19 @@ const Adventures = ({ selectedLanguage }) => {
             中文: "  13 個國家"
         },
         nationalParks: {
-            English: "  6 National Parks",
-            中文: "  6 個國家公園"
+            English: "  5 National Parks",
+            中文: "  5 個國家公園"
         },
         states: {
-            English: "  21 States",
-            中文: "  21 個州"
+            English: "  19 States",
+            中文: "  19 個州"
         },
         stadiums: {
-            English: "  5 Stadiums",
-            中文: "  5 座棒球場"
+            English: "  4 Stadiums",
+            中文: "  4 座棒球場"
         },
         bannerText: {
-            English: "  My favorite adventure was going Skydiving in Utah! I'll be visiting Hobbiton in New Zealand soon!",
+            English: "  My favorite adventure was going Skydiving in Utah!",
             中文: "  我最喜歡的冒險是去猶他州跳傘！我接下來要去紐西蘭看拍攝哈比人的哈比屯！"
         },
         yearCount: {
@@ -81,17 +81,17 @@ const Adventures = ({ selectedLanguage }) => {
         <div className="stat-box">
           <img src="../images/adventures/national-parks-count.png" alt="Countries Logo"></img>
           <p>{text5}</p>
-          <h6>+2{text9}</h6>
+          <h6>+1{text9}</h6>
         </div>
         <div className="stat-box">
           <img src="../images/adventures/states-count.png" alt="Countries Logo"></img>
           <p>{text6}</p>
-          <h6>+3{text9}</h6>
+          <h6>+0{text9}</h6>
         </div>
         <div className="stat-box">
           <img src="../images/adventures/stadiums-count.png" alt="Countries Logo"></img>
           <p>{text7}</p>
-          <h6>+2{text9}</h6>
+          <h6>+1{text9}</h6>
         </div>
       </div>
             <AdventureAlbum />
