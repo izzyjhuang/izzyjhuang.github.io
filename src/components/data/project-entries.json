@@ -47,7 +47,7 @@
         
         {
             "src"       :   "neuronet-page.jpeg",
-            "slug"      :   "files/NeuroNet.pdf",
+            "slug"      :   "NeuroNet.pdf",
             "caption"   :   "NeuroNet: A Deep Learning Model for Alzheimer's Diagnosis",
             "date"      :   "Oct 2022 - May 2023",
             "genre"     :   "DEEP LEARNING, BIOTECH",
@@ -67,7 +67,7 @@
 
         {
             "src"       :   "the-clampanion-poster-2.jpeg",
-            "slug"      :   "files/DTC_I-Instructions-for-use-and-construction.pdf",
+            "slug"      :   "DTC_I-Instructions-for-use-and-construction.pdf",
             "caption"   :   "The Clampanion: The Ultimate Companion for Clients with Partial Paralysis",
             "date"      :   "Sep 2021 - Dec 2021",
             "genre"     :   "USER-CENTERED DESIGN",
