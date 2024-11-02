@@ -12,8 +12,8 @@ class ProjectEntry extends React.Component {
     const image_path = "../images/projects/" + this.props.src;
 
     const NeedworkSlugs = [
-      'izzyweb',
-      'neuronet',
+      'http://www.izzyjhuang.com',
+      'izzy-app',
       'the-clampanion'
   ];
 

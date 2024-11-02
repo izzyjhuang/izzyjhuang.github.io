@@ -2,6 +2,15 @@
     "itemlist" :
     [
         {
+            "src"       :   "izzy-app.jpeg",
+            "slug"      :   "izzy-app",
+            "caption"   :   "Tomorrow Starts Tonight App",
+            "date"      :   "Aug 2024 - Sep 2024",
+            "genre"     :   "MOBILE APP DEV",
+            "banner"    :   "",
+            "summary"   :   ""
+        },
+        {
             "src"       :   "the-duality-of-mouse.jpg",
             "slug"      :   "the-duality-of-mouse",
             "caption"   :   "The Duality of Mouse: The gift of ambidexterity",
