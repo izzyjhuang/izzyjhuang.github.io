@@ -12,9 +12,8 @@ class ProjectEntry extends React.Component {
     const image_path = "../images/projects/" + this.props.src;
 
     const NeedworkSlugs = [
-      'http://www.izzyjhuang.com',
-      'izzy-app',
-      'the-clampanion'
+      'izzy-website',
+      'izzy-app'
   ];
 
   const isExternal = this.props.slug.startsWith('http');
@@ -23,7 +22,7 @@ class ProjectEntry extends React.Component {
     if (isExternal) {
       return this.props.slug; // External link
     } else if (NeedworkSlugs.includes(this.props.slug)) {
-      return "https://izzyjhuang.com/#/notes"; // Redirect to the "Still Working" page
+      return "/notes"; // Redirect to the "Still Working" page
     } else if (this.props.slug.endsWith(".pdf")) {
       return `${process.env.PUBLIC_URL}/files/${this.props.slug}`; // Direct link to internal PDF file
     } else {
