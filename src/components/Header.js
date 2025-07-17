@@ -30,7 +30,7 @@ const Header = ({ selectedLanguage, setSelectedLanguage }) => {
       },
       Philosophy: {
         English: 'Philosophy',
-        中文: '哲學',
+        中文: '我的哲學',
       },
       Experience: {
         English: 'Experience',
