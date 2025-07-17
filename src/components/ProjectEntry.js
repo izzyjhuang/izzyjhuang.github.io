@@ -36,12 +36,12 @@ const linkProps = isExternal || this.props.slug.endsWith(".pdf")
   : { to: linkPath };
 
   return (
-    <div className="project-container">
-      <div className="project-entry-block">
+    <div className="project-entry__container">
+      <div className="project-entry__block">
         <LinkComponent {...linkProps}>
-          <img className="project-img" src={image_path} alt={image_path} loading="lazy" />
-          <div className="project-caption">{this.props.caption}</div>
-          <div className="project-genre">{this.props.genre}</div>
+          <img className="project-entry__image" src={image_path} alt={image_path} loading="lazy" />
+          <div className="project-entry__caption">{this.props.caption}</div>
+          <div className="project-entry__genre">{this.props.genre}</div>
         </LinkComponent>
       </div>
     </div>

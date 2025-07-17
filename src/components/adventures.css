@@ -1,25 +1,30 @@
 /* =====================================================
-   Adventures Section Styles
+   Adventures Section Styles (Improved Naming)
    Used by: Adventures.js, AdventureEntry.js, AdventurePost.js, AdventureAlbum.js
    ===================================================== */
 
 /* ========== Layout Containers ========== */
-.page-warmer {
+.adventure-album__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* ========== Adventures Intro Section ========== */
+.adventures__intro {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   margin-left: 6vw;
 }
-
-.page-photo {
+.adventures__intro-image {
   display: flex;
   justify-content: center;
   margin: 1rem;
   max-width: 50vw;
   transition: transform 0.5s;
 }
-
-.page-text-1 {
+.adventures__intro-text {
   font-size: 3vw;
   font-weight: bold;
   color: #333;
@@ -30,14 +35,60 @@
   font-family: 'Libre Baskerville', cursive;
 }
 
-.flex-container {
+/* ========== Adventures Stats Section ========== */
+.adventures__stats {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  margin-bottom: 6vw;
+}
+.adventures__stat-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  width: 85%;
+  height: 20vw;
+  background-color: #fdf9f6;
+  border-radius: 5%;
+  transition: transform 0.5s;
+  padding-top: 10%;
+  margin-bottom: 7vw;
+}
+.adventures__stat-box img {
+  height: 150%;
+  width: auto;
+  margin-top: 2vw;
+}
+.adventures__stat-box p {
+  position: absolute;
+  margin-top: 28vw;
+  font-size: 3vw;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  font-family: Ubuntu, cursive;
+}
+.adventures__stat-box h6 {
+  position: absolute;
+  margin-top: 34vw;
+  font-size: 1.8vw;
+  color: #043fac;
+  text-align: center;
+  font-family: Ubuntu, cursive;
 }
 
 /* ========== Adventure Entry Block ========== */
-.adventure-entry-block {
+.adventure-entry__container {
+  max-width: 30%;
+  flex: 1 1 calc(33.333%);
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 4%;
+}
+.adventure-entry__block {
   margin: 2vw;
   width: 100%;
   height: 100%; 
@@ -50,23 +101,21 @@
   transition: transform 0.5s;
   padding-bottom: 10%;
 }
-.adventure-entry-block a {
+.adventure-entry__block a {
   text-decoration: none;
 }
-.adventure-entry-block:hover {
+.adventure-entry__block:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
-.adventure-img {
+.adventure-entry__image {
   width: 90%;
   position: relative;
   z-index: 0;
   margin-top: 5%;
   border-radius: 5%;
 }
-
-.adventure-caption {
+.adventure-entry__caption {
   position: relative;
   margin-top: 3%;
   font-family: 'Libre Baskerville', serif;
@@ -78,8 +127,7 @@
   text-align: left;
   margin-left: 5%;
 }
-
-.adventure-date {
+.adventure-entry__date {
   position: absolute;
   padding: 0.25vw;
   top: 3%;
@@ -94,8 +142,7 @@
   z-index: 2;
   text-align: center;
 }
-
-.adventure-location {
+.adventure-entry__location {
   position: absolute;
   bottom: 1%;
   font-family: Ubuntu;
@@ -107,25 +154,15 @@
   text-align: right;  
 }
 
-.adventure-container {
-  max-width: 30%;
-  flex: 1 1 calc(33.333%);
-  box-sizing: border-box;
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 4%;
-}
-
 /* ========== Adventure Post Section ========== */
-.adventure-post {
+.adventure-post__container {
   max-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: Arial, sans-serif;
 }
-
-.adventure-banner {
+.adventure-post__banner {
   justify-content: center;
   height: auto;
   margin-bottom: 20px;
@@ -133,8 +170,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 0;
 }
-
-.adventure-poster {
+.adventure-post__content {
   z-index: 1;
   background-color: #fdf9f6;
   position: relative;
@@ -144,23 +180,20 @@
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-.adventure-genre {
+.adventure-post__genre {
   margin-top: 2%;
   font-weight: bold;
   color: #043fac;
   margin-bottom: 2%;
   font-family: 'Nunito', sans-serif;
 }
-
-.adventure-title {
+.adventure-post__title {
   font-weight: bold;
   color: #333;
   margin-bottom: 1.5%;
   font-family: 'Libre Baskerville', serif;
 }
-
-.adventure-dates {
+.adventure-post__dates {
   font-weight: bold;
   color: gray;
   margin-bottom: 5%;
@@ -168,58 +201,51 @@
 }
 
 /* ========== Paragraphs and Blog Content ========== */
-.paragraph {
+.adventure-post__blog p {
+  text-align: left;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+.adventure-post__paragraph {
   width: 90%;
   margin: 0 auto;
   text-align: center;
 }
-
-.paragraph h4 {
+.adventure-post__paragraph h4 {
   text-align: left;
   font-family: 'Nunito', sans-serif;
   margin-bottom: 1%;
   font-weight: 900;
 }
 
-.adventure-blog-content p {
-  text-align: left;
-  line-height: 1.6;
-  margin-bottom: 20px;
-  font-family: 'Nunito', sans-serif;
-}
-
 /* ========== Images and Stats ========== */
-.images-3 {
+.adventure-post__images-3 {
   width: 90%;
   margin: 0 auto;
   display: flex;
   margin-bottom: 2%;
 }
-
-.images-3 img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.image-box {
+.adventure-post__image-box {
   width: 100%;
   display: flex;
   margin: 0.5%;
   flex-direction: column;
   align-items: center;
 }
-
-.images-3 h5 {
+.adventure-post__images-3 h5 {
   position: relative;
   width: 100%;
   height: auto;
   margin: 2%;
   font-style: italic;
 }
-
-.adventure-sub-img {
+.adventure-post__images-2 {
+  display: flex;
+  gap: 1vw;
+  margin: 1vw 0;
+}
+.adventure-post__sub-img {
   width: 30%;
   height: auto;
   margin: 0.5%;
@@ -227,130 +253,82 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.stat-container {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 4vw;
-  margin-right: 4vw;
-  margin-bottom: 6vw;
-}
-
-.stat-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 85%;
-  height: 20vw;
-  background-color: #fdf9f6;
-  border-radius: 5%;
-  transition: transform 0.5s;
-  padding-top: 10%;
-  margin-bottom: 7vw;
-}
-
-.stat-box img {
-  height: 150%;
-  width: auto;
-  margin-top: 2vw;
-}
-
-.stat-box p {
-  position: absolute;
-  margin-top: 28vw;
-  font-size: 3vw;
-  font-weight: bold;
-  color: #333;
-  text-align: center;
-  font-family: Ubuntu, cursive;
-}
-
-.stat-box h6 {
-  position: absolute;
-  margin-top: 34vw;
-  font-size: 1.8vw;
-  color: #043fac;
-  text-align: center;
-  font-family: Ubuntu, cursive;
-}
-
 /* ========== Responsive Media Queries ========== */
-
 @media (max-width: 4096px) {
-  .adventure-caption, .adventure-date, .adventure-location { font-size: 300%; }
-  .adventure-title { font-size: 675%; }
-  .adventure-genre { font-size: 405%; }
-  .adventure-dates { font-size: 300%; }
-  .paragraph h4 { font-size: 450%; }
-  .adventure-blog-content p { font-size: 360%; }
-  .images-3 h5 { font-size: 337.5%; }
-  .adventure-banner { width: 85%; }
-  .adventure-poster { width: 75%; }
+  .adventure-entry__caption, .adventure-entry__date, .adventure-entry__location { font-size: 300%; }
+  .adventure-post__title { font-size: 675%; }
+  .adventure-post__genre { font-size: 405%; }
+  .adventure-post__dates { font-size: 300%; }
+  .adventure-post__paragraph h4 { font-size: 450%; }
+  .adventure-post__blog p { font-size: 360%; }
+  .adventure-post__images-3 h5 { font-size: 337.5%; }
+  .adventure-post__banner { width: 85%; }
+  .adventure-post__content { width: 75%; }
 }
 @media (max-width: 3072px) {
-  .adventure-caption, .adventure-date, .adventure-location { font-size: 250%; }
-  .adventure-title { font-size: 562.5%; }
-  .adventure-genre { font-size: 337.5%; }
-  .adventure-dates { font-size: 250%; }
-  .paragraph h4 { font-size: 375%; }
-  .adventure-blog-content p { font-size: 300%; }
-  .images-3 h5 { font-size: 289.5%; }
-  .adventure-banner { width: 85%; }
-  .adventure-poster { width: 75%; }
+  .adventure-entry__caption, .adventure-entry__date, .adventure-entry__location { font-size: 250%; }
+  .adventure-post__title { font-size: 562.5%; }
+  .adventure-post__genre { font-size: 337.5%; }
+  .adventure-post__dates { font-size: 250%; }
+  .adventure-post__paragraph h4 { font-size: 375%; }
+  .adventure-post__blog p { font-size: 300%; }
+  .adventure-post__images-3 h5 { font-size: 289.5%; }
+  .adventure-post__banner { width: 85%; }
+  .adventure-post__content { width: 75%; }
 }
 @media (max-width: 2048px) {
-  .adventure-caption, .adventure-date, .adventure-location { font-size: 200%; }
-  .adventure-title { font-size: 450%; }
-  .adventure-genre { font-size: 270%; }
-  .adventure-dates { font-size: 200%; }
-  .paragraph h4 { font-size: 300%; }
-  .adventure-blog-content p { font-size: 240%; }
-  .images-3 h5 { font-size: 225%; }
-  .adventure-banner { width: 85%; }
-  .adventure-poster { width: 75%; }
+  .adventure-entry__caption, .adventure-entry__date, .adventure-entry__location { font-size: 200%; }
+  .adventure-post__title { font-size: 450%; }
+  .adventure-post__genre { font-size: 270%; }
+  .adventure-post__dates { font-size: 200%; }
+  .adventure-post__paragraph h4 { font-size: 300%; }
+  .adventure-post__blog p { font-size: 240%; }
+  .adventure-post__images-3 h5 { font-size: 225%; }
+  .adventure-post__banner { width: 85%; }
+  .adventure-post__content { width: 75%; }
 }
 @media (max-width: 1536px) {
-  .adventure-caption, .adventure-date, .adventure-location { font-size: 167%; }
-  .adventure-title { font-size: 375%; }
-  .adventure-genre { font-size: 225%; }
-  .adventure-dates { font-size: 167%; }
-  .paragraph h4 { font-size: 250%; }
-  .adventure-blog-content p { font-size: 200%; }
-  .images-3 h5 { font-size: 187%; }
-  .adventure-banner { width: 88%; }
-  .adventure-poster { width: 80%; }
+  .adventure-entry__caption, .adventure-entry__date, .adventure-entry__location { font-size: 167%; }
+  .adventure-post__title { font-size: 375%; }
+  .adventure-post__genre { font-size: 225%; }
+  .adventure-post__dates { font-size: 167%; }
+  .adventure-post__paragraph h4 { font-size: 250%; }
+  .adventure-post__blog p { font-size: 200%; }
+  .adventure-post__images-3 h5 { font-size: 187%; }
+  .adventure-post__banner { width: 88%; }
+  .adventure-post__content { width: 80%; }
 }
 @media (max-width: 1024px) {
-  .adventure-container { max-width: 45%; flex: 1 1 calc(50%); }
-  .adventure-caption, .adventure-date, .adventure-location { font-size: 135%; }
-  .adventure-title { font-size: 300%; }
-  .adventure-genre { font-size: 180%; }
-  .adventure-dates { font-size: 135%; }
-  .paragraph h4 { font-size: 200%; }
-  .adventure-blog-content p { font-size: 160%; }
-  .images-3 h5 { font-size: 150%; }
-  .adventure-banner { width: 88%; }
-  .adventure-poster { width: 80%; }
+  .adventure-album__container { max-width: 45%; flex: 1 1 calc(50%); }
+  .adventure-entry__caption, .adventure-entry__date, .adventure-entry__location { font-size: 135%; }
+  .adventure-post__title { font-size: 300%; }
+  .adventure-post__genre { font-size: 180%; }
+  .adventure-post__dates { font-size: 135%; }
+  .adventure-post__paragraph h4 { font-size: 200%; }
+  .adventure-post__blog p { font-size: 160%; }
+  .adventure-post__images-3 h5 { font-size: 150%; }
+  .adventure-post__banner { width: 88%; }
+  .adventure-post__content { width: 80%; }
 }
 @media (max-width: 767px) {
-  .adventure-caption, .adventure-date, .adventure-location { font-size: 101.25%; }
-  .adventure-title { font-size: 225%; }
-  .adventure-genre { font-size: 135%; }
-  .adventure-dates { font-size: 101.25%; }
-  .paragraph h4 { font-size: 150%; }
-  .adventure-blog-content p { font-size: 120%; }
-  .images-3 h5 { font-size: 112.5%; }
-  .adventure-banner { width: 91%; }
-  .adventure-poster { width: 85%; }
+  .adventure-entry__caption, .adventure-entry__date, .adventure-entry__location { font-size: 101.25%; }
+  .adventure-post__title { font-size: 225%; }
+  .adventure-post__genre { font-size: 135%; }
+  .adventure-post__dates { font-size: 101.25%; }
+  .adventure-post__paragraph h4 { font-size: 150%; }
+  .adventure-post__blog p { font-size: 120%; }
+  .adventure-post__images-3 h5 { font-size: 112.5%; }
+  .adventure-post__banner { width: 91%; }
+  .adventure-post__content { width: 85%; }
 }
 @media (max-width: 512px) {
-  .adventure-caption, .adventure-date, .adventure-location { font-size: 67.5%; }
-  .adventure-title { font-size: 150%; }
-  .adventure-genre { font-size: 90%; }
-  .adventure-dates { font-size: 67.5%; }
-  .paragraph h4 { font-size: 100%; }
-  .adventure-blog-content p { font-size: 80%; }
-  .images-3 h5 { font-size: 75%; }
-  .adventure-banner { width: 94%; }
-  .adventure-poster { width: 90%; }
+  .adventure-entry__caption, .adventure-entry__date, .adventure-entry__location { font-size: 67.5%; }
+  .adventure-post__title { font-size: 150%; }
+  .adventure-post__genre { font-size: 90%; }
+  .adventure-post__dates { font-size: 67.5%; }
+  .adventure-post__paragraph h4 { font-size: 100%; }
+  .adventure-post__blog p { font-size: 80%; }
+  .adventure-post__images-3 h5 { font-size: 75%; }
+  .adventure-post__banner { width: 94%; }
+  .adventure-post__content { width: 90%; }
 }

@@ -1,42 +1,39 @@
-.page-warmer {
+/* =====================================================
+   Experience Section Styles (Improved Naming)
+   Used by: Experience.js, ExperienceEntry.js, ExperienceAlbum.js
+   ===================================================== */
+
+/* ========== Experience Intro Section ========== */
+.experience__intro {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   width: 90%;
-  
 }
-
-.banner-image-overlay-e {
+.experience__intro-image-overlay {
   margin-left: 10%;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative; /* Container for overlaying images */
+  position: relative;
 }
-
-.banner-logo-e {
+.experience__intro-logo {
   width: 40vw;
-  background-color: #fdf9f6; /* Light green circle */
+  background-color: #fdf9f6;
   border-radius: 50%;
   position: relative;
-  transition: transform 0.5s; /* Add this line for animation */
+  transition: transform 0.5s;
   z-index: 1;
-  /* top: 1vw; */
-  /* left: 0.3vw; */
 }
-
-.banner-overlay-logo-e {
+.experience__intro-overlay-logo {
   width: 30vw;
   border-radius: 50%;
   position: absolute;
-  /* top: 6.5vw; */
-  /* left: -5.4vw; */
-  transition: transform 0.5s; /* Add this line for animation */
-  z-index: 2; /* Overlay image */
+  transition: transform 0.5s;
+  z-index: 2;
   opacity: 1;
 }
-
-.page-text {
+.experience__intro-text {
   font-size: 3vw;
   font-weight: bold;
   color: #333;
@@ -47,7 +44,23 @@
   font-family: 'Libre Baskerville', cursive;
 }
 
-.experience-entry-block {
+/* ========== Experience Album ========== */
+.experience-album__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* ========== Experience Entry Block ========== */
+.experience-entry__container {
+  max-width: 30%;
+  flex: 1 1 calc(33.333%);
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2%;
+}
+.experience-entry__block {
   margin: 2vw;
   width: 100%;
   height: 95%;
@@ -60,25 +73,21 @@
   transition: transform 0.5s;
   padding-bottom: 20%;
 }
-
-.experience-entry-block a {
+.experience-entry__block a {
   text-decoration: none;
 }
-
-.experience-entry-block:hover {
+.experience-entry__block:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
-.experience-img {
+.experience-entry__image {
   width: 90%;
   position: relative;
   z-index: 0;
   margin-top: 5%;
   border-radius: 5%;
 }
-
-.experience-caption {
+.experience-entry__caption {
   position: relative;
   margin-top: 3%;
   font-family: 'Libre Baskerville', serif;
@@ -90,15 +99,13 @@
   text-align: left;
   margin-left: 5%;
 }
-
-.experience-when {
+.experience-entry__when {
   position: absolute;
   top: 2.5%;
   border-radius: 12%;
   width: 50%;
   right: 5%;
   padding: 1.5%;
-  /* bottom: -5%; */
   font-family: Ubuntu;
   font-weight: 900;
   text-shadow: 1px 1px 2px #ffffff;
@@ -106,8 +113,7 @@
   z-index: 2;
   text-align: center;
 }
-
-.experience-description {
+.experience-entry__description {
   position: absolute;
   bottom: 1%;
   font-family: Ubuntu;
@@ -116,337 +122,51 @@
   color: #043fac;
   z-index: 2;
   width: 95%;
-  text-align: center;  
-}
-
-.experience-container {
-  max-width: 30%;
-  flex: 1 1 calc(33.333%);
-  box-sizing: border-box;
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 2%;
-}
-
-@media (max-width: 4096px) {
-  .experience-caption, .experience-when, .experience-description {
-      font-size: 300%;
-  }
-  .experience-title {
-      font-size: 405%;
-  }
-  .experience-genre {
-      font-size: 675%;
-  }
-  .experience-whens {
-      font-size: 300%;
-  }
-  .paragraph h4 {
-      font-size: 450%;
-  }
-  .experience-blog-content p {
-      font-size: 360%;
-  }
-  .images-3 h5 {
-      font-size: 337.5%;
-  }
-  .experience-banner {
-      width: 85%;
-  }
-  .experience-poster {
-      width: 75%;
-  }
-}
-
-@media (max-width: 3072px) {
-  .experience-caption, .experience-when, .experience-description {
-      font-size: 250%;
-  }
-  .experience-title {
-      font-size: 337.5%;
-  }
-  .experience-genre {
-      font-size: 562.5%;
-  }
-  .experience-whens {
-      font-size: 250%;
-  }
-  .paragraph h4 {
-      font-size: 375%;
-  }
-  .experience-blog-content p {
-      font-size: 300%;
-  }
-  .images-3 h5 {
-      font-size: 289.5%;
-  }
-  .experience-banner {
-      width: 85%;
-  }
-  .experience-poster {
-      width: 75%;
-  }
-}
-
-@media (max-width: 2048px) {
-  .experience-caption, .experience-when, .experience-description {
-      font-size: 200%;
-  }
-  .experience-title {
-      font-size: 270%;
-  }
-  .experience-genre {
-      font-size: 450%;
-  }
-  .experience-whens {
-      font-size: 200%;
-  }
-  .paragraph h4 {
-      font-size: 300%;
-  }
-  .experience-blog-content p {
-      font-size: 240%;
-  }
-  .images-3 h5 {
-      font-size: 225%;
-  }
-  .experience-banner {
-      width: 85%;
-  }
-  .experience-poster {
-      width: 75%;
-  }
-}
-
-@media (max-width: 1536px) {
-  .experience-caption, .experience-when, .experience-description {
-      font-size: 167%;
-  }
-  .experience-title {
-      font-size: 225%;
-  }
-  .experience-genre {
-      font-size: 250%;
-  }
-  .experience-whens {
-      font-size: 167%;
-  }
-  .paragraph h4 {
-      font-size: 250%;
-  }
-  .experience-blog-content p {
-      font-size: 200%;
-  }
-  .images-3 h5 {
-      font-size: 187%;
-  }
-  .experience-banner {
-      width: 88%;
-  }
-  .experience-poster {
-      width: 80%;
-  }
-}
-
-@media (max-width: 1024px) {
-  .experience-container {
-      max-width: 45%;
-      flex: 1 1 calc(50%);
-  }
-
-  .experience-caption, .experience-when, .experience-description {
-      font-size: 135%;
-  }
-  .experience-title {
-      font-size: 180%;
-  }
-  .experience-genre {
-      font-size: 300%;
-  }
-  .experience-whens {
-      font-size: 135%;
-  }
-  .paragraph h4 {
-      font-size: 200%;
-  }
-  .experience-blog-content p {
-      font-size: 160%;
-  }
-  .images-3 h5 {
-      font-size: 150%;
-  }
-  .experience-banner {
-      width: 88%;
-  }
-  .experience-poster {
-      width: 80%;
-  }
-}
-
-@media (max-width: 767px) {
-  .experience-caption, .experience-when, .experience-description {
-      font-size: 101.25%;
-  }
-  .experience-title {
-      font-size: 135%;
-  }
-  .experience-genre {
-      font-size: 225%;
-  }
-  .experience-whens {
-      font-size: 101.25%;
-  }
-  .paragraph h4 {
-      font-size: 150%;
-  }
-  .experience-blog-content p {
-      font-size: 120%;
-  }
-  .images-3 h5 {
-      font-size: 112.5%;
-  }
-  .experience-banner {
-      width: 91%;
-  }
-  .experience-poster {
-      width: 85%;
-  }
-}
-
-@media (max-width: 512px) {
-  .experience-caption, .experience-when, .experience-description {
-      font-size: 67.5%;
-  }
-  .experience-title {
-      font-size: 90%;
-  }
-  .experience-genre {
-      font-size: 150%;
-  }
-  .experience-whens {
-      font-size: 67.5%;
-  }
-  .paragraph h4 {
-      font-size: 100%;
-  }
-  .experience-blog-content p {
-      font-size: 80%;
-  }
-  .images-3 h5 {
-      font-size: 75%;
-  }
-  .experience-banner {
-      width: 94%;
-  }
-  .experience-poster {
-      width: 90%;
-  }
-}
-
-.experience-post {
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: Arial, sans-serif;
-}
-
-.experience-banner {
-  justify-content: center;
-  height: auto;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  z-index: 0;
-}
-
-.experience-poster {
-  z-index: 1;
-  background-color: #fdf9f6;
-  position: relative;
-  margin-top: -5%;
-  justify-content: center;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.experience-genre {
-  margin-top: 2%;
-  font-weight: bold;
-  color: #043fac;
-  margin-bottom: 2%;
-  font-family: 'Nunito', sans-serif;
-}
-
-.experience-title {
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 1.5%;
-  font-family: 'Libre Baskerville', serif;
-}
-
-.experience-whens {
-  font-weight: bold;
-  color: gray;
-  margin-bottom: 5%;
-  font-family: 'Exo 2', sans-serif;
-}
-
-.paragraph {
-  width: 90%;
-  margin: 0 auto;
   text-align: center;
 }
 
-.paragraph h4 {
-  text-align: left;
-  font-family: 'Nunito', sans-serif;
-  margin-bottom: 1%;
-  font-weight: 900;
+/* ========== Responsive Media Queries ========== */
+@media (max-width: 4096px) {
+  .experience-entry__caption, .experience-entry__when, .experience-entry__description { font-size: 300%; }
+  .experience-title { font-size: 405%; }
+  .experience-genre { font-size: 675%; }
+  .experience-whens { font-size: 300%; }
+  .paragraph h4 { font-size: 450%; }
+  .experience-blog-content p { font-size: 360%; }
+  .images-3 h5 { font-size: 337.5%; }
+  .experience-banner { width: 85%; }
+  .experience-poster { width: 75%; }
 }
-
-.experience-blog-content p {
-  text-align: left;
-  line-height: 1.6;
-  margin-bottom: 20px;
-  font-family: 'Nunito', sans-serif;
+@media (max-width: 3072px) {
+  .experience-entry__caption, .experience-entry__when, .experience-entry__description { font-size: 250%; }
+  .experience-title { font-size: 337.5%; }
+  .experience-genre { font-size: 562.5%; }
+  .experience-whens { font-size: 250%; }
+  .paragraph h4 { font-size: 375%; }
+  .experience-blog-content p { font-size: 300%; }
+  .images-3 h5 { font-size: 289.5%; }
+  .experience-banner { width: 85%; }
+  .experience-poster { width: 75%; }
 }
-
-.images-3 {
-  width: 90%;
-  margin: 0 auto;
-  display: flex;
-  margin-bottom: 2%;
+@media (max-width: 2048px) {
+  .experience-entry__caption, .experience-entry__when, .experience-entry__description { font-size: 200%; }
+  .experience-title { font-size: 270%; }
+  .experience-genre { font-size: 450%; }
+  .experience-whens { font-size: 200%; }
+  .paragraph h4 { font-size: 300%; }
+  .experience-blog-content p { font-size: 240%; }
+  .images-3 h5 { font-size: 225%; }
+  .experience-banner { width: 85%; }
+  .experience-poster { width: 75%; }
 }
-
-.images-3 img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.image-box {
-  width: 100%;
-  display: flex;
-  margin: 0.5%;
-  flex-direction: column;
-  align-items: center;
-}
-
-.images-3 h5 {
-  position: relative;
-  width: 100%;
-  height: auto;
-  margin: 2%;
-  font-style: italic;
-}
-
-.experience-sub-img {
-  width: 30%;
-  height: auto;
-  margin: 0.5%;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+@media (max-width: 1536px) {
+  .experience-entry__caption, .experience-entry__when, .experience-entry__description { font-size: 167%; }
+  .experience-title { font-size: 225%; }
+  .experience-genre { font-size: 250%; }
+  .experience-whens { font-size: 167%; }
+  .paragraph h4 { font-size: 250%; }
+  .experience-blog-content p { font-size: 200%; }
+  .images-3 h5 { font-size: 187%; }
+  .experience-banner { width: 88%; }
+  .experience-poster { width: 80%; }
 }

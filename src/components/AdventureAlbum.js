@@ -8,7 +8,7 @@ class AdventureAlbum extends React.Component {
     render() {
 
         return (
-            <div className= "flex-container">
+            <div className= "adventure-album__container">
             {
                 entries.itemlist.map((adventure) => {
                     return <AdventureEntry 

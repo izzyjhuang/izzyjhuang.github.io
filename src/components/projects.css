@@ -1,448 +1,293 @@
-/* projects.css */
+/* =====================================================
+   Projects Section Styles (Improved Naming)
+   Used by: Projects.js, ProjectEntry.js, ProjectPost.js, ProjectAlbum.js
+   ===================================================== */
 
-.page-warmer {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  
-  .banner-image-overlay-p {
-    margin-left: 10vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative; /* Container for overlaying images */
-  }
-  
-  .banner-logo-p {
-    width: 40vw;
-    background-color: #fdf9f6; /* Light green circle */
-    border-radius: 50%;
-    position: relative;
-    transition: transform 0.5s; /* Add this line for animation */
-    z-index: 1;
+/* ========== Projects Intro Section ========== */
+.projects__intro {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.projects__intro-image-overlay {
+  margin-left: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.projects__intro-logo {
+  width: 40vw;
+  background-color: #fdf9f6;
+  border-radius: 50%;
+  position: relative;
+  transition: transform 0.5s;
+  z-index: 1;
+}
+.projects__intro-overlay-logo {
+  width: 25.5vw;
+  border-radius: 50%;
+  position: absolute;
+  transition: transform 0.5s;
+  z-index: 2;
+  opacity: 1;
+}
+.projects__intro-text {
+  font-size: 3vw;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 1px 1px 2px #6d6c6c;
+  margin-left: 5vw;
+  margin-right: 10vw;
+  text-align: left;
+  font-family: 'Libre Baskerville', cursive;
 }
 
-  .banner-overlay-logo-p {
-    width: 25.5vw;
-    border-radius: 50%;
-    position: absolute;
-    transition: transform 0.5s; /* Add this line for animation */
-    z-index: 2; /* Overlay image */
-    opacity: 1;
-  }
-  
-  .page-text {
-    font-size: 3vw;
-    font-weight: bold;
-    color: #333;
-    text-shadow: 1px 1px 2px #6d6c6c;
-    margin-left: 5vw;
-    margin-right: 10vw;
-    text-align: left;
-    font-family: 'Libre Baskerville', cursive;
-  }
-
-.project-entry-block {
-    margin: 2vw;
-    width: 100%;
-    height: 100%; 
-    background: #fff;
-    border-radius: 5%;
-    display: flex;
-    align-items: top;
-    justify-content: center; 
-    position: relative;
-    padding-bottom: 10%;
-    transition: transform 0.5s;
-    margin-bottom: 0.6vw;
+/* ========== Project Album ========== */
+.project-album__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-/* Ensure that links inside project-entry-block have no underline */
-.project-entry-block a {
-    text-decoration: none;
+/* ========== Project Entry Block ========== */
+.project-entry__container {
+  max-width: 30%;
+  flex: 1 1 calc(33.333%);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 4%;
 }
-  
-  .project-entry-block:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  .project-img {
-    width: 90%; 
-    position: relative;
-    z-index: 1;
-    margin-top: 5%;
-    border-radius: 5%;
-  }
-
-.project-caption {
-    position: relative;
-    margin-top: 3%;
-    font-family: 'Libre Baskerville', serif;
-    font-weight: 900; /* Increase font-weight to the maximum value */
-    text-shadow: 1px 1px 2px #333; /* Add a more pronounced text shadow */
-    color: #333;
-    z-index: 4;
-    width: 90%; 
-    margin-left: 5%;
-    text-align: left;
-  }
-
-.project-genre {
-    position: absolute;
-    bottom: 0.5%;
-    font-family: fantasy;
-    font-weight: 1000; /* Increase font-weight to the maximum value */
-    text-shadow: 1px 1px 2px #5073D6;
-    color: #5073D6;
-    z-index: 4;
-    width: 90%; 
-    margin-left: 5%;
-    font-family: 'Nunito', sans-serif;
+.project-entry__block {
+  margin: 2vw;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 5%;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  position: relative;
+  padding-bottom: 10%;
+  transition: transform 0.5s;
+  margin-bottom: 0.6vw;
+}
+.project-entry__block a {
+  text-decoration: none;
+}
+.project-entry__block:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.project-entry__image {
+  width: 90%;
+  position: relative;
+  z-index: 1;
+  margin-top: 5%;
+  border-radius: 5%;
+}
+.project-entry__caption {
+  position: relative;
+  margin-top: 3%;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 900;
+  text-shadow: 1px 1px 2px #333;
+  color: #333;
+  z-index: 4;
+  width: 90%;
+  margin-left: 5%;
+  text-align: left;
+}
+.project-entry__genre {
+  position: absolute;
+  bottom: 0.5%;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 1000;
+  text-shadow: 1px 1px 2px #5073D6;
+  color: #5073D6;
+  z-index: 4;
+  width: 90%;
+  margin-left: 5%;
 }
 
-.project-container {
-    max-width: 30%;
-    flex: 1 1 calc(33.333%);
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center; 
-    flex-wrap: wrap;
-    margin-bottom: 4%;
+/* ========== Project Post Section ========== */
+.project-post__container {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+.project-post__banner {
+  justify-content: center;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 0;
+}
+.project-post__content {
+  z-index: 1;
+  background-color: #fdf9f6;
+  position: relative;
+  margin-top: -5%;
+  justify-content: center;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.project-post__genre {
+  margin-top: 2%;
+  font-weight: bold;
+  color: #5073D6;
+  margin-bottom: 2%;
+  font-family: 'Nunito', sans-serif;
+}
+.project-post__caption {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1.5%;
+  font-family: 'Libre Baskerville', serif;
+}
+.project-post__dates {
+  font-weight: bold;
+  color: gray;
+  margin-bottom: 5%;
+  font-family: 'Exo 2', sans-serif;
 }
 
-/* Layout for medium screens (e.g., tablets, between 768px to 1024px) */
+/* ========== Project Post Blog Content ========== */
+.project-post__blog p {
+  text-align: left;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+.project-post__paragraph {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.project-post__paragraph h4 {
+  text-align: left;
+  font-family: 'Nunito', sans-serif;
+  margin-bottom: 1%;
+  font-weight: 900;
+}
 
+/* ========== Images and Stats ========== */
+.project-post__images-3 {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 2%;
+}
+.project-post__image-box {
+  width: 100%;
+  display: flex;
+  margin: 0.5%;
+  flex-direction: column;
+  align-items: center;
+}
+.project-post__images-3 h5 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 2%;
+  font-style: italic;
+}
+.project-post__images-2 {
+  display: flex;
+  gap: 1vw;
+  margin: 1vw 0;
+}
+.project-post__image-left {
+  display: flex;
+  align-items: flex-start;
+  gap: 1vw;
+  margin: 1vw 0;
+}
+.project-post__image-right {
+  display: flex;
+  align-items: flex-end;
+  gap: 1vw;
+  margin: 1vw 0;
+}
+.project-post__sub-img {
+  width: 30%;
+  height: auto;
+  margin: 0.5%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ========== Responsive Media Queries ========== */
 @media (max-width: 4092px) {
-    .project-caption, .project-genre {
-        font-size: 300%;
-    }
-  }
-
-  @media (max-width: 3072px) {
-    .project-caption, .project-genre {
-        font-size: 250%;
-    }
-    .project-post-caption {
-      font-size: 562.5%;
-    }
-    .project-post-genre {
-        font-size: 337.5%;
-    }
-    .project-dates {
-        font-size: 250%;
-    }
-    .paragraph h4 {
-        font-size: 375%;
-    }
-    .project-blog-content p {
-        font-size: 300%;
-    }
-    .images-3 h5 {
-        font-size: 289.5%;
-    }
-    .project-banner {
-        width: 85%;
-    }
-    .project-poster {
-        width: 75%;
-    }
-  }
-
-  @media (max-width: 2048px) {
-    .project-caption, .project-genre {
-        font-size: 200%;
-    }
-    .project-post-caption {
-      font-size: 450%;
-    }
-    .project-post-genre {
-        font-size: 270%;
-    }
-    .project-dates {
-        font-size: 200%;
-    }
-    .paragraph h4 {
-        font-size: 300%;
-    }
-    .project-blog-content p {
-        font-size: 240%;
-    }
-    .images-3 h5 {
-        font-size: 225%;
-    }
-    .project-banner {
-        width: 85%;
-    }
-    .project-poster {
-        width: 75%;
-    }
-  }
-
-  @media (max-width: 1536px) {
-    .project-caption, .project-genre {
-        font-size: 167%;
-    }
-    .project-post-caption {
-      font-size: 375%;
-    }
-    .project-post-genre {
-        font-size: 225%;
-    }
-    .project-dates {
-        font-size: 167%;
-    }
-    .paragraph h4 {
-        font-size: 250%;
-    }
-    .project-blog-content p {
-        font-size: 200%;
-    }
-    .images-3 h5 {
-        font-size: 187%;
-    }
-    .project-banner {
-        width: 88%;
-    }
-    .project-poster {
-        width: 80%;
-    }
-  }
-
-  @media (max-width: 1024px) {
-    .project-container {
-        max-width: 45%;
-        flex: 1 1 calc(50%);
-    }
-    .project-caption, .project-genre {
-      font-size: 135%;
-    }
-    .project-post-caption {
-      font-size: 300%;
-    }
-    .project-post-genre {
-        font-size: 180%;
-    }
-    .project-dates {
-        font-size: 135%;
-    }
-    .paragraph h4 {
-        font-size: 200%;
-    }
-    .project-blog-content p {
-        font-size: 160%;
-    }
-    .images-3 h5 {
-        font-size: 150%;
-    }
-    .project-banner {
-        width: 88%;
-    }
-    .project-poster {
-        width: 80%;
-    }
+  .project-entry__caption, .project-entry__genre { font-size: 300%; }
+  .project-post__caption { font-size: 562.5%; }
+  .project-post__genre { font-size: 337.5%; }
+  .project-post__dates { font-size: 250%; }
+  .project-post__paragraph h4 { font-size: 375%; }
+  .project-post__blog p { font-size: 300%; }
+  .project-post__images-3 h5 { font-size: 289.5%; }
+  .project-post__banner { width: 85%; }
+  .project-post__content { width: 75%; }
 }
-
-
+@media (max-width: 2048px) {
+  .project-entry__caption, .project-entry__genre { font-size: 200%; }
+  .project-post__caption { font-size: 450%; }
+  .project-post__genre { font-size: 270%; }
+  .project-post__dates { font-size: 200%; }
+  .project-post__paragraph h4 { font-size: 300%; }
+  .project-post__blog p { font-size: 240%; }
+  .project-post__images-3 h5 { font-size: 225%; }
+  .project-post__banner { width: 85%; }
+  .project-post__content { width: 75%; }
+}
+@media (max-width: 1536px) {
+  .project-entry__caption, .project-entry__genre { font-size: 167%; }
+  .project-post__caption { font-size: 375%; }
+  .project-post__genre { font-size: 225%; }
+  .project-post__dates { font-size: 167%; }
+  .project-post__paragraph h4 { font-size: 250%; }
+  .project-post__blog p { font-size: 200%; }
+  .project-post__images-3 h5 { font-size: 187%; }
+  .project-post__banner { width: 88%; }
+  .project-post__content { width: 80%; }
+}
+@media (max-width: 1024px) {
+  .project-album__container { max-width: 45%; flex: 1 1 calc(50%); }
+  .project-entry__caption, .project-entry__genre { font-size: 135%; }
+  .project-post__caption { font-size: 300%; }
+  .project-post__genre { font-size: 180%; }
+  .project-post__dates { font-size: 135%; }
+  .project-post__paragraph h4 { font-size: 200%; }
+  .project-post__blog p { font-size: 160%; }
+  .project-post__images-3 h5 { font-size: 150%; }
+  .project-post__banner { width: 88%; }
+  .project-post__content { width: 80%; }
+}
 @media (max-width: 767px) {
-    .project-caption, .project-genre {
-        font-size: 101.25%;
-    }
-    .project-post-caption {
-      font-size: 225%;
-    }
-    .project-post-genre {
-        font-size: 135%;
-    }
-    .project-dates {
-        font-size: 101.25%;
-    }
-    .paragraph h4 {
-        font-size: 150%;
-    }
-    .project-blog-content p {
-        font-size: 120%;
-    }
-    .images-3 h5 {
-        font-size: 112.5%;
-    }
-    .project-banner {
-        width: 91%;
-    }
-    .project-poster {
-        width: 85%;
-    }
-  }
-  
+  .project-entry__caption, .project-entry__genre { font-size: 101.25%; }
+  .project-post__caption { font-size: 225%; }
+  .project-post__genre { font-size: 135%; }
+  .project-post__dates { font-size: 101.25%; }
+  .project-post__paragraph h4 { font-size: 150%; }
+  .project-post__blog p { font-size: 120%; }
+  .project-post__images-3 h5 { font-size: 112.5%; }
+  .project-post__banner { width: 91%; }
+  .project-post__content { width: 85%; }
+}
 @media (max-width: 512px) {
-    .project-caption, .project-genre {
-        font-size: 67.5%;
-    }
-    .project-post-caption {
-      font-size: 150%;
-    }
-    .project-post-genre {
-        font-size: 90%;
-    }
-    .project-dates {
-        font-size: 67.5%;
-    }
-    .paragraph h4 {
-        font-size: 100%;
-    }
-    .project-blog-content p {
-        font-size: 80%;
-    }
-    .images-3 h5 {
-        font-size: 75%;
-    }
-    .project-banner {
-        width: 94%;
-    }
-    .project-poster {
-        width: 90%;
-    }
-  }
-
-  .project-post {
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: Arial, sans-serif;
-  }
-  
-  .project-banner {
-    justify-content: center;
-    height: auto;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    z-index: 0;
-  }
-  
-  .project-poster {
-    z-index: 1;
-    background-color: #fdf9f6;
-    position: relative;
-    margin-top: -5%;
-    justify-content: center;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .project-genre {
-    margin-top: 2%;
-    font-weight: bold;
-    color: #043fac;
-    margin-bottom: 2%;
-    font-family: 'Nunito', sans-serif;
-  }
-  
-  .project-title {
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 1.5%;
-    font-family: 'Libre Baskerville', serif;
-  }
-  
-  .project-dates {
-    font-weight: bold;
-    color: gray;
-    margin-bottom: 5%;
-    font-family: 'Exo 2', sans-serif;
-  }
-  
-  .paragraph {
-    width: 90%;
-    text-align: center;
-    padding-bottom: 1vw;
-  }
-  
-  .paragraph h4 {
-    text-align: left;
-    font-family: 'Nunito', sans-serif;
-    margin-bottom: 1%;
-    font-weight: 900;
-  }
-  
-  .project-blog-content p {
-    text-align: left;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    font-family: 'Nunito', sans-serif;
-  }
-  
-  .images-3 {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    margin-bottom: 2%;
-  }
-  
-  .images-3 img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .image-box {
-    width: 100%;
-    display: flex;
-    margin: 0.5%;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .images-3 h5 {
-    position: relative;
-    width: 100%;
-    height: auto;
-    margin: 2%;
-    font-style: italic;
-  }
-  
-  .image-right {
-    width: 90%;
-    display: flex;
-    align-items: center;
-    height: auto;
-    margin: 5%;
-  }
-  .image-right p {
-    position: relative;
-    text-align: left;
-    width: 100%;
-    height: auto;
-    font-style: italic;
-  }
-  .image-right img {
-    width: 80%;
-    height: auto;
-    border-radius: 1vw;
-  }
-  .project-sub-img {
-    width: 30%;
-    height: auto;
-    margin: 0.5%;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-
-  .project-post-caption {
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 1.5%;
-    font-family: 'Libre Baskerville', serif;
-  }
-
-  .project-post-genre {
-    margin-top: 2%;
-    font-weight: bold;
-    color: #043fac;
-    margin-bottom: 2%;
-    font-family: 'Nunito', sans-serif;
-  }
+  .project-entry__caption, .project-entry__genre { font-size: 67.5%; }
+  .project-post__caption { font-size: 150%; }
+  .project-post__genre { font-size: 90%; }
+  .project-post__dates { font-size: 67.5%; }
+  .project-post__paragraph h4 { font-size: 100%; }
+  .project-post__blog p { font-size: 80%; }
+  .project-post__images-3 h5 { font-size: 75%; }
+  .project-post__banner { width: 94%; }
+  .project-post__content { width: 90%; }
+}

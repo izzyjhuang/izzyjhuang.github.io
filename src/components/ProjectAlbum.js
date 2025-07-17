@@ -10,7 +10,7 @@ class ProjectAlbum extends React.Component {
     render() {
 
         return (
-            <div className= "flex-container">
+            <div className= "project-album__container">
             {
                 entries.itemlist.map((project) => {
                     return <ProjectEntry 
