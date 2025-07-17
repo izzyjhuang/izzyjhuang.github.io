@@ -7,6 +7,7 @@
             "caption"   :   "Exploring Big Tech - A Dream Come True",
             "caption_zh":   "探索大科技公司——夢想成真",
             "when"      :   "Current",
+            "when_zh"   :   "目前",
             "whenColor" :   "#043fac",
             "slug"      :   "google-f24",
             "description":   "SWE Intern @ Google",
@@ -18,6 +19,7 @@
             "caption"   :   "Trying Out the Dev Side of Quant with Familiar Faces",
             "caption_zh":   "和熟悉的夥伴一起體驗量化開發",
             "when"      :   "Summer 2024",
+            "when_zh"   :   "2024年夏",
             "whenColor" :   "#043fac",
             "slug"      :   "ctc-s24",
             "description":   "Quant Dev Intern @ CTC",
@@ -29,6 +31,7 @@
             "caption"   :   "Initial Taste of Quant as a Trading Intern",
             "caption_zh":   "初嚐量化交易實習的滋味",
             "when"      :   "Summer 2023",
+            "when_zh"   :   "2023年夏",
             "whenColor" :   "#043fac",
             "slug"      :   "ctc-s23",
             "description":   "Quant Trading Analyst Intern @ CTC",
@@ -38,46 +41,61 @@
             "src"       :   "sparksense-f22.jpg",
             "logo"      :   "fresenius-kabi-logo.png",
             "caption"   :   "My Short-Lived Consulting Tenure",
+            "caption_zh":   "短暫的顧問生涯",
             "when"      :   "Fall 2022",
+            "when_zh"   :   "2022年秋",
             "whenColor" :   "#043fac",
             "slug"      :   "sparksense-f22",
-            "description":   "Business Development Intern @ SparkSense"
+            "description":   "Business Development Intern @ SparkSense",
+            "description_zh": "SparkSense 業務發展實習生"
         },
         {
             "src"       :   "fk-s22.jpg",
             "logo"      :   "fresenius-kabi-logo.png",
             "caption"   :   "Hi Engineering~ my First Taste of Industry",
+            "caption_zh":   "工程初體驗～我的第一份產業實習",
             "when"      :   "Summer 2022",
+            "when_zh"   :   "2022年夏",
             "whenColor" :   "#043fac",
             "slug"      :   "fk-s22",
-            "description":   "Systems Engineering Intern @ Fresneius Kabi"
+            "description":   "Systems Engineering Intern @ Fresneius Kabi",
+            "description_zh": "Fresenius Kabi 系統工程實習生"
         },
         {
             "src"       :   "research-s22.jpeg",
             "logo"      :   "fresenius-kabi-logo.png",
             "caption"   :   "Appreciating the Intricate Protein Surface Interaction Through Biotech Research",
+            "caption_zh":   "從生物科技研究中體會蛋白質表面互動的奧妙",
             "when"      :   "Spring 2022",
+            "when_zh"   :   "2022年春",
             "whenColor" :   "#043fac",
             "slug"      :   "research-s22",
-            "description":   "Protein Engineering Researcher @ Leonard Lab"
+            "description":   "Protein Engineering Researcher @ Leonard Lab",
+            "description_zh": "Leonard Lab 蛋白質工程研究員"
         },
         {
             "src"       :   "3d-model-designer-s19.jpg",
             "logo"      :   "",
             "caption"   :   "One Step Toward my LEGO Model Designer Aspiration",
+            "caption_zh":   "邁向樂高模型設計師夢想的第一步",
             "when"      :   "Summer 2019",
+            "when_zh"   :   "2019年夏",
             "whenColor" :   "#043fac",
             "slug"      :   "3d-model-designer-s19",
-            "description":   "3D Model Design Intern @ American Energy Technology Company"
+            "description":   "3D Model Design Intern @ American Energy Technology Company",
+            "description_zh": "American Energy Technology Company 3D 模型設計實習生"
         },
         {
             "src"       :   "translator-19-21.jpg",
             "logo"      :   "",
             "caption"   :   "First Role in the US - I Helped Immigrants Understand Church Services!",
+            "caption_zh":   "在美國的第一份工作——幫助新移民聽懂教會禮拜！",
             "when"      :   "2019, 2020",
+            "when_zh"   :   "2019、2020年",
             "whenColor" :   "#043fac",
             "slug"      :   "translator-19-21",
-            "description":   "Simultaneous Interpretor @ Willow Creek Church"
+            "description":   "Simultaneous Interpretor @ Willow Creek Church",
+            "description_zh": "Willow Creek Church 同步口譯"
         }
     ]
 }

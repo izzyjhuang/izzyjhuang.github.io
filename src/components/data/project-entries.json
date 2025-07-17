@@ -7,7 +7,9 @@
             "caption"   :   "Tomorrow Starts Tonight App",
             "caption_zh":   "明天從今晚開始 App",
             "date"      :   "Aug 2024 - Sep 2024",
+            "date_zh"   :   "2024年8月 - 2024年9月",
             "genre"     :   "MOBILE APP DEV",
+            "genre_zh"  :   "手機應用程式開發",
             "banner"    :   "",
             "summary"   :   "",
             "summary_zh": ""
@@ -18,7 +20,9 @@
             "caption"   :   "The Duality of Mouse: The gift of ambidexterity",
             "caption_zh":   "滑鼠的雙重性：雙手靈活的禮物",
             "date"      :   "Oct 2024",
+            "date_zh"   :   "2024年10月",
             "genre"     :   "COMPUTER SYSTEMS",
+            "genre_zh"  :   "電腦系統",
             "summary"   :   "",
             "summary_zh": "",
             "banner"    :   "the-duality-of-mouse-banner.jpg",
@@ -52,8 +56,11 @@
             "src"       :   "izzy-website.jpeg",
             "slug"      :   "izzy-website",
             "caption"   :   "Izzy the Explorer Website: My way of life",
+            "caption_zh":   "Izzy 探險家網站：我的生活方式",
             "date"      :   "Aug 2024 - Sep 2024",
+            "date_zh"   :   "2024年8月 - 2024年9月",
             "genre"     :   "WEB DEV, PERSONAL BLOG",
+            "genre_zh"  :   "網頁開發、個人部落格",
             "banner"    :   "",
             "summary"   :   "",
             "summary_zh": ""
@@ -63,55 +70,70 @@
             "src"       :   "neuronet-page.jpeg",
             "slug"      :   "NeuroNet.pdf",
             "caption"   :   "NeuroNet: A Deep Learning Model for Alzheimer's Diagnosis",
+            "caption_zh":   "NeuroNet：阿茲海默症診斷的深度學習模型",
             "date"      :   "Oct 2022 - May 2023",
+            "date_zh"   :   "2022年10月 - 2023年5月",
             "genre"     :   "DEEP LEARNING, BIOTECH",
+            "genre_zh"  :   "深度學習、生物科技",
             "summary"   :   "As part of the IEEE technical program, my team and I built NeuroNet, a deep-learning model that uses convolutional neural network to analyze 3D MRI images to classify signs of early-stage Alzheimer's with an accuracy of 94%! NeuroNet was voted the \"Best Overall Project\" by a panel of judges from various tech companies such as Abbvie and Tesla.",
-            "banner"    :   "",
-            "summary_zh": ""
+            "summary_zh": "作為 IEEE 技術計畫的一部分，我和我的團隊建立了 NeuroNet，一個利用卷積神經網路分析 3D MRI 影像以分類早期阿茲海默症徵兆的深度學習模型，準確率高達 94%！NeuroNet 被來自 Abbvie 和 Tesla 等多家科技公司的評審團評選為「最佳整體專案」。",
+            "banner"    :   ""
         },
         
         {
             "src"       :   "skin-bank-paper-2.jpeg",
             "slug"      :   "https://www.researchgate.net/publication/363901989_The_Establishment_of_a_High_Standard_Skin_Bank_in_Taiwan_as_a_Burn_Care_Pioneer",
             "caption"   :   "The Establishment of a High Standard Skin Bank in Taiwan as a Burn Care Pioneer",
+            "caption_zh":   "台灣高標準皮膚庫的建立：燒傷照護的先驅",
             "date"      :   "Mar 2019 - Dec 2022",
+            "date_zh"   :   "2019年3月 - 2022年12月",
             "genre"     :   "MEDICINE, BIOTECH",
+            "genre_zh"  :   "醫學、生物科技",
             "summary"   :   "I worked with National Taiwan University Hospital and helped with the statistical analysis aspect of the publication.",
-            "banner"    :   "",
-            "summary_zh": ""
+            "summary_zh": "我與台大醫院合作，協助本論文的統計分析部分。",
+            "banner"    :   ""
         },
 
         {
             "src"       :   "the-clampanion-poster-2.jpeg",
             "slug"      :   "../files/DTC_I-Instructions-for-use-and-construction.pdf",
             "caption"   :   "The Clampanion: The Ultimate Companion for Clients with Partial Paralysis",
+            "caption_zh":   "Clampanion：偏癱患者的最佳夥伴",
             "date"      :   "Sep 2021 - Dec 2021",
+            "date_zh"   :   "2021年9月 - 2021年12月",
             "genre"     :   "USER-CENTERED DESIGN",
+            "genre_zh"  :   "以使用者為中心的設計",
             "summary"   :   "Through working alongside our project partner, occupational therapists, and end-users, my team of four engineers designed a V-shaped twist clamp with a buckle mechanism to assist with stabilizing and opening containers which improved the lives of people with partial paralysis with limited motor function in one hand.",
-            "banner"    :   "",
-            "summary_zh": ""
+            "summary_zh": "與專案夥伴、職能治療師和終端用戶合作，我們四人團隊設計了一款 V 型旋轉夾具，配有扣環機構，協助單手偏癱患者穩定並打開容器，提升其生活品質。",
+            "banner"    :   ""
         },
 
         {
             "src"       :   "esrp-2021-2.jpeg",
             "slug"      :   "https://www.anl.gov/sites/www/files/2021-06/Glenbrook%20South%20High%20School%20ESRP%202021.pdf",
             "caption"   :   "Environmental Impact of Heavy Metals Composition and Iron Specialization in Soils",
+            "caption_zh":   "土壤中重金屬組成與鐵專化的環境影響",
             "date"      :   "Oct 2020 - Apr 2021",
+            "date_zh"   :   "2020年10月 - 2021年4月",
             "genre"     :   "SUSTAINABILITY, MATERIAL SCIENCE",
+            "genre_zh"  :   "永續發展、材料科學",
             "summary"   :   "A brief overview of your first adventure. Click to read more.",
-            "banner"    :   "",
-            "summary_zh": ""
+            "summary_zh": "這是我第一個研究冒險的簡要介紹。點擊閱讀更多。",
+            "banner"    :   ""
         },
 
         {
             "src"       :   "esrp-2020-2.jpeg",
             "slug"      :   "https://www.anl.gov/sites/www/files/2020-08/Glenbrook%20South%20High%20School.pdf",
             "caption"   :   "Local Structural Analysis of Niobium-Based Battery Cathodes",
+            "caption_zh":   "鈮基電池正極的局部結構分析",
             "date"      :   "Oct 2019 - Jun 2020",
+            "date_zh"   :   "2019年10月 - 2020年6月",
             "genre"     :   "BATTERY, MATERIAL SCIENCE",
+            "genre_zh"  :   "電池、材料科學",
             "summary"   :   "A brief overview of your first adventure. Click to read more.",
-            "banner"    :   "",
-            "summary_zh": ""
+            "summary_zh": "這是我第一個研究冒險的簡要介紹。點擊閱讀更多。",
+            "banner"    :   ""
         }
 
     ]

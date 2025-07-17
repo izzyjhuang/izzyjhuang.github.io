@@ -26,7 +26,7 @@ const Adventures = ({ selectedLanguage }) => {
         },
         bannerText: {
             English: "  My favorite adventure was going Skydiving in Utah! I'll be visiting Scandinavia soon!",
-            中文: "  我最喜歡的冒險是去猶他州跳傘！我接下來很期待要去北歐玩！"
+            中文: "  我最喜歡的冒險是去猶他州跳傘！我很期待接下來要去北歐玩！"
         },
         yearCount: {
             English: "  this year",

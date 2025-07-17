@@ -35,9 +35,11 @@ const linkProps = isExternal || this.props.slug.endsWith(".pdf")
   ? { href: linkPath, rel: "noopener noreferrer" }
   : { to: linkPath };
 
-  const { caption, caption_zh, summary, summary_zh, selectedLanguage } = this.props;
+  const { caption, caption_zh, summary, summary_zh, genre, genre_zh, date, date_zh, selectedLanguage } = this.props;
   const displayCaption = selectedLanguage === '中文' && caption_zh ? caption_zh : caption;
   const displaySummary = selectedLanguage === '中文' && summary_zh ? summary_zh : summary;
+  const displayGenre = selectedLanguage === '中文' && genre_zh ? genre_zh : genre;
+  const displayDate = selectedLanguage === '中文' && date_zh ? date_zh : date;
 
   return (
     <div className="project-container">
@@ -45,7 +47,7 @@ const linkProps = isExternal || this.props.slug.endsWith(".pdf")
         <LinkComponent {...linkProps}>
           <img className="project-img" src={image_path} alt={image_path} loading="lazy" />
           <div className="project-caption">{displayCaption}</div>
-          <div className="project-genre">{this.props.genre}</div>
+          <div className="project-genre">{displayGenre}</div>
           {/* If you want to show summary somewhere, you can use displaySummary */}
         </LinkComponent>
       </div>

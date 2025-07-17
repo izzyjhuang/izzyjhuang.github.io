@@ -20,7 +20,9 @@ class ProjectAlbum extends React.Component {
                     caption={project.caption} 
                     caption_zh={project.caption_zh}
                     date={project.date} 
+                    date_zh={project.date_zh}
                     genre={project.genre} 
+                    genre_zh={project.genre_zh}
                     summary={project.summary}
                     summary_zh={project.summary_zh}
                     banner={project.banner}

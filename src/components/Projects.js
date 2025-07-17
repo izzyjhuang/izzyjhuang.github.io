@@ -70,7 +70,7 @@ const Projects = ({ selectedLanguage }) => {
             </div>                
             <h1 className="page-text">{displayedText}</h1> 
             </div>
-          <ProjectAlbum />
+          <ProjectAlbum selectedLanguage={selectedLanguage} />
         </div>
       );
 };

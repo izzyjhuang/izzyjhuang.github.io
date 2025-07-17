@@ -23,9 +23,10 @@ class ExperienceEntry extends React.Component {
             ? `/experience/${this.props.slug}` 
             : "/notes"; 
 
-        const { caption, caption_zh, description, description_zh, selectedLanguage } = this.props;
+        const { caption, caption_zh, description, description_zh, when, when_zh, selectedLanguage } = this.props;
         const displayCaption = selectedLanguage === '中文' && caption_zh ? caption_zh : caption;
         const displayDescription = selectedLanguage === '中文' && description_zh ? description_zh : description;
+        const displayWhen = selectedLanguage === '中文' && when_zh ? when_zh : when;
 
 
         return (
@@ -34,7 +35,7 @@ class ExperienceEntry extends React.Component {
                     <Link to={linkPath}>
                         <img className="experience-img" src={image_path} alt={image_path} loading="lazy"/>
                         <div className="experience-caption">{displayCaption}</div>
-                        <div className="experience-when" style={whenStyle}>{this.props.when}</div>
+                        <div className="experience-when" style={whenStyle}>{displayWhen}</div>
                         <div className="experience-description" style={locationStyle}>{displayDescription}</div>
                     </Link>
                 </div>

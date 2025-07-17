@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom'
 import entries from './data/project-entries'
 import './projects.css'
 
-const ProjectPost = () => {
+const ProjectPost = ({ selectedLanguage = 'English' }) => {
     const { slug } = useParams()
 
     // Find the corresponding project entry by its slug
@@ -14,16 +14,22 @@ const ProjectPost = () => {
         return <div>project not found</div>
     }
 
+    const displayCaption = selectedLanguage === '中文' && project.caption_zh ? project.caption_zh : project.caption;
+    const displaySummary = selectedLanguage === '中文' && project.summary_zh ? project.summary_zh : project.summary;
+    const displayGenre = selectedLanguage === '中文' && project.genre_zh ? project.genre_zh : project.genre;
+    const displayDate = selectedLanguage === '中文' && project.date_zh ? project.date_zh : project.date;
+
     return (
         <div className="project-post">
-            <img className="project-banner" src={`../images/projects/${project.banner}`} alt={project.caption}  loading="lazy"/>
+            <img className="project-banner" src={`../images/projects/${project.banner}`} alt={displayCaption}  loading="lazy"/>
             <div className="project-poster">
-                <h2 className="project-post-genre">{project.genre}</h2>
-                <h1 className="project-post-caption">{project.caption}</h1>
-                <h3 className="project-dates">{project.date}</h3>
+                <h2 className="project-post-genre">{displayGenre}</h2>
+                <h1 className="project-post-caption">{displayCaption}</h1>
+                <h3 className="project-dates">{displayDate}</h3>
+                {displaySummary && <div className="project-summary">{displaySummary}</div>}
                 <div className="project-blog-content">
                 {/* Loop through the blog content and render paragraphs and images */}
-                {project.blogPost.map((content, index) => {
+                {project.blogPost && project.blogPost.map((content, index) => {
                     if (content.type === 'paragraph') {
                         return (
                             <div className="paragraph" key={`${slug}-paragraph-${index}`}>
@@ -96,4 +102,4 @@ const ProjectPost = () => {
     )
 }
 
-export default ProjectPost
+export default ProjectPost;

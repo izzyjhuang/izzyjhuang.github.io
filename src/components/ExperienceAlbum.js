@@ -18,6 +18,7 @@ class ExperienceAlbum extends React.Component {
                     caption={experience.caption}
                     caption_zh={experience.caption_zh}
                     when={experience.when}
+                    when_zh={experience.when_zh}
                     whencolor={experience.whenColor} 
                     slug={experience.slug}
                     description={experience.description}

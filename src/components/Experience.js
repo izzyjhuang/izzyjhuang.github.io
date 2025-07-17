@@ -9,7 +9,7 @@ const Experience = ({ selectedLanguage }) => {
     // Define translations for the full text
     const textTranslations = {
         English: "  \"Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.\"",
-        中文: "  「無論做甚麼，都要全心全意地做，像是給主做的，不是給人做的。」"
+        中文: "  「無論做甚麼，都要全心全意地做，像是給上帝做的，不是給人做的。」"
     };
 
     // Get the full text based on the selected language
@@ -69,7 +69,7 @@ const Experience = ({ selectedLanguage }) => {
             </div>                
             <h1 className="page-text">{displayedText}</h1> 
             </div>
-            <ExperienceAlbum />
+            <ExperienceAlbum selectedLanguage={selectedLanguage} />
         </div>
     );
 }
