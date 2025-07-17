@@ -31,10 +31,10 @@ const ProjectPost = ({ selectedLanguage = 'English' }) => {
                 {/* Loop through the blog content and render paragraphs and images */}
                 {project.blogPost && project.blogPost.map((content, index) => {
                     if (content.type === 'paragraph') {
+                        const displayText = selectedLanguage === '中文' && content.text_zh ? content.text_zh : content.text;
                         return (
                             <div className="paragraph" key={`${slug}-paragraph-${index}`}>
-                                <h4>{content.header}</h4>
-                                <p>{content.text}</p>
+                                <p>{displayText}</p>
                             </div>
                         )
                     } else if (content.type === 'images-3') {
@@ -68,28 +68,33 @@ const ProjectPost = ({ selectedLanguage = 'English' }) => {
                             </div>
                         )
                     } else if (content.type === 'image-left') {
+                        const displayText = selectedLanguage === '中文' && content.text_zh ? content.text_zh : content.text;
+                        const displayAlt = selectedLanguage === '中文' && content.alt_zh ? content.alt_zh : content.alt;
                         return (
                             <div className="image-left" key={`${slug}-imageleft-${index}`}>
                                 <div className="image-box">
-                                    <img src={`../images/projects/${content.src}`} alt={content.alt} loading="lazy"/>
-                                    <h5>{content.alt}</h5>
+                                    <img src={`../images/projects/${content.src}`} alt={displayAlt} loading="lazy"/>
+                                    <h5>{displayAlt}</h5>
                                 </div>
-                                <p>{content.text}</p>
+                                <p>{displayText}</p>
                             </div>
                         )
                     } else if (content.type === 'image-right') {
+                        const displayText = selectedLanguage === '中文' && content.text_zh ? content.text_zh : content.text;
+                        const displayAlt = selectedLanguage === '中文' && content.alt_zh ? content.alt_zh : content.alt;
                         return (
                             <div className="image-right" key={`${slug}-imageright-${index}`}>
-                                <p>{content.text}</p>
+                                <p>{displayText}</p>
                                 <div className="image-box">
-                                    <img src={`../images/projects/${content.src}`} alt={content.alt} loading="lazy"/>
-                                    <h5>{content.alt}</h5>
+                                    <img src={`../images/projects/${content.src}`} alt={displayAlt} loading="lazy"/>
+                                    <h5>{displayAlt}</h5>
                                 </div>
                             </div>
                         )
                     } else if (content.type === 'image') {
+                        const displayAlt = selectedLanguage === '中文' && content.alt_zh ? content.alt_zh : content.alt;
                         return (
-                            <img key={`${slug}-image-${index}`} src={`../images/projects/${content.src}`} alt={content.alt} className="project-sub-img" loading="lazy"/>
+                            <img key={`${slug}-image-${index}`} src={`../images/projects/${content.src}`} alt={displayAlt} className="project-sub-img" loading="lazy"/>
                         )
                     } else {
                         return null

@@ -18,7 +18,7 @@
             "src"       :   "the-duality-of-mouse.jpg",
             "slug"      :   "the-duality-of-mouse",
             "caption"   :   "The Duality of Mouse: The gift of ambidexterity",
-            "caption_zh":   "滑鼠的雙重性：雙手靈活的禮物",
+            "caption_zh":   "滑鼠的雙重性：左右開弓的天賦",
             "date"      :   "Oct 2024",
             "date_zh"   :   "2024年10月",
             "genre"     :   "COMPUTER SYSTEMS",
@@ -29,25 +29,31 @@
             "blogPost"  : [
                 {
                     "type"  : "paragraph",
-                    "text"  : "It all began with a twist of fate one summer after first grade. A careless game of hide-and-seek left my dominant right fingers injured, and suddenly, I was thrust into a three-month “free trial” of living left-handed. Every day became an adventure in awkwardness—from brushing my teeth with fumbling fingers to scribbling words that barely resemble letters. What started as frustration, though, slowly bloomed into revelation. My left hand, once a stranger, began to find its rhythm, moving in quiet harmony with my right, complementing it in ways I never expected."
+                    "text"  : "It all began with a twist of fate one summer after first grade. A careless game of hide-and-seek left my dominant right fingers injured, and suddenly, I was thrust into a three-month “free trial” of living left-handed. Every day became an adventure in awkwardness—from brushing my teeth with fumbling fingers to scribbling words that barely resemble letters. What started as frustration, though, slowly bloomed into revelation. My left hand, once a stranger, began to find its rhythm, moving in quiet harmony with my right, complementing it in ways I never expected.",
+                    "text_zh": "一切始於一年級暑假的一場意外。玩捉迷藏時不小心弄傷了慣用的右手手指，於是我被迫展開了三個月的左撇子“試用期”。每天都充滿了尷尬——從笨拙地刷牙到寫出幾乎看不懂的字。雖然一開始很挫折，但漸漸地我發現左手開始找到自己的節奏，與右手默契配合，帶來了意想不到的協調。"
                 },
                 {
                     "type"  : "paragraph",
-                    "text"  : "In middle school, I discovered my love for baseball, and with it, a deep fascination for the left-handed advantage. Left-handed athletes, I learned, possess tactical advantages—unfamiliar angles that throw opponents off balance, movements that seem to catch them just a fraction too late. Baseball is no exception, where left-handed batters are gifted with one step closer to first base, and lefty pitchers have a sharper edge on pick-offs. Growing up in Taiwan, where many left-handed kids were retrained to use their right, my entire team batted right-handed. But I saw an opportunity. I bet they’ve never faced a left-handed hitter, I thought, as I stepped into the batter’s box, feeling both out of place and electric with possibility. That small shift caught the pitchers by surprise, unraveling their rhythm. By the end of the season, this peculiar experiment culminated in the highest walk rate and on-base percentage—the “left-handed experiment” quietly triumphant. From there, I started embracing this newfound duality in sports—ping-pong, archery—and soon, my non-dominant hand became not just an option, but an ally in daily life."
+                    "text"  : "In middle school, I discovered my love for baseball, and with it, a deep fascination for the left-handed advantage. Left-handed athletes, I learned, possess tactical advantages—unfamiliar angles that throw opponents off balance, movements that seem to catch them just a fraction too late. Baseball is no exception, where left-handed batters are gifted with one step closer to first base, and lefty pitchers have a sharper edge on pick-offs. Growing up in Taiwan, where many left-handed kids were retrained to use their right, my entire team batted right-handed. But I saw an opportunity. I bet they’ve never faced a left-handed hitter, I thought, as I stepped into the batter’s box, feeling both out of place and electric with possibility. That small shift caught the pitchers by surprise, unraveling their rhythm. By the end of the season, this peculiar experiment culminated in the highest walk rate and on-base percentage—the “left-handed experiment” quietly triumphant. From there, I started embracing this newfound duality in sports—ping-pong, archery—and soon, my non-dominant hand became not just an option, but an ally in daily life.",
+                    "text_zh": "國中時，我愛上了棒球，也對左撇子的優勢產生了濃厚興趣。我發現左撇子運動員有戰術上的優勢——不熟悉的角度讓對手措手不及，動作總是快那麼一點。棒球尤其如此，左打者離一壘更近，左投手牽制跑者也更有利。在台灣，許多左撇子小孩都被矯正成右撇子，我的球隊全都右打。但我看到機會：他們肯定沒對過左打者。於是我走進打擊區，雖然有點格格不入，卻充滿期待。這個小改變讓投手節奏大亂，整季下來我拿下最高保送率和上壘率——“左撇子實驗”悄悄成功。從此我在乒乓、射箭等運動也開始練左手，非慣用手不再只是備胎，而成了生活中的好夥伴。"
                 },
                 {
                     "type"  : "image-right",
                     "text"  : "Years later, during a summer internship in college, I found myself surrounded by four giant monitors, with my mouse tirelessly taking laps from screen to screen. One day, a cry from my left hand broke the silence: Why not let me have some fun too?",
+                    "text_zh": "多年後，大學暑假實習時，我被四台大螢幕包圍，滑鼠在螢幕間來回奔跑。有一天，左手突然發聲：為什麼不讓我也來玩玩？",
                     "src"   : "the-duality-of-mouse-1.jpg",
-                    "alt"   : "The Southpaw Archer"
+                    "alt"   : "The Southpaw Archer",
+                    "alt_zh": "左撇子弓箭手"
                 },
                 {
                     "type"  : "paragraph",
-                    "text"  : "Armed with a foundation in C programming and an itch for experimentation, I began to turn that thought into reality. With the help of ChatGPT, I dove deep into MacOS, learning its intricate workings—from keychain access to the Carbon API. My goal was simple: to create a second mouse, one for each hand, so they could dance together across the screen. And thus, The Duality of Mouse was born. New cursors materialized, each imbued with the soul of its own mouse. As cherry on top, I incorporated copy-and-paste functionality for text selection and the middle key, transforming my computer screen from a one-man show into a stage where two mice tangoed across the screen in perfect synchronization."
+                    "text"  : "Armed with a foundation in C programming and an itch for experimentation, I began to turn that thought into reality. With the help of ChatGPT, I dove deep into MacOS, learning its intricate workings—from keychain access to the Carbon API. My goal was simple: to create a second mouse, one for each hand, so they could dance together across the screen. And thus, The Duality of Mouse was born. New cursors materialized, each imbued with the soul of its own mouse. As cherry on top, I incorporated copy-and-paste functionality for text selection and the middle key, transforming my computer screen from a one-man show into a stage where two mice tangoed across the screen in perfect synchronization.",
+                    "text_zh": "有了C語言基礎和實驗精神，我開始將這個想法付諸實現。在ChatGPT的協助下，我深入研究MacOS，學習了從鑰匙圈存取到Carbon API等系統細節。我的目標很簡單：創造第二隻滑鼠，讓雙手能在螢幕上共舞。於是，雙滑鼠計畫誕生了。新游標一一現身，每個都像有自己的靈魂。最後還加上了選取文字與中鍵複製貼上的功能，讓我的電腦螢幕從單人秀變成了雙鼠共舞的舞台。"
                 },
                 {
                     "type"  : "paragraph",
-                    "text"  : "What I’ve learned is that passion for discovery often fades beneath the weight of assignments and deadlines. But when inspiration strikes, when curiosity leads the way, learning becomes something entirely different. In those moments, the extra spark turns the ordinary into the joyful extraordinary."
+                    "text"  : "What I’ve learned is that passion for discovery often fades beneath the weight of assignments and deadlines. But when inspiration strikes, when curiosity leads the way, learning becomes something entirely different. In those moments, the extra spark turns the ordinary into the joyful extraordinary.",
+                    "text_zh": "我體會到，探索的熱情常常會被作業和截止日的壓力消磨。但當靈感來臨、好奇心引領時，學習就變得完全不同。在那些時刻，額外的火花能讓平凡變得無比快樂和特別。"
                 }
             ]
         },

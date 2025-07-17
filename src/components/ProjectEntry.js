@@ -22,7 +22,7 @@ class ProjectEntry extends React.Component {
     if (isExternal) {
       return this.props.slug; // External link
     } else if (NeedworkSlugs.includes(this.props.slug)) {
-      return "/notes"; // Redirect to the "Still Working" page
+      return "/philosophy"; // Redirect to the "Still Working" page
     } else if (this.props.slug.endsWith(".pdf")) {
       return `${process.env.PUBLIC_URL}/files/${this.props.slug}`; // Direct link to internal PDF file
     } else {

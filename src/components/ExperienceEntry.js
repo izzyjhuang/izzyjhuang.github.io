@@ -21,7 +21,7 @@ class ExperienceEntry extends React.Component {
 
         const linkPath = CompletedSlugs.includes(this.props.slug) 
             ? `/experience/${this.props.slug}` 
-            : "/notes"; 
+            : "/philosophy"; 
 
         const { caption, caption_zh, description, description_zh, when, when_zh, selectedLanguage } = this.props;
         const displayCaption = selectedLanguage === '中文' && caption_zh ? caption_zh : caption;

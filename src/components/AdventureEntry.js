@@ -27,7 +27,7 @@ class AdventureEntry extends React.Component {
 
         const linkPath = CompletedSlugs.includes(this.props.slug) 
             ? `/adventures/${this.props.slug}` 
-            : "/notes"; 
+            : "/philosophy"; 
 
         const { caption, caption_zh, location, location_zh, selectedLanguage } = this.props;
         const displayCaption = selectedLanguage === '中文' && caption_zh ? caption_zh : caption;

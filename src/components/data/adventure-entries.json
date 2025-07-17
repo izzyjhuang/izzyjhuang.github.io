@@ -66,7 +66,9 @@
             "date"      :   "Aug'24",
             "slug"      :   "hvolsvollur-0824",
             "genre"     :   "ICELAND | FAMILY TRAVEL | NATURE",
+            "genre_zh"  :   "冰島｜家庭旅行｜自然",
             "title"     :   "Celebrating 21 on the Land of Fire and Ice",
+            "title_zh"  :   "在火與冰之地慶祝21歲生日",
             "dates"     :   "08.23.24 ~ 08.28.24",
             "banner"    :   "iceland-0824-banner.jpeg",
             "blogPost"  : [
@@ -75,106 +77,133 @@
                     "header": "Arrival: Into the Land of Fire and Ice",
                     "header_zh": "抵達：進入火與冰之地",
                     "text"  : "After a quiet 3 a.m. taxi ride through the sleeping streets of Birmingham, we arrived at Keflavik International Airport, just in time to pick up our camper van. Buffeted by Iceland’s famous fierce winds, we brimmed with excitement, eager to begin our journey through the land of fire and ice. Fire greeted us first as we wound our way along Highway 41, glimpsing the smoldering earth at Grindavík, where volcanic remnants whispered ancient tales. Soon, we arrived at Hvammsvík, where steam rose like the earth’s breath. We sank into the warmth of the hot springs, cradled by towering mountains, as if the landscape itself had opened its arms to welcome us.",
-                    "text_zh": "凌晨三點，穿越伯明翰沉睡的街道，我們安靜地搭計程車抵達凱夫拉維克國際機場，正好趕上取露營車。冰島著名的強風迎面而來，讓我們充滿興奮，準備展開火與冰之地的旅程。首先迎接我們的是火，沿著41號公路蜿蜒前行，遠望Grindavík的熾熱大地，火山遺跡低語著古老傳說。很快我們來到Hvammsvík，地熱蒸氣如大地的呼吸升起。我們泡進溫泉的暖流，被高山環抱，彷彿這片土地張開雙臂歡迎我們。"
+                    "text_zh": "凌晨三點，我們安靜地搭計程車，穿越伯明翰沉睡的街道。抵達凱夫拉維克國際機場時，正好趕上取露營車。冰島著名的強風迎面而來，讓我們充滿興奮，準備展開火與冰之地的旅程。首先迎接我們的是火，沿著41號公路蜿蜒前行，遠望Grindavík的熾熱大地，火山遺跡低語著古老傳說。很快我們來到Hvammsvík，地熱蒸氣如大地的呼吸升起。我們泡進溫泉的暖流，被高山環抱，彷彿這片土地張開雙臂歡迎我們。"
                 },
                 {
                     "type"  : "images-3",
                     "src1"  : "iceland-0824-11.jpeg",
                     "alt1"  : "Volcano erruption of Grindavík",
+                    "alt1_zh": "Grindavík 火山爆發",
                     "src2"  : "iceland-0824-12.jpeg",
                     "alt2"  : "Hot spring of Hvammsvík",
+                    "alt2_zh": "Hvammsvík 溫泉",
                     "src3"  : "iceland-0824-13.jpeg",
-                    "alt3"  : "Our Happy Camper van"
+                    "alt3"  : "Our Happy Camper van",
+                    "alt3_zh": "我們快樂的露營車"
                 },
                 {
                     "type"  : "paragraph",
                     "header": "Snæfellsnes: Where Giants and Foxes Roam",
                     "header_zh": "斯奈菲爾斯尼斯：巨人和狐狸的領地",
-                    "text"  : "On our second day, we explored the wild beauty of the Snæfellsnes Peninsula. We visited the majestic Bárður Snæfellsás Statue, one of the peninsula’s most iconic attractions. This statue honors Bárður, a half-giant, half-human figure who fled Norway’s oppressive rule to seek freedom in Iceland. His journey symbolized a quest for independence and new beginnings. Later, during a brief stop for a bathroom break, we serendipitously encountered an Arctic fox—Iceland’s only native land mammal—roaming freely in the parking lot, a quiet reminder of this land's deep connection to nature. As we continued our tour, we marveled at Ströndin við Stapa og Hellna, where volcanic activity and coastal erosion sculpted the coastline. The cliffs, shaped by time and the elements, stood as a testament to Iceland’s awe-inspiring natural forces."
+                    "text"  : "On our second day, we explored the wild beauty of the Snæfellsnes Peninsula. We visited the majestic Bárður Snæfellsás Statue, one of the peninsula’s most iconic attractions. This statue honors Bárður, a half-giant, half-human figure who fled Norway’s oppressive rule to seek freedom in Iceland. His journey symbolized a quest for independence and new beginnings. Later, during a brief stop for a bathroom break, we serendipitously encountered an Arctic fox—Iceland’s only native land mammal—roaming freely in the parking lot, a quiet reminder of this land's deep connection to nature. As we continued our tour, we marveled at Ströndin við Stapa og Hellna, where volcanic activity and coastal erosion sculpted the coastline. The cliffs, shaped by time and the elements, stood as a testament to Iceland’s awe-inspiring natural forces.",
+                    "text_zh": "第二天，我們探索了斯奈菲爾斯尼斯半島的野性之美。我們參觀了壯觀的Bárður Snæfellsás雕像，這是半島上最具代表性的景點之一。這座雕像紀念Bárður，一位半巨人半人類的傳奇人物，他為了追求自由從挪威逃到冰島。他的旅程象徵著對獨立和新生的追求。後來在短暫的廁所休息時，我們幸運地遇見了一隻北極狐——冰島唯一的原生陸地哺乳動物，牠在停車場自由穿梭，靜靜提醒著這片土地與自然的深厚連結。繼續旅程時，我們驚嘆於Stapa og Hellna海岸線，火山活動和海蝕共同雕塑出壯麗的懸崖，這些懸崖經歷了歲月與自然的洗禮，是冰島令人敬畏的自然力量的見證。"
                 },
                 {
                     "type"  : "images-3",
                     "src1"  : "iceland-0824-21.jpeg",
                     "alt1"  : "The Arctic fox",
+                    "alt1_zh": "北極狐",
                     "src2"  : "iceland-0824-22.jpeg",
                     "alt2"  : "The Bárður Snæfellsás Statue",
+                    "alt2_zh": "Bárður Snæfellsás 雕像",
                     "src3"  : "iceland-0824-23.jpeg",
-                    "alt3"  : "Ströndin við Stapa og Hellna"
+                    "alt3"  : "Ströndin við Stapa og Hellna",
+                    "alt3_zh": "Stapa og Hellna 海岸線"
                 },
                 {
                     "type"  : "paragraph",
                     "header": "A Birthday Between Continents and Rainbows",
                     "header_zh": "大陸之間的生日與彩虹",
-                    "text"  : "On the morning of my 21st birthday, we awoke to a new adventure. Our first stop was Thingvellir National Park, where the North American and Eurasian plates have slowly drifted apart, creating a rift over 40 meters wide in the past 9,000 years. Standing between two continents, I felt the immense weight of time and the quiet, steady movement of the earth beneath us. For lunch, we visited Friðheimar, an extraordinary greenhouse where geothermal energy and advanced technology make it possible to grow tomatoes year-round, despite Iceland’s harsh climate. In the afternoon, we drove southeast from Reykjavík to Rangárþing Eystra, where sunlight pierced the cascading waters, revealing a brilliant rainbow. Seeing this rainbow on my birthday—a symbol of God’s covenant to never flood the earth again—filled me with peace and gratitude. It was a powerful reminder of life’s enduring promises. Reflecting on both the physical journey through Iceland and the personal path that brought me here over 21 years, I felt a strong sense of anticipation for the future, knowing that each new chapter holds its own wonders waiting to be revealed."
+                    "text"  : "On the morning of my 21st birthday, we awoke to a new adventure. Our first stop was Thingvellir National Park, where the North American and Eurasian plates have slowly drifted apart, creating a rift over 40 meters wide in the past 9,000 years. Standing between two continents, I felt the immense weight of time and the quiet, steady movement of the earth beneath us. For lunch, we visited Friðheimar, an extraordinary greenhouse where geothermal energy and advanced technology make it possible to grow tomatoes year-round, despite Iceland’s harsh climate. In the afternoon, we drove southeast from Reykjavík to Rangárþing Eystra, where sunlight pierced the cascading waters, revealing a brilliant rainbow. Seeing this rainbow on my birthday—a symbol of God’s covenant to never flood the earth again—filled me with peace and gratitude. It was a powerful reminder of life’s enduring promises. Reflecting on both the physical journey through Iceland and the personal path that brought me here over 21 years, I felt a strong sense of anticipation for the future, knowing that each new chapter holds its own wonders waiting to be revealed.",
+                    "text_zh": "21歲生日的早晨，我們迎來了新的冒險。第一站是辛格維利爾國家公園，北美與歐亞板塊在過去九千年中緩慢分離，形成了超過40公尺寬的裂縫。站在兩大洲之間，我感受到時間的重量和大地靜靜的移動。午餐我們來到Friðheimar，一個利用地熱和先進技術讓番茄全年生長的溫室。下午從雷克雅維克出發，前往Rangárþing Eystra，陽光穿透瀑布，映出絢麗的彩虹。生日這天看到彩虹——象徵上帝不再洪水滅世的約定——讓我心中充滿平安與感恩。這是對生命承諾的有力提醒。回顧在冰島的旅程和自己21年的人生路，我對未來充滿期待，相信每個新篇章都蘊藏著等待被發現的奇蹟。"
                 },
                 {
                     "type"  : "images-3",
                     "src1"  : "iceland-0824-31.jpeg",
                     "alt1"  : "Þingvellir teconic plates",
+                    "alt1_zh": "辛格維利爾地塊板塊",
                     "src2"  : "iceland-0824-32.jpeg",
                     "alt2"  : "Birthday lunch at Friðheimar",
+                    "alt2_zh": "Friðheimar 的生日午餐",
                     "src3"  : "iceland-0824-33.jpeg",
-                    "alt3"  : "Rainball waterfall at Rangárþing Eystra"
+                    "alt3"  : "Rainball waterfall at Rangárþing Eystra",
+                    "alt3_zh": "Rangárþing Eystra 的彩虹瀑布"
                 },
                 {
                     "type"  : "paragraph",
                     "header": "Vík: Puffins and Icebergs in a Fairytale Land",
                     "header_zh": "維克：仙境中的海鸚與冰山",
-                    "text"  : "On our fourth day, we journeyed to Vík í Mýrdal, the southernmost village in Iceland, home to just 640 residents. Vík felt like a place pulled from the pages of a fairytale, untouched by the world’s worries. As we strolled along Reynisfjara’s Black Sand Beach, we let our binoculars and camera capture the distant flutter of puffins. We watched as they danced above the waves, diving into the ocean’s depths before returning with beaks full of fish for their young. In the afternoon, we arrived at Jökulsárlón, Iceland’s largest and deepest glacial lagoon. Gliding through the lagoon on a boat ride, it felt like stepping into a scene from the Ice Age movie, with towering icebergs drifting lazily in the water. Watching the ice slowly melt stirred a longing for sustainability, a hope to preserve this beautiful landscape for future generations."
+                    "text"  : "On our fourth day, we journeyed to Vík í Mýrdal, the southernmost village in Iceland, home to just 640 residents. Vík felt like a place pulled from the pages of a fairytale, untouched by the world’s worries. As we strolled along Reynisfjara’s Black Sand Beach, we let our binoculars and camera capture the distant flutter of puffins. We watched as they danced above the waves, diving into the ocean’s depths before returning with beaks full of fish for their young. In the afternoon, we arrived at Jökulsárlón, Iceland’s largest and deepest glacial lagoon. Gliding through the lagoon on a boat ride, it felt like stepping into a scene from the Ice Age movie, with towering icebergs drifting lazily in the water. Watching the ice slowly melt stirred a longing for sustainability, a hope to preserve this beautiful landscape for future generations.",
+                    "text_zh": "第四天，我們來到冰島最南端的維克村，這裡僅有640位居民，宛如童話書中的世界，遠離塵囂。漫步在Reynisfjara黑沙灘上，我們用望遠鏡和相機捕捉遠方飛舞的海鸚。牠們在海浪上空翩翩起舞，潛入海中捕魚，然後帶著滿嘴的魚回巢餵小鳥。下午我們抵達傑古沙龍冰河湖，這是冰島最大最深的冰河湖。搭船穿梭其中，彷彿置身於冰原歷險記的場景，巨大的冰山悠然漂浮。看著冰塊慢慢融化，心中湧現對永續的渴望，希望這片美景能世世代代保存下去。"
                 },
                 {
                     "type"  : "images-3",
                     "src1"  : "iceland-0824-41.jpeg",
                     "alt1"  : "The village of Vík",
+                    "alt1_zh": "維克村",
                     "src2"  : "iceland-0824-42.jpeg",
                     "alt2"  : "Jökulsárlón glacial lagoon",
+                    "alt2_zh": "傑古沙龍冰河湖",
                     "src3"  : "iceland-0824-43.jpeg",
-                    "alt3"  : "Puffins of Reynisfjara beach"
+                    "alt3"  : "Puffins of Reynisfjara beach",
+                    "alt3_zh": "Reynisfjara 黑沙灘的海鸚"
                 },
                 {
                     "type"  : "paragraph",
                     "header": "Glacier Journeys: The Sheep and the Ice",
                     "header_zh": "冰川之旅：綿羊與冰川",
-                    "text"  : "On our fifth day, we were welcomed by the gentle gaze of an elderly Icelandic sheep, a rare close encounter with one of purest breeds of sheep. They often wander in groups of three—a mother ewe and her two lambs—toughened by centuries of surviving Iceland’s harsh farming conditions, their immune systems as resilient as the land itself. Following the encounter, we set off on a three-hour glacier hike to conquer the mighty Skaftafellsjökull, a sprawling tongue of ice extending from Vatnajökull, Europe’s largest glacier. With ice-clawed boots and spiked axes in hand, we made our way across the ancient ice, each step echoing the spirit of adventure. Upon reaching the top, we celebrated by drinking from the glacier’s pure, icy stream, a refreshing reward before making our way back to Reykjavík."
+                    "text"  : "On our fifth day, we were welcomed by the gentle gaze of an elderly Icelandic sheep, a rare close encounter with one of purest breeds of sheep. They often wander in groups of three—a mother ewe and her two lambs—toughened by centuries of surviving Iceland’s harsh farming conditions, their immune systems as resilient as the land itself. Following the encounter, we set off on a three-hour glacier hike to conquer the mighty Skaftafellsjökull, a sprawling tongue of ice extending from Vatnajökull, Europe’s largest glacier. With ice-clawed boots and spiked axes in hand, we made our way across the ancient ice, each step echoing the spirit of adventure. Upon reaching the top, we celebrated by drinking from the glacier’s pure, icy stream, a refreshing reward before making our way back to Reykjavík.",
+                    "text_zh": "第五天，一隻年長的冰島綿羊溫柔地注視著我們，這是與純種綿羊難得的近距離接觸。牠們常常三隻一組——母羊帶著兩隻小羊，經歷了冰島嚴酷農業環境的世代考驗，免疫力如同這片土地一樣堅韌。與綿羊道別後，我們展開三小時的冰川健行，征服龐大的Skaftafellsjökull冰舌，這是歐洲最大冰川Vatnajökull的延伸。穿上冰爪、手持冰斧，踏上古老的冰原，每一步都充滿冒險精神。登頂後，我們喝下冰川純淨的溪水，這是最清涼的獎勵，然後啟程返回雷克雅維克。"
                 },
                 {
                     "type"  : "images-3",
                     "src1"  : "iceland-0824-51.jpeg",
                     "alt1"  : "An elderly Icelandic sheep",
+                    "alt1_zh": "年長的冰島綿羊",
                     "src2"  : "iceland-0824-52.jpeg",
                     "alt2"  : "Skaftafellsjökull glacier hike",
+                    "alt2_zh": "Skaftafellsjökull 冰川健行",
                     "src3"  : "iceland-0824-53.jpeg",
-                    "alt3"  : "Sipping the glacier stream"
+                    "alt3"  : "Sipping the glacier stream",
+                    "alt3_zh": "品嚐冰川溪流"
                 },
                 {
                     "type"  : "paragraph",
                     "header": "Reykjavík: Echoes of Heroes and the Finale",
                     "header_zh": "雷克雅維克：英雄的回音與終章",
-                    "text"  : "On our sixth and final day in Iceland, we explored the heart of Reykjavík. Our first stop was the famed Bæjarins Beztu Pylsur, known for serving “The Town’s Best Hot Dogs”—a place so famous even Bill Clinton once stopped by. Next, we visited the towering statue of Leif Erikson, the first European to set foot on North American soil long before Columbus. His journey resonated with us as we later toured the Saga Museum, where Iceland’s folklore and history came to life through stories of ancient heroes and mythical beings. As our adventure came to a close, we reluctantly returned our camper van, packed with memories, and headed to the airport for our flight back to Chicago, leaving behind Iceland’s windswept beauty but taking its spirit with us."
+                    "text"  : "On our sixth and final day in Iceland, we explored the heart of Reykjavík. Our first stop was the famed Bæjarins Beztu Pylsur, known for serving “The Town’s Best Hot Dogs”—a place so famous even Bill Clinton once stopped by. Next, we visited the towering statue of Leif Erikson, the first European to set foot on North American soil long before Columbus. His journey resonated with us as we later toured the Saga Museum, where Iceland’s folklore and history came to life through stories of ancient heroes and mythical beings. As our adventure came to a close, we reluctantly returned our camper van, packed with memories, and headed to the airport for our flight back to Chicago, leaving behind Iceland’s windswept beauty but taking its spirit with us.",
+                    "text_zh": "第六天也是冰島之旅的最後一天，我們探索了雷克雅維克的市中心。第一站是著名的Bæjarins Beztu Pylsur熱狗攤，連比爾·柯林頓都曾光顧。接著參觀了Leif Erikson雕像，他是早於哥倫布登陸北美的第一位歐洲人。他的冒險精神也在我們隨後參觀的薩迦博物館中得到了呼應，這裡用故事展現了冰島的英雄與神話。旅程結束時，我們依依不捨地歸還露營車，帶著滿滿的回憶前往機場，雖然離開了冰島的風之國度，但這片土地的精神已深植心中。"
                 },
                 {
                     "type"  : "images-3",
                     "src1"  : "iceland-0824-61.jpeg",
                     "alt1"  : "Bæjarins Beztu Pylsur hot dog stand",
+                    "alt1_zh": "Bæjarins Beztu Pylsur 熱狗攤",
                     "src2"  : "iceland-0824-62.jpeg",
                     "alt2"  : "Leif Erikson statue",
+                    "alt2_zh": "Leif Erikson 雕像",
                     "src3"  : "iceland-0824-63.jpeg",
-                    "alt3"  : "The Saga Museum"
+                    "alt3"  : "The Saga Museum",
+                    "alt3_zh": "薩迦博物館"
                 },
                 {
                     "type"  : "paragraph",
                     "header": "Until next time, Iceland: A Land Etched in Memory",
                     "header_zh": "直到下次，冰島：刻印在記憶中的土地",
-                    "text"  : "As we boarded our flight back to Chicago, the memories of Iceland clung to me, each moment of our journey etched deeply into my heart—the raw force of glaciers, the quiet resilience of puffins and sheep, and the ancient history and mythology woven into the land. Tucked in my luggage was the biggest piece of solidified magma, a souvenir to remind me of this land forged by fire and shaped by ice. Six days of wonder had only revealed half of Iceland’s secrets, and though “Visiting Iceland” is technically crossed off my bucket list, I’ve decided to leave it there—waiting for the day I return to uncover the other half of its wonders."
+                    "text"  : "As we boarded our flight back to Chicago, the memories of Iceland clung to me, each moment of our journey etched deeply into my heart—the raw force of glaciers, the quiet resilience of puffins and sheep, and the ancient history and mythology woven into the land. Tucked in my luggage was the biggest piece of solidified magma, a souvenir to remind me of this land forged by fire and shaped by ice. Six days of wonder had only revealed half of Iceland’s secrets, and though “Visiting Iceland” is technically crossed off my bucket list, I’ve decided to leave it there—waiting for the day I return to uncover the other half of its wonders.",
+                    "text_zh": "登上回芝加哥的飛機時，冰島的回憶緊緊纏繞著我，旅程中的每一刻都深深烙印在心裡——冰川的原始力量、海鸚與綿羊的堅韌、以及土地上交織的古老歷史與神話。行李裡裝著最大塊的火山岩，作為這片火與冰之地的紀念品。六天的奇遇只揭開了冰島一半的神秘，雖然“造訪冰島”已從清單上劃掉，但我決定讓它留著——等著有一天再回來，探索剩下的另一半奇蹟。"
                 },
                 {
                     "type"  : "images-3",
                     "src1"  : "iceland-0824-71.jpeg",
                     "alt1"  : "My magma souvenir",
+                    "alt1_zh": "我的火山岩紀念品",
                     "src2"  : "iceland-0824-72.jpeg",
                     "alt2"  : "The timeless fairytale of Iceland",
+                    "alt2_zh": "冰島永恆的童話故事",
                     "src3"  : "iceland-0824-73.jpeg",
-                    "alt3"  : "Until next time, Iceland!"
+                    "alt3"  : "Until next time, Iceland!",
+                    "alt3_zh": "下次見，冰島！"
                 }
             ]
         },
