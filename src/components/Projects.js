@@ -63,12 +63,12 @@ const Projects = ({ selectedLanguage }) => {
 
     return (
         <div>
-          <div className="projects__intro">
-            <div className="projects__intro-image-overlay">
-              <img className="projects__intro-logo" src="../images/home/izzy-photographer.png" alt="Izzy Logo" loading="lazy"/>
-              <img className="projects__intro-overlay-logo" src="../images/home/izzy-photographer-overlay.png" alt="Overlay Logo" loading="lazy"/>
+          <div className="page-warmer">
+            <div className="banner-image-overlay-p">
+              <img className="banner-logo-p" src="../images/home/izzy-photographer.png" alt="Izzy Logo" loading="lazy"/>
+              <img className="banner-overlay-logo-p" src="../images/home/izzy-photographer-overlay.png" alt="Overlay Logo" loading="lazy"/>
             </div>                
-            <h1 className="projects__intro-text">{displayedText}</h1> 
+            <h1 className="page-text">{displayedText}</h1> 
             </div>
           <ProjectAlbum />
         </div>

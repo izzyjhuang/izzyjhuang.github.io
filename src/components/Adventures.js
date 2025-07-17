@@ -67,28 +67,28 @@ const Adventures = ({ selectedLanguage }) => {
 
     return (
         <div>
-            <div className="adventures__intro">
-                <img className="adventures__intro-image" src="../images/adventures/skydive-moab.png" alt="skydive-moab" loading="lazy" />
-                <p className="adventures__intro-text">{text8}</p> {/* Display the typing text */}
+            <div className="page-warmer">
+                <img className="page-photo" src="../images/adventures/skydive-moab.png" alt="skydive-moab" loading="lazy" />
+                <p className="page-text-1">{text8}</p> {/* Display the typing text */}
             </div>
             
-      <div className="adventures__stats">
-        <div className="adventures__stat-box">
+      <div className="stat-container">
+        <div className="stat-box">
           <img src="../images/adventures/countries-count.png" alt="Countries Logo"></img>
           <p>{text4}</p>
           <h6>+3{text9}</h6>
         </div>
-        <div className="adventures__stat-box">
+        <div className="stat-box">
           <img src="../images/adventures/national-parks-count.png" alt="Countries Logo"></img>
           <p>{text5}</p>
           <h6>+2{text9}</h6>
         </div>
-        <div className="adventures__stat-box">
+        <div className="stat-box">
           <img src="../images/adventures/states-count.png" alt="Countries Logo"></img>
           <p>{text6}</p>
           <h6>+3{text9}</h6>
         </div>
-        <div className="adventures__stat-box">
+        <div className="stat-box">
           <img src="../images/adventures/stadiums-count.png" alt="Countries Logo"></img>
           <p>{text7}</p>
           <h6>+2{text9}</h6>
