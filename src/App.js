@@ -1,5 +1,6 @@
+// NOTE: Using BrowserRouter for clean URLs (no # in URL)
 import React, { useState } from 'react';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Banner from './components/Banner';
 import Header from './components/Header';
 import Projects from './components/Projects';

@@ -75,7 +75,7 @@ const Banner = ({ selectedLanguage }) => {
       <div className="banner-container">
         <div className="banner-image-overlay">
           <img className="banner-logo-0" src="../images/home/izzy-pirate.png" alt="Izzy Logo" loading="lazy"/>
-          <img className="banner-overlay-logo-0" src="../images/home/izzy-pirate-overlay.png" alt="Overlay Logo" loading="lazy"/>
+          <img className="banner-overlay-logo-0" src="../images/home/izzy-in-istanbul.png" alt="Overlay Logo" loading="lazy"/>
         </div>
         <div className="banner-header-text">
           <h1>{text0}</h1>
