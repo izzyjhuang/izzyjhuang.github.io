@@ -2,6 +2,51 @@
     "itemlist" :
     [
         {
+            "src"       :   "skiing-0225.jpeg",
+            "caption"   :   "Heads Over Heels First Time on the Slope!",
+            "location"  :   "Whitecap Resort, Michigan",
+            "locationColor": "#008000",
+            "date"      :   "Feb'25",
+            "slug"      :   "the-ski-trip-0225",
+            "blogPost"  : []
+        },
+        {
+            "src"       :   "vatican-1224.jpeg",
+            "caption"   :   "Meeting the Teenage Mutant Ninja Turtles",
+            "location"  :   "Vatican City",
+            "locationColor": "#800080",
+            "date"      :   "Dec'24",
+            "slug"      :   "vatican-1224",
+            "blogPost"  : []
+        },
+        {
+            "src"       :   "rome-1224.jpeg",
+            "caption"   :   "Gladiator was here!",
+            "location"  :   "Rome, Italy",
+            "locationColor": "#800080",
+            "date"      :   "Dec'24",
+            "slug"      :   "rome-1224",
+            "blogPost"  : []
+        },
+        {
+            "src"       :   "izmir-1224.jpeg",
+            "caption"   :   "Think I left my Heart Here...",
+            "location"  :   "Izmir, Türkiye",
+            "locationColor": "#800080",
+            "date"      :   "Dec'24",
+            "slug"      :   "izmir-1224",
+            "blogPost"  : []
+        },
+        {
+            "src"       :   "istanbul-1224.jpeg",
+            "caption"   :   "The Braided Philia on my Wrist",
+            "location"  :   "Istanbul, Türkiye",
+            "locationColor": "#800080",
+            "date"      :   "Dec'24",
+            "slug"      :   "istanbul-1224",
+            "blogPost"  : []
+        },
+        {
             "src"       :   "Hvolsvollur-0824.jpeg",
             "caption"   :   "21st Birthday @ Skógafoss",
             "location"  :   "Hvolsvöllur, Iceland",
