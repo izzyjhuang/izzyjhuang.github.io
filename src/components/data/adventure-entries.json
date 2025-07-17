@@ -2,6 +2,17 @@
     "itemlist" :
     [
         {
+            "src"       :   "graduation-0625.jpg",
+            "caption"   :   "I Graduated! Thank you Northwestern!",
+            "caption_zh":   "我畢業了！謝謝你，西北！",
+            "location"  :   "Evanston, Illinois",
+            "location_zh": "伊利諾州 埃文斯頓",
+            "locationColor": "#EE0943",
+            "date"      :   "Jun'25",
+            "slug"      :   "graduation-0625",
+            "blogPost"  : []
+        },
+        {
             "src"       :   "skiing-0225.jpeg",
             "caption"   :   "Heads Over Heels First Time on the Slope!",
             "caption_zh":   "頭過身就過，第一次滑雪！",
