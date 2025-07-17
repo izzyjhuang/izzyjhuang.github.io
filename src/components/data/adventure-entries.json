@@ -4,7 +4,9 @@
         {
             "src"       :   "skiing-0225.jpeg",
             "caption"   :   "Heads Over Heels First Time on the Slope!",
+            "caption_zh":   "頭過身就過，第一次滑雪！",
             "location"  :   "Whitecap Resort, Michigan",
+            "location_zh": "密西根州 Whitecap 渡假村",
             "locationColor": "#008000",
             "date"      :   "Feb'25",
             "slug"      :   "the-ski-trip-0225",
@@ -13,7 +15,9 @@
         {
             "src"       :   "vatican-1224.jpeg",
             "caption"   :   "Meeting the Teenage Mutant Ninja Turtles",
+            "caption_zh":   "遇見忍者龜！",
             "location"  :   "Vatican City",
+            "location_zh": "梵蒂岡城",
             "locationColor": "#800080",
             "date"      :   "Dec'24",
             "slug"      :   "vatican-1224",
@@ -22,7 +26,9 @@
         {
             "src"       :   "rome-1224.jpeg",
             "caption"   :   "Gladiator was here!",
+            "caption_zh":   "角鬥士到此一遊！",
             "location"  :   "Rome, Italy",
+            "location_zh": "義大利 羅馬",
             "locationColor": "#800080",
             "date"      :   "Dec'24",
             "slug"      :   "rome-1224",
@@ -31,7 +37,9 @@
         {
             "src"       :   "izmir-1224.jpeg",
             "caption"   :   "Think I left my Heart Here...",
+            "caption_zh":   "我的心遺留在這裡...",
             "location"  :   "Izmir, Türkiye",
+            "location_zh": "土耳其 伊茲密爾",
             "locationColor": "#800080",
             "date"      :   "Dec'24",
             "slug"      :   "izmir-1224",
@@ -40,7 +48,9 @@
         {
             "src"       :   "istanbul-1224.jpeg",
             "caption"   :   "The Braided Philia on my Wrist",
+            "caption_zh":   "手腕上的友誼編織",
             "location"  :   "Istanbul, Türkiye",
+            "location_zh": "土耳其 伊斯坦堡",
             "locationColor": "#800080",
             "date"      :   "Dec'24",
             "slug"      :   "istanbul-1224",
@@ -49,7 +59,9 @@
         {
             "src"       :   "Hvolsvollur-0824.jpeg",
             "caption"   :   "21st Birthday @ Skógafoss",
+            "caption_zh":   "21歲生日在斯科加瀑布",
             "location"  :   "Hvolsvöllur, Iceland",
+            "location_zh": "冰島 Hvolsvöllur",
             "locationColor": "#800080",
             "date"      :   "Aug'24",
             "slug"      :   "hvolsvollur-0824",
@@ -162,7 +174,9 @@
         {
             "src"       :   "london-0824.jpeg",
             "caption"   :   "\"Hey, Big Ben!\"",
+            "caption_zh":   "嗨，大笨鐘！",
             "location"  :   "London, the UK",
+            "location_zh": "英國 倫敦",
             "locationColor": "#800080",
             "date"      :   "Aug'24",
             "slug"      :   "the-uk-0824",
@@ -172,7 +186,9 @@
         {
             "src"       :   "baseball-0724.jpg",
             "caption"   :   "Middle School Reunion at my First Royals Game! - I Caught my First Ball!",
+            "caption_zh":   "國中同學會在我第一次皇家隊比賽！—我接到人生第一顆球！",
             "location"  :   "Guarenteed Rate Field",
+            "location_zh": "芝加哥 Guarenteed Rate 球場",
             "locationColor": "#EE0943",
             "date"      :   "Jul'24",
             "slug"      :   "baseball-0724",
@@ -182,7 +198,9 @@
         {
             "src"       :   "broadway-0724.jpg",
             "caption"   :   "Genie-us! It's a Whole New World!",
+            "caption_zh":   "神燈精靈！全新世界！",
             "location"  :   "Broadway, New York",
+            "location_zh": "紐約 百老匯",
             "locationColor": "#EE0943",
             "date"      :   "Jul'24",
             "slug"      :   "broadway-0724",
@@ -192,7 +210,9 @@
         {
             "src"       :   "skydive-0324.jpg",
             "caption"   :   "Blue Skys Above, Red Rocks Below. Who Needs Scenic Viewpoints When You’ve Got Chutes to Shoot?",
+            "caption_zh":   "藍天在上，紅岩在下。有降落傘還需要觀景台嗎？",
             "location"  :   "Moab, Utah",
+            "location_zh": "猶他州 Moab",
             "locationColor": "#008000",
             "date"      :   "Mar'24",
             "slug"      :   "skydive-0324",
@@ -202,7 +222,9 @@
         {
             "src"       :   "canyonland-0324.jpg",
             "caption"   :   "Just Meandering Through the Thick of the Canyons and the Thin of the Arches!",
+            "caption_zh":   "穿梭於壯闊峽谷與細長拱門之間！",
             "location"  :   "Arches & Canyonland National Park",
+            "location_zh": "拱門與峽谷地國家公園",
             "locationColor": "#008000",
             "date"      :   "Mar'24",
             "slug"      :   "canyonland-0324",
@@ -212,7 +234,9 @@
         {
             "src"       :   "durrës-1223.jpeg",
             "caption"   :   "My First Global Mission Trip",
+            "caption_zh":   "我的第一次國際宣教之旅",
             "location"  :   "Durrës, Albania",
+            "location_zh": "阿爾巴尼亞 杜勒斯",
             "locationColor": "#800080",
             "date"      :   "Dec'23",
             "slug"      :   "albania-1223",
@@ -222,7 +246,9 @@
         {
             "src"       :   "taichung-0823.jpg",
             "caption"   :   "Food, Fun, and the Fam!",
+            "caption_zh":   "美食、歡樂、家人！",
             "location"  :   "Taichung, Taiwan",
+            "location_zh": "台灣 台中",
             "locationColor": "#800080",
             "date"      :   "Aug'23",
             "slug"      :   "taichung-0823",
@@ -232,7 +258,9 @@
         {
             "src"       :   "ohtani-0523.jpg",
             "caption"   :   "Seeing my Two-Way Inspiration in Person!",
+            "caption_zh":   "親眼見到我的二刀流偶像！",
             "location"  :   "Guarenteed Rate Field",
+            "location_zh": "芝加哥 Guarenteed Rate 球場",
             "locationColor": "#EE0943",
             "date"      :   "May'23",
             "slug"      :   "devils-lake-0523",
@@ -242,7 +270,9 @@
         {
             "src"       :   "devils-lake-0523.jpg",
             "caption"   :   "Came for the Views, but the Devil’s in the Details!",
+            "caption_zh":   "為美景而來，細節才是魔鬼！",
             "location"  :   "Devil's Lake State Park, Wisconsin",
+            "location_zh": "威斯康辛州 魔鬼湖州立公園",
             "locationColor": "#008000",
             "date"      :   "May'23",
             "slug"      :   "devils-lake-0523",
@@ -252,7 +282,9 @@
         {
             "src"       :   "budapest-0323.jpeg",
             "caption"   :   "The Continental Europe Pioneer",
+            "caption_zh":   "大陸歐洲先驅",
             "location"  :   "Budapest, Hungary",
+            "location_zh": "匈牙利 布達佩斯",
             "locationColor": "#800080",
             "date"      :   "Mar'23",
             "slug"      :   "hungary-0323",
@@ -262,7 +294,9 @@
         {
             "src"       :   "bratislava-0323.jpeg",
             "caption"   :   "Eubrontes the Skovak Tyrant",
+            "caption_zh":   "尤布隆特斯·斯考瓦克暴君",
             "location"  :   "Bratislava, Slovakia",
+            "location_zh": "斯洛伐克 布拉提斯拉瓦",
             "locationColor": "#800080",
             "date"      :   "Mar'23",
             "slug"      :   "slovakia-0323",
@@ -272,7 +306,9 @@
         {
             "src"       :   "vienna-0323.jpeg",
             "caption"   :   "The paradise of the Danube",
+            "caption_zh":   "多瑙河的天堂",
             "location"  :   "Vienna, Austria",
+            "location_zh": "奧地利 維也納",
             "locationColor": "#800080",
             "date"      :   "Mar'23",
             "slug"      :   "austria-0323",
@@ -282,7 +318,9 @@
         {
             "src"       :   "prague-0323.jpeg",
             "caption"   :   "The John Lennon Inspiration",
+            "caption_zh":   "約翰·列儂的靈感",
             "location"  :   "Prague, Czech Republic",
+            "location_zh": "捷克 布拉格",
             "locationColor": "#800080",
             "date"      :   "Mar'23",
             "slug"      :   "prague-0323",
@@ -292,7 +330,9 @@
         {
             "src"       :   "guadalajara-0822.jpg",
             "caption"   :   "Mural of the Story: Always Have Tequila",
+            "caption_zh":   "壁畫故事：永遠都有龍舌蘭",
             "location"  :   "Guadalajara, Mexico",
+            "location_zh": "墨西哥 瓜達拉哈拉",
             "locationColor": "#800080",
             "date"      :   "Aug'22",
             "slug"      :   "guadalajara-0822",
@@ -302,7 +342,9 @@
         {
             "src"       :   "yellowstone-0821.jpg",
             "caption"   :   "It’s Un-bull-ievable, I got Buffa-blown Away",
+            "caption_zh":   "這太難以置信了，我被黃石公園的野牛吹飛了",
             "location"  :   "YellowStone & Grand Teton National Park",
+            "location_zh": "黃石公園與大提頓國家公園",
             "locationColor": "#008000",
             "date"      :   "Aug'21",
             "slug"      :   "yellowstone-0821",
@@ -312,7 +354,9 @@
         {
             "src"       :   "zion-0321.jpg",
             "caption"   :   "In Zion National Park, Every View Is Heaven-Sent!",
+            "caption_zh":   "在錫安國家公園，每個視角都是天賜的",
             "location"  :   "Zion & Grand Canyon National Park",
+            "location_zh": "錫安與大峽谷國家公園",
             "locationColor": "#008000",
             "date"      :   "Mar'21",
             "slug"      :   "zion-0321",
@@ -322,7 +366,9 @@
         {
             "src"       :   "busan-1114.jpg",
             "caption"   :   "Thankfully, No Zombies On This Train To Busan!",
+            "caption_zh":   "幸好，這趟前往釜山的火車上沒有喪屍！",
             "location"  :   "Busan, South Korea",
+            "location_zh": "韓國 釜山",
             "locationColor": "#800080",
             "date"      :   "Nov'14",
             "slug"      :   "busan-1114",

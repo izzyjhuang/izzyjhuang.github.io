@@ -5,18 +5,22 @@
             "src"       :   "izzy-app.jpeg",
             "slug"      :   "izzy-app",
             "caption"   :   "Tomorrow Starts Tonight App",
+            "caption_zh":   "明天從今晚開始 App",
             "date"      :   "Aug 2024 - Sep 2024",
             "genre"     :   "MOBILE APP DEV",
             "banner"    :   "",
-            "summary"   :   ""
+            "summary"   :   "",
+            "summary_zh": ""
         },
         {
             "src"       :   "the-duality-of-mouse.jpg",
             "slug"      :   "the-duality-of-mouse",
             "caption"   :   "The Duality of Mouse: The gift of ambidexterity",
+            "caption_zh":   "滑鼠的雙重性：雙手靈活的禮物",
             "date"      :   "Oct 2024",
             "genre"     :   "COMPUTER SYSTEMS",
             "summary"   :   "",
+            "summary_zh": "",
             "banner"    :   "the-duality-of-mouse-banner.jpg",
             "blogPost"  : [
                 {
@@ -51,7 +55,8 @@
             "date"      :   "Aug 2024 - Sep 2024",
             "genre"     :   "WEB DEV, PERSONAL BLOG",
             "banner"    :   "",
-            "summary"   :   ""
+            "summary"   :   "",
+            "summary_zh": ""
         },
         
         {
@@ -61,7 +66,8 @@
             "date"      :   "Oct 2022 - May 2023",
             "genre"     :   "DEEP LEARNING, BIOTECH",
             "summary"   :   "As part of the IEEE technical program, my team and I built NeuroNet, a deep-learning model that uses convolutional neural network to analyze 3D MRI images to classify signs of early-stage Alzheimer's with an accuracy of 94%! NeuroNet was voted the \"Best Overall Project\" by a panel of judges from various tech companies such as Abbvie and Tesla.",
-            "banner"    :   ""
+            "banner"    :   "",
+            "summary_zh": ""
         },
         
         {
@@ -71,7 +77,8 @@
             "date"      :   "Mar 2019 - Dec 2022",
             "genre"     :   "MEDICINE, BIOTECH",
             "summary"   :   "I worked with National Taiwan University Hospital and helped with the statistical analysis aspect of the publication.",
-            "banner"    :   ""
+            "banner"    :   "",
+            "summary_zh": ""
         },
 
         {
@@ -81,7 +88,8 @@
             "date"      :   "Sep 2021 - Dec 2021",
             "genre"     :   "USER-CENTERED DESIGN",
             "summary"   :   "Through working alongside our project partner, occupational therapists, and end-users, my team of four engineers designed a V-shaped twist clamp with a buckle mechanism to assist with stabilizing and opening containers which improved the lives of people with partial paralysis with limited motor function in one hand.",
-            "banner"    :   ""
+            "banner"    :   "",
+            "summary_zh": ""
         },
 
         {
@@ -91,7 +99,8 @@
             "date"      :   "Oct 2020 - Apr 2021",
             "genre"     :   "SUSTAINABILITY, MATERIAL SCIENCE",
             "summary"   :   "A brief overview of your first adventure. Click to read more.",
-            "banner"    :   ""
+            "banner"    :   "",
+            "summary_zh": ""
         },
 
         {
@@ -101,7 +110,8 @@
             "date"      :   "Oct 2019 - Jun 2020",
             "genre"     :   "BATTERY, MATERIAL SCIENCE",
             "summary"   :   "A brief overview of your first adventure. Click to read more.",
-            "banner"    :   ""
+            "banner"    :   "",
+            "summary_zh": ""
         }
 
     ]

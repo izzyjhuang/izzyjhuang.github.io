@@ -16,10 +16,14 @@ class ExperienceAlbum extends React.Component {
                     src={experience.src} 
                     logo={experience.logo} 
                     caption={experience.caption}
+                    caption_zh={experience.caption_zh}
                     when={experience.when}
                     whencolor={experience.whenColor} 
                     slug={experience.slug}
-                    description={experience.description}/>
+                    description={experience.description}
+                    description_zh={experience.description_zh}
+                    selectedLanguage={this.props.selectedLanguage}
+                    />
                 })
             }
             </div>

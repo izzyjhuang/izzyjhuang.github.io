@@ -9,8 +9,8 @@ const Adventures = ({ selectedLanguage }) => {
     // Define translations for the full text
     const textTranslations = {
         countries: {
-            English: "  13 countries",
-            中文: "  13 個國家"
+            English: "  16 countries",
+            中文: "  16 個國家"
         },
         nationalParks: {
             English: "  6 National Parks",
@@ -25,8 +25,8 @@ const Adventures = ({ selectedLanguage }) => {
             中文: "  5 座棒球場"
         },
         bannerText: {
-            English: "  My favorite adventure was going Skydiving in Utah! I'll be visiting Hobbiton in New Zealand soon!",
-            中文: "  我最喜歡的冒險是去猶他州跳傘！我接下來要去紐西蘭看拍攝哈比人的哈比屯！"
+            English: "  My favorite adventure was going Skydiving in Utah! I'll be visiting Scandinavia soon!",
+            中文: "  我最喜歡的冒險是去猶他州跳傘！我接下來很期待要去北歐玩！"
         },
         yearCount: {
             English: "  this year",
@@ -81,12 +81,12 @@ const Adventures = ({ selectedLanguage }) => {
         <div className="stat-box">
           <img src="../images/adventures/national-parks-count.png" alt="Countries Logo"></img>
           <p>{text5}</p>
-          <h6>+2{text9}</h6>
+          <h6>+0{text9}</h6>
         </div>
         <div className="stat-box">
           <img src="../images/adventures/states-count.png" alt="Countries Logo"></img>
           <p>{text6}</p>
-          <h6>+3{text9}</h6>
+          <h6>+1{text9}</h6>
         </div>
         <div className="stat-box">
           <img src="../images/adventures/stadiums-count.png" alt="Countries Logo"></img>
@@ -94,7 +94,7 @@ const Adventures = ({ selectedLanguage }) => {
           <h6>+2{text9}</h6>
         </div>
       </div>
-            <AdventureAlbum />
+            <AdventureAlbum selectedLanguage={selectedLanguage} />
         </div>
     );
 }

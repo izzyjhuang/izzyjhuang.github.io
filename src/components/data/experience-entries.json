@@ -5,28 +5,34 @@
             "src"       :   "google-f24.jpg",
             "logo"      :   "google-logo.jpg",
             "caption"   :   "Exploring Big Tech - A Dream Come True",
+            "caption_zh":   "探索大科技公司——夢想成真",
             "when"      :   "Current",
             "whenColor" :   "#043fac",
             "slug"      :   "google-f24",
-            "description":   "SWE Intern @ Google"
+            "description":   "SWE Intern @ Google",
+            "description_zh": "Google 軟體工程實習生"
         },
         {
             "src"       :   "ctc-s24.jpg",
             "logo"      :   "ctc-logo.jpg",
             "caption"   :   "Trying Out the Dev Side of Quant with Familiar Faces",
+            "caption_zh":   "和熟悉的夥伴一起體驗量化開發",
             "when"      :   "Summer 2024",
             "whenColor" :   "#043fac",
             "slug"      :   "ctc-s24",
-            "description":   "Quant Dev Intern @ CTC"
+            "description":   "Quant Dev Intern @ CTC",
+            "description_zh": "CTC 量化開發實習生"
         },
         {
             "src"       :   "ctc-s23.jpg",
             "logo"      :   "ctc-logo.jpg",
             "caption"   :   "Initial Taste of Quant as a Trading Intern",
+            "caption_zh":   "初嚐量化交易實習的滋味",
             "when"      :   "Summer 2023",
             "whenColor" :   "#043fac",
             "slug"      :   "ctc-s23",
-            "description":   "Quant Trading Analyst Intern @ CTC"
+            "description":   "Quant Trading Analyst Intern @ CTC",
+            "description_zh": "CTC 量化交易分析實習生"
         },
         {
             "src"       :   "sparksense-f22.jpg",

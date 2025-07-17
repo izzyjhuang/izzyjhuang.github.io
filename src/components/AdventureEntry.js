@@ -29,6 +29,10 @@ class AdventureEntry extends React.Component {
             ? `/adventures/${this.props.slug}` 
             : "/notes"; 
 
+        const { caption, caption_zh, location, location_zh, selectedLanguage } = this.props;
+        const displayCaption = selectedLanguage === '中文' && caption_zh ? caption_zh : caption;
+        const displayLocation = selectedLanguage === '中文' && location_zh ? location_zh : location;
+
 
         return (
             <div className="adventure-container">
@@ -36,11 +40,11 @@ class AdventureEntry extends React.Component {
                     <Link to={linkPath}>
                     {/* <div className="adventure-topblock"> */}
                         <img className="adventure-img" src={image_path} alt={image_path} loading="lazy"/>
-                        <div className="adventure-caption">{this.props.caption}</div>
+                        <div className="adventure-caption">{displayCaption}</div>
                     {/* </div>
                     <div className="adventure-bottomblock"> */}
                         <div className="adventure-date" style={dateStyle}>{this.props.date}</div>
-                        <div className="adventure-location" style={locationStyle}>{this.props.location}</div>
+                        <div className="adventure-location" style={locationStyle}>{displayLocation}</div>
                     {/* </div> */}
                     </Link>
                 </div>

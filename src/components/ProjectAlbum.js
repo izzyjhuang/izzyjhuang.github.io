@@ -18,10 +18,14 @@ class ProjectAlbum extends React.Component {
                     src={project.src} 
                     slug={project.slug} 
                     caption={project.caption} 
+                    caption_zh={project.caption_zh}
                     date={project.date} 
                     genre={project.genre} 
                     summary={project.summary}
-                    banner={project.banner}/>
+                    summary_zh={project.summary_zh}
+                    banner={project.banner}
+                    selectedLanguage={this.props.selectedLanguage}
+                    />
                 })
             }
             </div>

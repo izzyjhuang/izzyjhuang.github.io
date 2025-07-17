@@ -15,13 +15,17 @@ class AdventureAlbum extends React.Component {
                     key={adventure.src} 
                     src={adventure.src} 
                     location={adventure.location} 
+                    location_zh={adventure.location_zh}
                     locationColor={adventure.locationColor}
                     date={adventure.date} 
                     caption={adventure.caption} 
+                    caption_zh={adventure.caption_zh}
                     slug={adventure.slug}
                     genre={adventure.genre}
                     title={adventure.title}
-                    dates={adventure.dates}/>
+                    dates={adventure.dates}
+                    selectedLanguage={this.props.selectedLanguage}
+                    />
                 })
             }
             </div>
