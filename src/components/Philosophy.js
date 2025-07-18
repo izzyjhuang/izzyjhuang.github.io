@@ -6,8 +6,8 @@ import useTypewriter from './UseTypeWriter';
 const Philosophy = ({ selectedLanguage }) => {
     // Placeholder quote translations
     const textTranslations = {
-        English: '  To live without examining life is to breathe without ever noticing the wind.',
-        中文: '  「哲學的本質在於不斷提問與思考，而非僅僅尋求答案。」'
+        English: '  Philosophy thrives not on the arrival of final answers, but on the endless unfolding of thought.',
+        中文: '  「哲學之所以精彩，不在於追求最終答案，而在於思維不斷展開、深入的歷程。」'
     };
     const fullText = textTranslations[selectedLanguage] || textTranslations['English'];
     const displayedText = useTypewriter(fullText, 20, selectedLanguage);

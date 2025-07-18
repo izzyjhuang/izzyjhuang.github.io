@@ -41,32 +41,37 @@ const PhilosophyPost = ({ selectedLanguage = 'English' }) => {
                                 </div>
                             );
                         } else if (content.type === 'images-3') {
+                            const alt1 = selectedLanguage === '中文' && content.alt1_zh ? content.alt1_zh : content.alt1;
+                            const alt2 = selectedLanguage === '中文' && content.alt2_zh ? content.alt2_zh : content.alt2;
+                            const alt3 = selectedLanguage === '中文' && content.alt3_zh ? content.alt3_zh : content.alt3;
                             return (
                                 <div className="images-3" key={`${slug}-images3-${index}}`}>
                                     <div className="image-box">
-                                        <img src={`../images/philosophy/${content.src1}`} alt={content.alt1} loading="lazy"/>
-                                        <h5>{content.alt1}</h5>
+                                        <img src={`../images/philosophy/${content.src1}`} alt={alt1} loading="lazy"/>
+                                        <h5>{alt1}</h5>
                                     </div>
                                     <div className="image-box">
-                                        <img src={`../images/philosophy/${content.src2}`} alt={content.alt2} loading="lazy"/>
-                                        <h5>{content.alt2}</h5>
+                                        <img src={`../images/philosophy/${content.src2}`} alt={alt2} loading="lazy"/>
+                                        <h5>{alt2}</h5>
                                     </div>
                                     <div className="image-box">
-                                        <img src={`../images/philosophy/${content.src3}`} alt={content.alt3} loading="lazy"/>
-                                        <h5>{content.alt3}</h5>
+                                        <img src={`../images/philosophy/${content.src3}`} alt={alt3} loading="lazy"/>
+                                        <h5>{alt3}</h5>
                                     </div>
                                 </div>
                             );
                         } else if (content.type === 'images-2') {
+                            const alt1 = selectedLanguage === '中文' && content.alt1_zh ? content.alt1_zh : content.alt1;
+                            const alt2 = selectedLanguage === '中文' && content.alt2_zh ? content.alt2_zh : content.alt2;
                             return (
                                 <div className="images-2" key={`${slug}-images2-${index}}`}>
                                     <div className="image-box">
-                                        <img src={`../images/philosophy/${content.src1}`} alt={content.alt1} loading="lazy"/>
-                                        <h5>{content.alt1}</h5>
+                                        <img src={`../images/philosophy/${content.src1}`} alt={alt1} loading="lazy"/>
+                                        <h5>{alt1}</h5>
                                     </div>
                                     <div className="image-box">
-                                        <img src={`../images/philosophy/${content.src2}`} alt={content.alt2} loading="lazy"/>
-                                        <h5>{content.alt2}</h5>
+                                        <img src={`../images/philosophy/${content.src2}`} alt={alt2} loading="lazy"/>
+                                        <h5>{alt2}</h5>
                                     </div>
                                 </div>
                             );
