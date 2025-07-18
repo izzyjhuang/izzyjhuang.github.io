@@ -1,12 +1,12 @@
-// PhilosophyEntry.js
+// ThinklabEntry.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-class PhilosophyEntry extends React.Component {
+class ThinklabEntry extends React.Component {
 
     render() {
-        // Use the correct image path for philosophy images
-        const image_path = "../images/philosophy/" + this.props.src; // Change to philosophy if needed
+        // Use the correct image path for thinklab images
+        const image_path = "../images/philosophy/" + this.props.src; // (keep path if images are still in philosophy folder)
 
         // Dynamic inline style for location color
         const locationStyle = {
@@ -25,7 +25,7 @@ class PhilosophyEntry extends React.Component {
         };
 
         // Always link to the post's slug
-        const linkPath = `/philosophy/${this.props.slug}`;
+        const linkPath = `/thinklab/${this.props.slug}`;
 
         const { caption, caption_zh, description, description_zh, when, when_zh, selectedLanguage } = this.props;
         const displayCaption = selectedLanguage === '中文' && caption_zh ? caption_zh : caption;
@@ -48,4 +48,4 @@ class PhilosophyEntry extends React.Component {
     }
 }
 
-export default PhilosophyEntry; 
+export default ThinklabEntry; 

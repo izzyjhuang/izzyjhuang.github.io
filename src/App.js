@@ -8,8 +8,8 @@ import ProjectPost from './components/ProjectPost';
 import Adventures from './components/Adventures';
 import AdventurePost from './components/AdventurePost';
 import Experience from './components/Experience';
-import Philosophy from './components/Philosophy';
-import PhilosophyPost from './components/PhilosophyPost';
+import Thinklab from './components/Philosophy';
+import ThinklabPost from './components/PhilosophyPost';
 import Footer from './components/Footer';
 import LeafletMap from './components/LeafletMap'; // Import the new LeafletMap component
 import KmfMap from './components/KMF_Map'; // Import the new LeafletMap component
@@ -30,8 +30,8 @@ function App() {
           <Route path="/projects/:slug" element={<ProjectPost selectedLanguage={selectedLanguage}/>} />
           <Route path="/adventures" element={<Adventures selectedLanguage={selectedLanguage} />} />
           <Route path="/adventures/:slug" element={<AdventurePost selectedLanguage={selectedLanguage}/>} />
-          <Route path="/philosophy" element={<Philosophy selectedLanguage={selectedLanguage} />} />
-          <Route path="/philosophy/:slug" element={<PhilosophyPost selectedLanguage={selectedLanguage} />} />
+          <Route path="/thinklab" element={<Thinklab selectedLanguage={selectedLanguage} />} />
+          <Route path="/thinklab/:slug" element={<ThinklabPost selectedLanguage={selectedLanguage} />} />
           <Route path="/experience" element={<Experience selectedLanguage={selectedLanguage} />}/>
           <Route path="/map" element={<LeafletMap />} /> {/* New route for the Leaflet map */}
           <Route path="/kmfmap" element={<KmfMap />} /> {/* New route for the Leaflet map */}

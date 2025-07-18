@@ -28,9 +28,9 @@ const Header = ({ selectedLanguage, setSelectedLanguage }) => {
         English: 'Adventures',
         中文: '我的冒險',
       },
-      Philosophy: {
-        English: 'Philosophy',
-        中文: '我的哲理',
+      Thinklab: {
+        English: 'ThinkLab',
+        中文: '思維實驗室',
       },
       Experience: {
         English: 'Experience',
@@ -59,7 +59,7 @@ const Header = ({ selectedLanguage, setSelectedLanguage }) => {
         <Link to="/experience" className="nav-link">{getText('Experience')}</Link>
         <Link to="/projects" className="nav-link">{getText('Projects')}</Link>
         <Link to="/adventures" className="nav-link">{getText('Adventures')}</Link>
-        <Link to="/philosophy" className="nav-link">{getText('Philosophy')}</Link>
+        <Link to="/thinklab" className="nav-link">{getText('Thinklab')}</Link>
         {/* <Link to="/map" className="nav-link">{getText('Map')}</Link> */}
       </nav>
       <div className="language-selector" onClick={toggleDropdown}>

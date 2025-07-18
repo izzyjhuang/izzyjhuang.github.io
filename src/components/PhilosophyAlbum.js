@@ -1,9 +1,9 @@
-// PhilosophyAlbum.js
+// ThinklabAlbum.js
 import React from 'react';
-import PhilosophyEntry from './PhilosophyEntry';
+import ThinklabEntry from './PhilosophyEntry';
 import entries from './data/philosophy-entries';
 
-class PhilosophyAlbum extends React.Component {
+class ThinklabAlbum extends React.Component {
 
     render() {
 
@@ -11,7 +11,7 @@ class PhilosophyAlbum extends React.Component {
             <div className="philosophy-album-container">
             {
                 entries.itemlist.map((philosophy) => {
-                    return <PhilosophyEntry 
+                    return <ThinklabEntry 
                     key={philosophy.src} 
                     src={philosophy.src} 
                     logo={philosophy.logo} 
@@ -33,4 +33,4 @@ class PhilosophyAlbum extends React.Component {
     }
 }
 
-export default PhilosophyAlbum; 
+export default ThinklabAlbum; 

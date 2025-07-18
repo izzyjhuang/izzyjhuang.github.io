@@ -3,11 +3,11 @@ import PhilosophyAlbum from './PhilosophyAlbum';
 import './philosophy.css';
 import useTypewriter from './UseTypeWriter';
 
-const Philosophy = ({ selectedLanguage }) => {
+const Thinklab = ({ selectedLanguage }) => {
     // Placeholder quote translations
     const textTranslations = {
         English: '  Philosophy thrives not on the arrival of final answers, but on the endless unfolding of thought.',
-        中文: '  「哲學之所以精彩，不在於追求最終答案，而在於思維不斷展開、深入的歷程。」'
+        中文: '  哲學之所以精彩，不在於追求最終答案，而在於思維不斷展開、深入的歷程。'
     };
     const fullText = textTranslations[selectedLanguage] || textTranslations['English'];
     const displayedText = useTypewriter(fullText, 20, selectedLanguage);
@@ -48,4 +48,4 @@ const Philosophy = ({ selectedLanguage }) => {
     );
 };
 
-export default Philosophy;
+export default Thinklab;
