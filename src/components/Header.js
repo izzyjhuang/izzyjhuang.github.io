@@ -22,19 +22,19 @@ const Header = ({ selectedLanguage, setSelectedLanguage }) => {
       },
       Projects: {
         English: 'Projects',
-        中文: '專案',
+        中文: '我的專案',
       },
       Adventures: {
         English: 'Adventures',
-        中文: '冒險',
+        中文: '我的冒險',
       },
       Philosophy: {
         English: 'Philosophy',
-        中文: '我的哲學',
+        中文: '我的哲理',
       },
       Experience: {
         English: 'Experience',
-        中文: '經驗',
+        中文: '我的經驗',
       },
       Map: {
         English: 'Map',

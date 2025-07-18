@@ -292,3 +292,47 @@
   .images-3 h5 { font-size: 60%; }
   .philosophy-equation { font-size: 0.5em; }
 } 
+
+/* Philosophy Banner Overlay (match Experience page) */
+.page-warmer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90%;
+}
+
+.banner-image-overlay-ph {
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.banner-logo-ph {
+  width: 40vw;
+  background-color: #fdf9f6;
+  border-radius: 50%;
+  position: relative;
+  transition: transform 0.5s;
+  z-index: 1;
+}
+
+.banner-overlay-logo-ph {
+  width: 21vw;
+  margin-bottom: 0.75vw;
+  position: absolute;
+  transition: transform 0.5s;
+  z-index: 2;
+}
+
+.page-text {
+  font-size: 3vw;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 0.5px 0.5px 1px #6d6c6c;
+  margin-left: 5vw;
+  margin-right: 10vw;
+  text-align: left;
+  font-family: 'Libre Baskerville', cursive;
+} 
