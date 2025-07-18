@@ -13,6 +13,7 @@ import PhilosophyPost from './components/PhilosophyPost';
 import Footer from './components/Footer';
 import LeafletMap from './components/LeafletMap'; // Import the new LeafletMap component
 import KmfMap from './components/KMF_Map'; // Import the new LeafletMap component
+import StillWorking from './components/StillWorking';
 import './App.css';
 
 function App() { 
@@ -34,6 +35,7 @@ function App() {
           <Route path="/experience" element={<Experience selectedLanguage={selectedLanguage} />}/>
           <Route path="/map" element={<LeafletMap />} /> {/* New route for the Leaflet map */}
           <Route path="/kmfmap" element={<KmfMap />} /> {/* New route for the Leaflet map */}
+          <Route path="/stillworking" element={<StillWorking selectedLanguage={selectedLanguage} />} />
         </Routes>
 
         <Footer />
