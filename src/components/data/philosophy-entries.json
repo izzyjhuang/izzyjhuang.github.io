@@ -1,0 +1,91 @@
+{
+  "itemlist": [
+    {
+      "src": "thermo-running.jpg",
+      "slug": "thermo-running",
+      "caption": "How a Thermodynamics Equation Sparked My Love for Running",
+      "caption_zh": "熱力學方程式如何點燃我對跑步的熱愛",
+      "date": "Jul'25",
+      "date_zh": "2024年5月",
+      "genre": "Personal Growth | Thermodynamics | Running",
+      "genre_zh": "個人成長｜熱力學｜跑步",
+      "title": "How a Thermodynamics Equation Sparked My Love for Running",
+      "title_zh": "熱力學方程式如何點燃我對跑步的熱愛",
+      "banner": "thermo-running.jpg",
+      "blogPost": [
+        {
+          "type": "paragraph",
+          "text": "I’ve always been a little behind—at least on the track. Born in late August, I was usually the youngest in my class, and it showed on my elementary school sports days. The older kids ran faster, jumped higher, and made it look all too easy. Nothing scared me more than the running portion of the physical examination in Taiwan, where persisting through the 1.6km grill in one go always felt like mission impossible.",
+          "text_zh": "我一直都跑得比較慢——至少在操場上是這樣。由於我是八月底出生，通常是班上年紀最小的，這在小學運動會時特別明顯。年紀大的同學跑得更快、跳得更高，一切都顯得輕而易舉。最讓我害怕的就是台灣體育測驗的跑步項目，要一口氣跑完1.6公里，對我來說總像是不可能的任務。"
+        },
+        {
+          "type": "paragraph",
+          "text": "Naturally, I leaned into what I was good at—school. I immersed  myself into my love for learning, and physical challenges faded quietly into the background.",
+          "text_zh": "於是我選擇專注於自己擅長的事——讀書。我全心投入學習，體能上的挑戰也就悄悄地淡出了我的生活。"
+        },
+        {
+          "type": "paragraph",
+          "text": "That is, until college—when chemical engineering unexpectedly brought athletics back into view.",
+          "text_zh": "直到上了大學——化工系意外地讓運動重新進入我的視野。"
+        },
+        {
+          "type": "paragraph",
+          "text": "In one of my thermodynamics lectures, we covered the general steady-state balance equation for any conserved quantity:",
+          "text_zh": "在一次熱力學課堂上，老師介紹了任何守恆量的穩態平衡方程式："
+        },
+        {
+          "type": "paragraph",
+          "text": "Accumulation = Input – Output + Generation – Consumption",
+          "text_zh": "累積量 = 輸入 – 輸出 + 產生 – 消耗",
+          "className": "philosophy-equation"
+        },
+        {
+          "type": "paragraph",
+          "text": "At steady state, the accumulation term drops to zero:",
+          "text_zh": "在穩態下，累積量這一項會變成零："
+        },
+        {
+          "type": "paragraph",
+          "text": "0 = Input – Output + Generation – Consumption",
+          "text_zh": "0 = 輸入 – 輸出 + 產生 – 消耗",
+          "className": "philosophy-equation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Something clicked!",
+          "text_zh": "我突然開竅了！"
+        },
+        {
+          "type": "paragraph",
+          "text": "I realized that when we sprint, our bodies rely heavily on anaerobic glycolysis, which rapidly produces lactate to meet the intense energy demand. But the lactate builds up faster than our systems can break it down. That burning sensation in our muscles? It’s our body’s signal that the system is overloaded. Eventually, we’re forced to slow down. (The same logic applies to glycogen or blood glucose too! Fascinating!)",
+          "text_zh": "我意識到，當我們衝刺時，身體主要依賴無氧糖解作用來快速產生乳酸以應付劇烈的能量需求。但乳酸的產生速度遠遠超過身體分解它的速度。肌肉裡那種灼熱的感覺？其實是身體在告訴我們系統已經超載。最終，我們不得不放慢腳步。（同樣的道理也適用於肝醣或血糖！太有趣了！）"
+        },
+        {
+          "type": "paragraph",
+          "text": "However, if we run at a pace where lactate is generated and cleared at roughly the same rate just under the threshold where fatigue begins to accumulate, I hypothesized that a sustainable run, free from forced slowdown, might no longer be mission impossible.",
+          "text_zh": "但如果我們用一種速度跑步，讓乳酸的產生和清除大致達到平衡、剛好低於疲勞開始累積的臨界點，我推測這樣的跑步就能持續下去，不再是那個不可能的任務。"
+        },
+        {
+          "type": "paragraph",
+          "text": "As a life engineer, I was stoked to test the idea!",
+          "text_zh": "作為一個生活工程師，我迫不及待想要驗證這個想法！"
+        },
+        {
+          "type": "paragraph",
+          "text": "One morning, instead of grabbing my tennis shoes and heading to the library, I laced up my running sneakers and jogged toward the lakeshore. I didn’t set a goal—I just ran, focusing on maintaining a smooth, steady rhythm. An hour later, my Google Calendar buzzed to remind me I had class. I glanced down at my watch—7 kilometers! 7 kilometers! And I still felt like I could keep going!",
+          "text_zh": "有一天早上，我沒有像往常一樣拿起網球鞋去圖書館，而是穿上跑鞋，朝湖邊慢跑過去。我沒有設定目標——只是專注於保持平穩的節奏。過了一小時，Google 行事曆提醒我該上課了。我低頭一看手錶——7公里！7公里！而且我還覺得自己可以繼續跑下去！"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ecstatic about the breakthrough, I told my friend Stephen. Two months later, we crossed the finish line of our first 5K together.",
+          "text_zh": "我興奮地把這個突破告訴了朋友 Stephen。兩個月後，我們一起完成了人生第一場 5K 跑步。"
+        },
+        {
+          "type": "paragraph",
+          "text": "That steady-state mindset stayed with me. During my internships in downtown Chicago, I fell in love with jogging along the lakefront trail. All thanks to one thermodynamics lecture, I couldn’t be more excited adding The Chicago Marathon to my bucket list!",
+          "text_zh": "這種穩態思維一直陪伴著我。實習期間，我愛上了芝加哥湖濱步道的慢跑。全都要感謝那堂熱力學課，現在我已經迫不及待要把芝加哥馬拉松加入我的人生清單！"
+        }
+      ]
+    }
+  ]
+} 

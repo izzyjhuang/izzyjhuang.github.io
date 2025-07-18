@@ -4,7 +4,7 @@
         {
             "src"       :   "graduation-0625.jpeg",
             "caption"   :   "I Graduated! Thank you Northwestern!",
-            "caption_zh":   "我畢業了！謝謝你，西北！",
+            "caption_zh":   "我畢業了！謝謝妳，西北！",
             "location"  :   "Evanston, Illinois",
             "location_zh": "伊利諾州 埃文斯頓",
             "locationColor": "#EE0943",
@@ -14,8 +14,8 @@
         },
         {
             "src"       :   "skiing-0225.jpeg",
-            "caption"   :   "Heads Over Heels First Time on the Slope!",
-            "caption_zh":   "頭過身就過，第一次滑雪！",
+            "caption"   :   "First Time on the Slope, Already Heads Over Heels!",
+            "caption_zh":   "心花怒放的第一次滑雪！",
             "location"  :   "Whitecap Resort, Michigan",
             "location_zh": "密西根州 Whitecap 渡假村",
             "locationColor": "#008000",
@@ -48,7 +48,7 @@
         {
             "src"       :   "izmir-1224.jpeg",
             "caption"   :   "Think I left my Heart Here...",
-            "caption_zh":   "我的心遺留在這裡...",
+            "caption_zh":   "我想我大概把心忘在這裡了...",
             "location"  :   "Izmir, Türkiye",
             "location_zh": "土耳其 伊茲密爾",
             "locationColor": "#800080",
@@ -70,7 +70,7 @@
         {
             "src"       :   "Hvolsvollur-0824.jpeg",
             "caption"   :   "21st Birthday @ Skógafoss",
-            "caption_zh":   "21歲生日在斯科加瀑布",
+            "caption_zh":   "在斯科加瀑布的21歲慶生",
             "location"  :   "Hvolsvöllur, Iceland",
             "location_zh": "冰島 Hvolsvöllur",
             "locationColor": "#800080",
@@ -234,7 +234,7 @@
         {
             "src"       :   "baseball-0724.jpg",
             "caption"   :   "Middle School Reunion at my First Royals Game! - I Caught my First Ball!",
-            "caption_zh":   "國中同學會在我第一次皇家隊比賽！—我接到人生第一顆球！",
+            "caption_zh":   "久違的和國中同學一聚！在我第一次皇家隊比賽第一次接到球！",
             "location"  :   "Guarenteed Rate Field",
             "location_zh": "芝加哥 Guarenteed Rate 球場",
             "locationColor": "#EE0943",
@@ -258,7 +258,7 @@
         {
             "src"       :   "skydive-0324.jpg",
             "caption"   :   "Blue Skys Above, Red Rocks Below. Who Needs Scenic Viewpoints When You’ve Got Chutes to Shoot?",
-            "caption_zh":   "藍天在上，紅岩在下。有降落傘還需要觀景台嗎？",
+            "caption_zh":   "藍天在上，紅岩在下。能跳傘還需要觀景台嗎？",
             "location"  :   "Moab, Utah",
             "location_zh": "猶他州 Moab",
             "locationColor": "#008000",

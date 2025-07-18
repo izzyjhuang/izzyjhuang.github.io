@@ -1,0 +1,286 @@
+/* philosophy.css */
+
+.philosophy-page-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3vw;
+  margin-bottom: 2vw;
+}
+
+.philosophy-page-header h1 {
+  font-size: 3vw;
+  font-family: 'Libre Baskerville', serif;
+  color: #043fac;
+  font-weight: bold;
+}
+
+/* ========== Layout Containers ========== */
+.philosophy-album-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.philosophy-container {
+  max-width: 30%;
+  flex: 1 1 calc(33.333%);
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 4%;
+}
+
+/* ========== Philosophy Entry Block ========== */
+.philosophy-entry-block {
+  margin: 2vw;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 5%;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  position: relative;
+  transition: transform 0.5s;
+  padding-bottom: 10%;
+}
+.philosophy-entry-block a {
+  text-decoration: none;
+}
+.philosophy-entry-block:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.philosophy-img {
+  width: 90%;
+  position: relative;
+  z-index: 0;
+  margin-top: 5%;
+  border-radius: 5%;
+}
+
+.philosophy-caption {
+  position: relative;
+  margin-top: 3%;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 900;
+  text-shadow: 1px 1px 2px #333;
+  color: #333;
+  z-index: 2;
+  width: 90%;
+  text-align: left;
+  margin-left: 5%;
+}
+
+.philosophy-date {
+  position: absolute;
+  padding: 0.25vw;
+  top: 3%;
+  border-radius: 12%;
+  width: 27%;
+  right: 5%;
+  padding: 1.5%;
+  font-family: Ubuntu;
+  font-weight: 900;
+  text-shadow: 1px 1px 2px #ffffff;
+  color: #ffffff;
+  z-index: 2;
+  text-align: center;
+  background: linear-gradient(180deg, #1ca100 80%, #0a5c00 100%);
+  font-size: 2vw;
+}
+
+@media (max-width: 1536px) {
+  .philosophy-date {
+    font-size: 1.2vw;
+  }
+}
+@media (max-width: 1024px) {
+  .philosophy-date {
+    font-size: 1.5vw;
+  }
+}
+@media (max-width: 767px) {
+  .philosophy-date {
+    font-size: 2vw;
+  }
+}
+@media (max-width: 512px) {
+  .philosophy-date {
+    font-size: 3vw;
+  }
+}
+
+/* ========== Philosophy Post Section ========== */
+.philosophy-post {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.philosophy-banner {
+  justify-content: center;
+  display: block;
+  width: 85%;
+  max-width: 900px;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 0;
+  object-fit: cover;
+}
+
+.philosophy-poster {
+  z-index: 1;
+  background-color: #fdf9f6;
+  position: relative;
+  margin-top: -5%;
+  justify-content: center;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 75%;
+}
+
+.philosophy-genre {
+  margin-top: 2%;
+  font-weight: bold;
+  color: #043fac;
+  margin-bottom: 2%;
+  font-family: 'Nunito', sans-serif;
+  font-size: 405%;
+}
+
+.philosophy-title {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1.5%;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 675%;
+}
+
+.philosophy-dates {
+  font-weight: bold;
+  color: gray;
+  margin-bottom: 5%;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 300%;
+}
+
+.philosophy-paragraph {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.philosophy-paragraph h4 {
+  text-align: left;
+  font-family: 'Nunito', sans-serif;
+  margin-bottom: 1%;
+  font-weight: 900;
+  font-size: 450%;
+}
+
+.philosophy-blog-content p {
+  text-align: left;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 360%;
+}
+
+.images-3 h5 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 2%;
+  font-style: italic;
+  font-size: 337.5%;
+}
+
+.philosophy-equation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin: 1.5em 0;
+  text-align: center;
+}
+
+/** Responsive font sizes for philosophy post, matching adventure.css **/
+@media (max-width: 4096px) {
+  .philosophy-caption, .philosophy-date { font-size: 240%; }
+  .philosophy-title { font-size: 540%; }
+  .philosophy-genre { font-size: 325%; }
+  .philosophy-dates { font-size: 240%; }
+  .philosophy-paragraph h4 { font-size: 360%; }
+  .philosophy-blog-content p { font-size: 288%; }
+  .images-3 h5 { font-size: 270%; }
+  .philosophy-equation { font-size: 1.75em; }
+}
+@media (max-width: 3072px) {
+  .philosophy-caption, .philosophy-date { font-size: 200%; }
+  .philosophy-title { font-size: 450%; }
+  .philosophy-genre { font-size: 270%; }
+  .philosophy-dates { font-size: 200%; }
+  .philosophy-paragraph h4 { font-size: 300%; }
+  .philosophy-blog-content p { font-size: 240%; }
+  .images-3 h5 { font-size: 230%; }
+  .philosophy-equation { font-size: 1.5em; }
+}
+@media (max-width: 2048px) {
+  .philosophy-caption, .philosophy-date { font-size: 160%; }
+  .philosophy-title { font-size: 360%; }
+  .philosophy-genre { font-size: 215%; }
+  .philosophy-dates { font-size: 160%; }
+  .philosophy-paragraph h4 { font-size: 240%; }
+  .philosophy-blog-content p { font-size: 192%; }
+  .images-3 h5 { font-size: 180%; }
+  .philosophy-equation { font-size: 1.2em; }
+}
+@media (max-width: 1536px) {
+  .philosophy-caption, .philosophy-date { font-size: 134%; }
+  .philosophy-title { font-size: 300%; }
+  .philosophy-genre { font-size: 180%; }
+  .philosophy-dates { font-size: 134%; }
+  .philosophy-paragraph h4 { font-size: 200%; }
+  .philosophy-blog-content p { font-size: 160%; }
+  .images-3 h5 { font-size: 150%; }
+  .philosophy-equation { font-size: 1em; }
+}
+@media (max-width: 1024px) {
+  .philosophy-caption, .philosophy-date { font-size: 108%; }
+  .philosophy-title { font-size: 240%; }
+  .philosophy-genre { font-size: 144%; }
+  .philosophy-dates { font-size: 108%; }
+  .philosophy-paragraph h4 { font-size: 160%; }
+  .philosophy-blog-content p { font-size: 128%; }
+  .images-3 h5 { font-size: 120%; }
+  .philosophy-equation { font-size: 0.85em; }
+}
+@media (max-width: 767px) {
+  .philosophy-caption, .philosophy-date { font-size: 81%; }
+  .philosophy-title { font-size: 180%; }
+  .philosophy-genre { font-size: 108%; }
+  .philosophy-dates { font-size: 81%; }
+  .philosophy-paragraph h4 { font-size: 120%; }
+  .philosophy-blog-content p { font-size: 96%; }
+  .images-3 h5 { font-size: 90%; }
+  .philosophy-equation { font-size: 0.7em; }
+}
+@media (max-width: 512px) {
+  .philosophy-caption, .philosophy-date { font-size: 54%; }
+  .philosophy-title { font-size: 120%; }
+  .philosophy-genre { font-size: 72%; }
+  .philosophy-dates { font-size: 54%; }
+  .philosophy-paragraph h4 { font-size: 80%; }
+  .philosophy-blog-content p { font-size: 64%; }
+  .images-3 h5 { font-size: 60%; }
+  .philosophy-equation { font-size: 0.5em; }
+} 

@@ -29,7 +29,7 @@
             "src"       :   "ctc-s23.jpg",
             "logo"      :   "ctc-logo.jpg",
             "caption"   :   "Initial Taste of Quant as a Trading Intern",
-            "caption_zh":   "初嚐量化交易實習的滋味",
+            "caption_zh":   "初體驗量化交易實習的滋味",
             "when"      :   "Summer 2023",
             "when_zh"   :   "2023夏",
             "whenColor" :   "#043fac",
@@ -53,7 +53,7 @@
             "src"       :   "fk-s22.jpg",
             "logo"      :   "fresenius-kabi-logo.png",
             "caption"   :   "Hi Engineering~ my First Taste of Industry",
-            "caption_zh":   "工程初體驗～我的第一份產業實習",
+            "caption_zh":   "工程初體驗～我的第一次正式實習",
             "when"      :   "Summer 2022",
             "when_zh"   :   "2022夏",
             "whenColor" :   "#043fac",
@@ -71,7 +71,7 @@
             "whenColor" :   "#043fac",
             "slug"      :   "research-s22",
             "description":   "Protein Engineering Researcher @ Leonard Lab",
-            "description_zh": "Leonard Lab 蛋白質工程研究員"
+            "description_zh": "Leonard Lab 蛋白質工程研究生"
         },
         {
             "src"       :   "3d-model-designer-s19.jpg",
