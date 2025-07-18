@@ -36,7 +36,7 @@
     font-size: 3vw;
     font-weight: bold;
     color: #333;
-    text-shadow: 1px 1px 2px #6d6c6c;
+    text-shadow: 0.5px 0.5px 1px #6d6c6c;
     margin-left: 5vw;
     margin-right: 10vw;
     text-align: left;
@@ -76,12 +76,20 @@
     border-radius: 5%;
   }
 
+.project-caption, .project-date, .project-description {
+  text-shadow: 0.5px 0.5px 1px #6d6c6c;
+}
+
+.project-description, .project-location {
+  text-shadow: 0.5px 0.5px 1px #6d6c6c;
+}
+
 .project-caption {
     position: relative;
     margin-top: 3%;
     font-family: 'Libre Baskerville', serif;
     font-weight: 900; /* Increase font-weight to the maximum value */
-    text-shadow: 1px 1px 2px #333; /* Add a more pronounced text shadow */
+    text-shadow: 0.5px 0.5px 1px #333; /* Add a more pronounced text shadow */
     color: #333;
     z-index: 4;
     width: 90%; 
@@ -94,7 +102,7 @@
     bottom: 0.5%;
     font-family: fantasy;
     font-weight: 1000; /* Increase font-weight to the maximum value */
-    text-shadow: 1px 1px 2px #5073D6;
+    text-shadow: 0.5px 0.5px 1px #5073D6;
     color: #5073D6;
     z-index: 4;
     width: 90%; 

@@ -61,12 +61,16 @@
   border-radius: 5%;
 }
 
+.philosophy-caption, .philosophy-date, .philosophy-description {
+  text-shadow: 0.5px 0.5px 1px #6d6c6c;
+}
+
 .philosophy-caption {
   position: relative;
   margin-top: 3%;
   font-family: 'Libre Baskerville', serif;
   font-weight: 900;
-  text-shadow: 1px 1px 2px #333;
+  text-shadow: 0.5px 0.5px 1px #333;
   color: #333;
   z-index: 2;
   width: 90%;
@@ -84,7 +88,7 @@
   padding: 1.5%;
   font-family: Ubuntu;
   font-weight: 900;
-  text-shadow: 1px 1px 2px #ffffff;
+  text-shadow: 0.5px 0.5px 1px #ffffff;
   color: #ffffff;
   z-index: 2;
   text-align: center;
@@ -211,6 +215,10 @@
   font-weight: bold;
   margin: 1.5em 0;
   text-align: center;
+}
+
+.philosophy-description, .philosophy-location {
+  text-shadow: 0.5px 0.5px 1px #6d6c6c;
 }
 
 /** Responsive font sizes for philosophy post, matching adventure.css **/
